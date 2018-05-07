@@ -21450,8 +21450,11 @@
     },
     "description": " The Web API is a component which makes it possible for external systems to access and manipulate data stored in an instance of DHIS2. More precisely, it provides a programmatic interface to a wide range of exposed data and service methods for applications such as third-party software clients, web portals and internal DHIS2 modules.\n### The Web API adheres to many of the principles behind the REST architectural style. To mention some few and important ones\n- The fundamental building blocks are referred to as *resources*. A resource can be anything exposed to the Web, from a document to a business process - anything a client might want to interact with. The information aspects of a resource can be retrieved or exchanged through resource representations. A representation is a view of a resource's state at any given time. For instance, the *reportTable* resource in DHIS2 represents a tabular report of aggregated data for a certain set of parameters. This resource can be retrieved in a variety of representation formats including HTML, PDF, and MS Excel.\n- All resources can be uniquely identified by a URI (also referred to a/s URL). All resources have a default representation. You can indicate that you are interested in a specific representation by supplying an Accept HTTP header, a file extension or a format query parameter. So in order to retrieve the PDF representation of a report table you can supply an ***Accept: application/pdf*** header or append ***.pdf*** or ***?format=pdf*** to your request URL.\n- Interactions with the API requires correct use of HTTP methods or verbs. This implies that for a resource you must issue a GET request when you want to retrieve it, POST request when you want to create one, PUT when you want to update it and DELETE when you want to remove it. So if you want to retrieve the default representation of a report table you can send a GET request to e.g. */reportTable/iu8j/hYgF6t*, where the last part is the report table identifier.\n- Resource representations are linkable, meaning that representations advertise other resources which are relevant to the current one by embedding links into itself (please be aware that you need to request href in your field filter to have this working. This feature greatly improves the usability and robustness of the API. For instance, you can easily navigate to the indicators which are associated with a report table from the reportTable resource through the embedded links using your preferred representation format. ",
     "termsOfService": "",
-    "title": "DHIS 2 API",
-    "version": "2.29"
+    "title": "DHIS2 API",
+    "version": "2.30",
+  "x-logo": {
+    "url": "dhis2_logo.png"
+  }
   },
   "openapi": "3.0.1",
   "paths": {

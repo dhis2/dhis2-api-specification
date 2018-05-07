@@ -1,6 +1,6 @@
 # Web API
 
-The Web API is a component which makes it possible for external systems
+<!-- API+DESC_info -->The Web API is a component which makes it possible for external systems
 to access and manipulate data stored in an instance of DHIS2. More
 precisely, it provides a programmatic interface to a wide range of
 exposed data and service methods for applications such as third-party
@@ -51,6 +51,30 @@ architectural style. To mention some few and important ones:
 While all of this might sound complicated, the Web API is actually very
 simple to use. We will proceed with a few practical examples in a
 minute.
+
+## Web API versions
+
+The Web API is versioned starting from DHIS 2.25. The API versioning
+follows the DHIS 2 major version numbering. As an example, the API
+version for DHIS 2.30 is *30*.
+
+You can access a specific API version by including the version number
+after the */api* component, as an example like this:
+
+    /api/29/dataElements
+
+If you omit the version part of the URL, the system will use the current
+API version. As an example, for DHIS 2.30, when omitting the API part,
+the system will use API version 30. When developing API clients it is
+recommended to use explicit API versions (rather than omitting the API
+version), as this will protect the client from unforeseen API changes.
+
+The last three API versions will be supported. As an example, DHIS
+version 2.30 supports API version 28, 29 and 30.
+
+Note that the metadata model is not versioned, and that you might
+experience changes e.g. in associations between objects. These changes
+will be documented in the DHIS2 major version release notes.
 
 # Authentication
 
@@ -699,30 +723,6 @@ translations for the specific object and not just for a single locale
 (if not you will potentially overwrite existing locales for other
 locales).
 
-## Web API versions
-
-The Web API is versioned starting from DHIS 2.25. The API versioning
-follows the DHIS 2 major version numbering. As an example, the API
-version for DHIS 2.25 is *25*.
-
-You can access a specific API version by including the version number
-after the */api* component, as an example like this:
-
-    /api/26/dataElements
-
-If you omit the version part of the URL, the system will use the current
-API version. As an example, for DHIS 2.25, when omitting the API part,
-the system will use API version 25. When developing API clients it is
-recommended to use explicit API versions (rather than omitting the API
-version), as this will protect the client from unforeseen API changes.
-
-The last three API versions will be supported. As an example, DHIS
-version 2.27 will support API version 27, 26 and 25.
-
-Note that the metadata model is not versioned, and that you might
-experience changes e.g. in associations between objects. These changes
-will be documented in the DHIS2 major version release notes.
-
 # Metadata object filter
 
 To filter the metadata there are several filter operations that can be
@@ -1151,6 +1151,7 @@ Examples of transformer
 
     /api/26/dataElementGroups?fields=id,displayName,dataElements~paging(1;20)
 
+
 # Metadata create, read, update, delete, validate
 
 While some of the web-api endpoints already contains support for CRUD
@@ -1199,7 +1200,7 @@ request.
 </tr>
 </tbody>
 </table>
-
+<!-- API-DESC_info -->
 ## Creating and updating objects
 
 For creating new objects you will need to know the endpoint, the type
