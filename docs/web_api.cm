@@ -1267,7 +1267,7 @@ the id is *abc123*, then all you need to do is the send the DELETE
 request to the endpoint + id:
 
     curl -X DELETE -u user:password
-    http://server/api/26/constants/ID
+    http://server/api/26/constants/abc123
 
 A successful delete should return HTTP status 204 (no content).
 
