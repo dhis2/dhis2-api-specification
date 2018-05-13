@@ -1,0 +1,491 @@
+/api
+/api/
+/api/analytics
+/api/analytics/dataValueSet
+/api/analytics/debug/sql?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU
+/api/analytics?dimension=Bpx0589u8y0:oRVt7g429ZO;MAs88nJc9nL
+/api/analytics?dimension=dim-id:dim-item;dim-item&dimension=dim-id:dim-item;dim-item
+/api/analytics?dimension=dx:BfMAe6Itzgt.REPORTING_RATE;BfMAe6Itzgt.ACTUAL_REPORTS
+/api/analytics?dimension=dx:DE_GROUP-h9cuJOkOwY2
+/api/analytics?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU
+/api/analytics?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU&dimension=pe:2014
+/api/analytics?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU&filter=pe:2014Q1;2014Q2&filter=ou:O6uvpzGd5pu;lc3eMKXaEfw
+/api/analytics?dimension=dx:fbfJHSPpUQD&dimension=pe:2014Q1&dimension=ou:O6uvpzGd5pu&aggregationType=COUNT
+/api/analytics?dimension=dx:fbfJHSPpUQD&dimension=pe:2016
+/api/analytics?dimension=dx:fbfJHSPpUQD&dimension=pe:2016&dimension=ou:LEVEL-3
+/api/analytics?dimension=dx:fbfJHSPpUQD&dimension=pe:LAST_12_MONTHS&dimension=ou:O6uvpzGd5pu&order=DESC
+/api/analytics?dimension=dx:s46m5MS0hxu;fClA2Erf6IO&dimension=pe:2016
+/api/analytics/events
+/api/analytics/events/aggregate
+/api/analytics/events/aggregate/eBAyeGv0exc?dimension=pe:2016;
+/api/analytics/events/aggregate/eBAyeGv0exc?dimension=pe:201605;LAST_12_MONTHS
+/api/analytics/events/aggregate/eBAyeGv0exc?filter=pe:2016&filter=ou:O6uvpzGd5pu
+/api/analytics/events/aggregate/eBAyeGv0exc.json?stage=Zj7UnCAulEk&dimension=ou:ImspTQPwCqd
+/api/analytics/events/aggregate/eBAyeGv0exc.json?stage=Zj7UnCAulEk&dimension=qrur9Dvnyt5-Yf6UHoPkdS6
+/api/analytics/events/aggregate/eBAyeGv0exc?startDate=2016-01-01&endDate=2016-10-31
+/api/analytics/events/aggregate/<program-id>?startDate=yyyy-MM-dd&endDate=yyyy-MM-dd
+/api/analytics/events/cluster/eBAyeGv0exc?startDate=2016-01-01&endDate=2016-10-31&dimension=ou:LEVEL-2
+/api/analytics/events/count/eBAyeGv0exc?startDate=2016-01-01&endDate=2016-10-31&dimension=ou:O6uvpzGd5pu
+/api/analytics/events/query
+/api/analytics/events/query/eBAyeGv0exc?startDate=2016-01-01&endDate=2016-10-31
+/api/analytics/events/query/eBAyeGv0exc.xls?startDate=2016-01-01&endDate=2016-10-31
+/api/analytics/events/query/IpHINAT79UW?stage=A03MvHHogjR&startDate=2016-03-01&endDate=2016-12-31
+/api/analytics/events/query/<program-id>?startDate=yyyy-MM-dd&endDate=yyyy-MM-dd
+/api/analytics.html+css?dimension=dx:cYeuwXTCPkU;fbfJHSPpUQD&dimension=pe:WEEKS_THIS_YEAR&filter=ou:ImspTQPwCqd&displayProperty=SHORTNAME&columns=dx&rows=pe
+/api/analytics.html?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU&dimension=pe:2014Q1;2014Q2
+/api/analytics.json
+/api/analytics.json?dimension=dx:eBAyeGv0exc.qrur9Dvnyt5;eBAyeGv0exc.GieVkTxp4HH
+/api/analytics.json?dimension=dx:eTDtyyaSA7f;FbKK4ofIv5R
+/api/analytics.json?dimension=dx:IpHINAT79UW.a3kGcGDCuk6;IpHINAT79UW.UXz7xuGCEhU
+/api/analytics?measureCriteria=criteria:value;criteria:value
+/api/analytics/rawData
+/api/analytics/rawData.csv?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU
+/api/analytics/rawData.csv?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU;Jtf34kNZhzP
+/api/analytics/rawData.json?dimension=dx:fbfJHSPpUQD;cYeuwXTCPkU;Jtf34kNZhzP
+/api/analyticsTableHooks
+/api/analyticsTableHooks" -H "Content-Type:application/json" -u admin:district -v
+/api/analytics.xml?dimension=dx:fbfJHSPpUQD
+/api"/> and follow the embedded link pointing at the
+/api/apps
+/api/apps/<app-key>
+/api/apps?filter=appType:eq:DASHBOARD_APP&filter=name:ilike:youtube
+/api/appStore
+/api/appStore/{app-version-id}
+/api/audits/dataApproval, and the
+/api/audits/dataApproval?wf=RwNpkAM7Hw7
+/api/audits/dataValue
+/api/audits/dataValue?ds=lyLU2wR22tC
+/api/audits/trackedEntityAttributeValue
+/api/audits/trackedEntityAttributeValue?tea=VqEFza8wbwA
+/api/audits/trackedEntityDataValue
+/api/audits/trackedEntityDataValue?de=eMyVanycQSC&de=qrur9Dvnyt5
+/api/categories/IDA/categoryOptions
+/api/categories/IDA/categoryOptions/IDB
+/api/categoryCombos/ID/metadata.json
+/api/charts/R0DVGvXDUNP/data
+/api/charts/R0DVGvXDUNP/data?date=2013-06-01
+/api/{collection-object}/{collection-object-id}/{collection-name}/{object-id}
+/api/completeDataSetRegistrations
+/api/completeDataSetRegistrations?dataSet=pBOMPrpg1QX&dataSet=pBOMPrpg1QX
+/api/configuration
+/api/configuration/corsWhitelist
+/api/configuration/feedbackRecipients
+/api/configuration/feedbackRecipients" -d "wl5cDMuUhmF" 
+/api/configuration/infrastructuralDataElements
+/api/configuration/infrastructuralIndicators
+/api/configuration/infrastructuralPeriodType
+/api/configuration/offlineOrganisationUnitLevel
+/api/configuration/selfRegistrationOrgUnit
+/api/configuration/selfRegistrationRole
+/api/configuration/settings
+/api/configuration/settings/filter?type=CONFIGURATION
+/api/configuration/settings/filter?type=USER_SETTING
+/api/configuration/settings/filter?type=USER_SETTING&type=SYSTEM_SETTING
+/api/configuration/systemId
+/api/constants/ID
+/api/constants" -X POST 
+/api/dashboards
+/api/dashboards/<dashboard-id>/items/content
+/api/dashboards/<dashboard-id>/items/<item-id>
+/api/dashboards/<dashboard-id>/items/<item-id>/content/<content-resource-id>
+/api/dashboards/<dashboard-id>/items/<item-id>/position/<index>
+/api/dashboards/iMnYyBfSxmM/favorite
+/api/dashboards.json
+/api/dashboards/q/my-query.json
+/api/dashboards/<uid>/favorite
+/api/dashboards/vQFhmLJU5sK
+/api/dashboards/vQFhmLJU5sK",
+/api/dashboards/vQFhmLJU5sK/?fields=:all,dashboardItems[:all]
+/api/dashboards/vQFhmLJU5sK/items/content?type=chart&id=LW0O27b7TdD
+/api/dashboards/vQFhmLJU5sK.json
+/api/dataAcceptances
+/api/dataAcceptances/acceptances
+/api/dataAcceptances/unacceptances
+/api/dataApprovals
+/api/dataApprovals/approvals
+/api/dataApprovals/unapprovals
+/api/dataApprovals?wf=rIUL3hYOjJc&pe=201801&ou=YuQRtpLP10I
+/api/dataElementGroups?fields=id,displayName,dataElements~paging(1;20)
+/api/dataElementGroups/IDA/dataElements/IDB
+/api/dataElementGroups.json?fields=id,displayName,dataElements~isNotEmpty~rename(haveDataElements)
+/api/dataElementGroups.xml?links=false&paging=false
+/api/dataElements
+/api/dataElements/fbfJHSPpUQD
+/api/dataElements?fields=id,name,dataSets[id,name]
+/api/dataElements?filter=dataSetElements.dataSet.id:eq:ID1
+/api/dataElements?filter=id:eq:ID1&filter=id:eq:ID2
+/api/dataElements/FTRrcoaog83/translations
+/api/dataElements/ID?fields=id~rename(i),name~rename(n)
+/api/dataElements.json
+/api/dataElements.json?filter=aggregationOperator:eq:sum&filter=type:eq:int
+/api/dataElements.json?filter=dataElementGroups.id:eq:qfxEYY9xAl6
+/api/dataElements.json?filter=id:in:[fbfJHSPpUQD,cYeuwXTCPkU]
+/api/dataElements.json?filter=id:in:[id1,id2]&filter=code:eq:code1
+/api/dataElements.json?filter=id:in:[id1,id2]&filter=code:eq:code1&rootJunction=OR
+/api/dataElements.json?page=2&pageSize=20
+/api/dataElements?query=anaemia
+/api/dataIntegrity
+/api/dataSetNotficationTemplates
+/api/dataSetNotficationTemplates/<uid>
+/api/dataSetReport
+/api/dataSetReport?ds=BfMAe6Itzgt&pe=201610&ou=ImspTQPwCqd&selectedUnitOnly=false
+/api/dataSets
+/api/dataSets/BfMAe6Itzgt/dataValueSet.json
+/api/dataSets/BfMAe6Itzgt?fields=id,name,organisationUnits[:all,!id]
+/api/dataSets/BfMAe6Itzgt/form
+/api/dataSets/BfMAe6Itzgt/form" 
+/api/dataSets/BfMAe6Itzgt/form.json?metaData=true
+/api/dataSets/BfMAe6Itzgt/form.xml?ou=DiszpKrYNg8&pe=201401
+/api/dataSets/<dataset-id>/form.json
+/api/dataSets?fields=:all,!organisationUnits
+/api/dataSets"/>. From there we find and follow the
+/api/dataSets/<id>/dataValueSet
+/api/dataSets/pBOMPrpg1QX"/>. The resource
+/api/dataSets/<uid>/version
+/api/dataStatistics
+/api/dataStatistics?eventType=CHART_VIEW&favorite=LW0O27b7TdD
+/api/dataStatistics/favorites?eventType=CHART_VIEW&pageSize=25&sortOrder=ASC&username=admin
+/api/dataStatistics/favorites/{favorite-id}.json
+/api/dataStatistics?startDate=2014-01-02&endDate=2016-01-01&interval=MONTH
+/api/dataStatistics?startDate=2016-02-01&endDate=2016-02-14&
+/api/dataStatistics.xml?startDate=2014-01-01&endDate=2016-01-01&interval=WEEK
+/api/dataStore
+/api/dataStore/foo/key_1/metaData" -X GET -u admin:district -v
+/api/dataStore/foo/key_1" -X DELETE -u admin:district -v
+/api/dataStore/foo/key_1" -X GET -u admin:district -v
+/api/dataStore/foo/key_1" -X POST 
+/api/dataStore/foo/key_1" -X PUT -d "[1, 2, 3]" 
+/api/dataStore/foo" -X DELETE -u admin:district -v
+/api/dataStore/foo" -X GET -u admin:district -v
+/api/dataStore/<namespace>
+/api/dataStore/<namespace>/<key>
+/api/dataStore/<namespace>/<key>/metaData
+/api/dataStore/<namespace>/<key>?encrypt=true
+/api/dataStore" -X GET -u admin:district -v
+/api/dataValues
+/api/dataValues?de=s46m5MS0hxu
+/api/dataValues?de=s46m5MS0hxu&ou=DiszpKrYNg8
+/api/dataValueSets
+/api/dataValueSets" 
+/api/dataValueSets.csv?dataSet=pBOMPrpg1QX&period=201401&orgUnit=DiszpKrYNg8
+/api/dataValueSets?dataElementIdScheme=code&orgUnitIdScheme=code"
+/api/dataValueSets?dataElementIdScheme=code&orgUnitIdScheme=name&dryRun=true&importStrategy=CREATE
+/api/dataValueSets?dataSet=pBOMPrpg1QX&dataSet=BfMAe6Itzgt
+/api/dataValueSets?dataSet=pBOMPrpg1QX&orgUnit=DiszpKrYNg8&lastUpdatedDuration=10d
+/api/dataValueSets?dataSet=pBOMPrpg1QX&period=201401&orgUnit=DiszpKrYNg8"
+/api/dataValueSets?dataValueSets?orgUnit=M_CLINIC&dataSet=MALARIA&period=201501"
+/api/dataValueSets.json?dataSet=pBOMPrpg1QX&period=201401&orgUnit=DiszpKrYNg8
+/api/dataValueSets.json?dataSet=pBOMPrpg1QX&period=201401&orgUnit=DiszpKrYNg8&includeDeleted=true
+/api/dataValueSets"/> resource. This time we will
+/api/dataValueSets"/>. The format looks like
+/api/deletedObjects
+/api/deletedObjects.json?klass=DataElement
+/api/deletedObjects.json?klass=Indicator&deletedAt=2015-01-01
+/api/dimensions
+/api/documents
+/api/documents/<documentId>
+/api/documents/<documentId>/data
+/api/email
+/api/email/notification?recipients=xyz%40abc.com&message=sample%20email&subject=Test%20Email" -X POST -u admin:district -v
+/api/email/notification" -X POST -H "Content-Type:application/json" -u admin:district -v
+/api/email/test" -X POST -H "Content-Type:application/json" -u admin:district -v
+/api/enrollments
+/api/enrollments/<enrollment-id>
+/api/enrollments/<enrollment-id>/cancelled
+/api/enrollments/<enrollment-id>/completed
+/api/enrollments.json?ou=DiszpKrYNg8
+/api/enrollments.json?ouMode=ACCESSIBLE&trackedEntityInstance=tphfdyIiVL6
+/api/enrollments.json?ou=O6uvpzGd5pu&ouMode=DESCENDANTS&page=2&pageSize=3
+/api/enrollments.json?ou=O6uvpzGd5pu&ouMode=DESCENDANTS&program=ur1Edk5Oe2n
+/api/enrollments.json?ou=O6uvpzGd5pu&ouMode=DESCENDANTS&trackedEntity=cyl5vuJ5ETQ
+/api/enrollments.json?&ou=O6uvpzGd5pu&program=ur1Edk5Oe2n&programStartDate=2013-01-01&programEndDate=2013-09-01
+/api/enrollments?strategy=DELETE"
+/api/events
+/api/events" 
+/api/events.csv
+/api/events" -H "Content-Type:application/json" -u admin:district -v
+/api/events/ID" 
+/api/events/ID" -H "Content-Type: application/xml" -u admin:district
+/api/events/ID" -u admin:district
+/api/events.json?orgUnit=DiszpKrYNg8
+/api/events.json?orgUnit=DiszpKrYNg8&program=eBAyeGv0exc
+/api/events.json?orgUnit=DiszpKrYNg8&program=eBAyeGv0exc&endDate=2014-02-03
+/api/events.json?orgUnit=DiszpKrYNg8&program=eBAyeGv0exc&order=dueDate
+/api/events.json?orgUnit=O6uvpzGd5pu&ouMode=DESCENDANTS
+/api/events.json?orgUnit=YuQRtpLP10I&ouMode=CHILDREN
+/api/events?strategy=DELETE"
+/api/expressions/description?expression=<expression-string>
+/api/fileResources
+/api/fileResources/xm4JwRwke0i -H "Accept: application/json"
+/api/files/script
+/api/files/script" 
+/api/files/style
+/api/files/style" 
+/api/filledOrganisationUnitLevels
+/api/filledOrganisationUnitLevels" -H "Content-Type:application/json"
+/api/gateways
+/api/gateways/bulksms
+/api/gateways/clickatell
+/api/gateways/default
+/api/gateways/default/{uid}
+/api/gateways/generichttp
+/api/gateways/{uid}
+/api/geoFeatures.json?ou=ou:LEVEL-3
+/api/geoFeatures.json?ou=ou:LEVEL-4;O6uvpzGd5pu
+/api/i18n
+/api/i18n" -X POST 
+/api/identifiableObjects/<id>
+/api/indicatorGroups.json?paging=false
+/api/indicators
+/api/indicators?fields=id,name
+/api/indicators.json?fields=:nameable
+/api/indicators.json?order=shortName:desc
+/api/interpretations
+/api/interpretations/chart/{chartId}
+/api/interpretations/chart/EbRN2VIbPdV"
+/api/interpretations/chart/EV08iI1cJRA"
+/api/interpretations/chart/ZMuYVhtIceD
+/api/interpretations/dataSetReport/tL7eCjmDIgM
+/api/interpretations/eventChart/nEzXB2M9YBz
+/api/interpretations/eventReport/xJmPLGP3Cde
+/api/interpretations?fields=*,comments[id,text,user]
+/api/interpretations/{id}
+/api/interpretations/{id}/comments"
+/api/interpretations/{id}/like
+/api/interpretations/{interpretation-id}/comments
+/api/interpretations/{interpretation-id}/comments/{comment-id}
+/api/interpretations/j8sjHLkK8uY/comments"
+/api/interpretations/j8sjHLkK8uY/comments/idAzzhVWvh2"
+/api/interpretations/map/FwLHSMCejFu
+/api/interpretations/{object-type}/{object-id}
+/api/interpretations/reportTable/yC86zJxU1i1
+/api/jobConfiguration/KBcP6Qw37gT
+/api/jobConfigurations
+/api/jobConfigurations/jobTypesExtended for an overview of
+/api/jobConfigurations/KBcP6Qw37gT
+/api/jobConfigurations/KBcP6Qw37gT",
+/api/js?sensor=false"></script>
+/api/locales/db
+/api/locales/ui
+/api/lockExceptions
+/api/lockExceptions?ds=BfMAe6Itzgt&pe=201709&ou=DiszpKrYNg8
+/api/maintenance/analyticsTablesClear
+/api/maintenance?analyticsTablesClear=true&expiredInvitationsClear=true&periodPruning=true
+/api/maintenance/cacheClear
+/api/maintenance/categoryOptionComboUpdate
+/api/maintenance/dataPruning/dataElement/<data-element-uid>
+/api/maintenance/dataPruning/organisationUnits/<org-unit-id>
+/api/maintenance/expiredInvitationsClear
+/api/maintenance/ouPathsUpdate
+/api/maintenance/periodPruning
+/api/maintenance/sqlViewsCreate
+/api/maintenance/sqlViewsDrop
+/api/maintenance/zeroDataValueRemoval
+/api/maps"/>.
+/api/maps/bhmHJ4ZCdCd/data
+/api/maps/DHE98Gsynpr/data
+/api/maps/DHE98Gsynpr/data?date=2013-07-01
+/api/me
+/api/me/authorities
+/api/me/authorities/ALL
+/api/me/authorization
+/api/me/authorization/<auth>
+/api/me/dashboard
+/api/me/dataApprovalLevels
+/api/me/dataSets
+/api/me/inbox
+/api/me/organisationUnits
+/api/me/programs
+/api/messageConversations
+/api/messageConversations"
+/api/messageConversations" 
+/api/messageConversations/GDBqVfkmnp2"/>
+/api/messageConversations">
+/api/messageConversations/jMe43
+/api/messageConversations?mc=WzMRrCosqc0&mc=lxCjiigqrJm" 
+/api/messageConversations?mc=WzMRrCosqc0&mc=lxCjiigqrJm&user=PhzytPW3g2J" 
+/api/messageConversations/read" 
+/api/messageConversations"/>. The description tells us
+/api/messageConversations/<uid>/priority
+/api/messageConversations"/> we
+/api/messageConversations/ZjHHSjyyeJ2" 
+/api/messageConversations/ZjHHSjyyeJ2"/>
+/api/messageConversations/ZjHHSjyyeJ2?internal=true" 
+/api/messages
+/api/messages" 
+/api/messages?ou=Sllsjdhoe3
+/api/messages?processedDate=2016-02-01
+/api/messages?programInstance=6yWDMa0LP7
+/api/messages?programStageInstance=SllsjpfLH2
+/api/messages?trackedEntityInstance=xdfejpfLH2
+/api/messages/{uid}
+/api/metadata
+/api/metadataAudits
+/api/metadata?dataElements:fields=id,name&dataElements:order=displayName:desc
+/api/metadata?defaultOrder=lastUpdated:desc
+/api/metadata?filter=name:^like:ANC&dataElements=true&indicators=true
+/api/metadata/sync - This api performs a metadata sync of the version name passed in the query
+/api/metadata/sync?versionName=Version_6"
+/api/metadataValidation
+/api/metadata/version"
+/api/metadata/version/create - This api will create the metadata version for the
+/api/metadata/version/create?type=BEST_EFFORT"
+/api/metadata/version/history"
+/api/metadata/version/history?baseline=Version_2"
+/api/metadata/version/history - This api will return the list of all metadata
+/api/metadata/version	 - This api will return the current metadata version of the system on which it
+/api/metadata/version/Version_5/data"
+/api/metadata/version/{versionName}/data.gz - This api will download the actual
+/api/metadata/version/{versionName}/data - This api will download the actual
+/api/metadata/version?versionName=Version_2"
+/api/me/user-account
+/api/me/validatePassword
+/api/me/verifyPassword
+/api/minMaxDataElements
+/api/minMaxDataElements.json
+/api/minMaxDataElements.json?fields=:all,dataElement[id,name]
+/api/minMaxDataElements.json?filter=dataElement.id:eq:UOlfIjgN8X6
+/api/minMaxDataElements.json?filter=dataElement.id:in:[UOlfIjgN8X6,xc8gmAKfO95]
+/api/oAuth2Clients
+/api/<object-type>/<object-id>/translations
+/api/organisationUnits
+/api/organisationUnits/DiszpKrYNg8"/>, which tells
+/api/organisationUnits.geojson?level=2&level=4
+/api/organisationUnits.geojson?parent=fdc6uOvgoji&level=3
+/api/organisationUnits/{id} 
+/api/periodTypes
+/api/predictors
+/api/predictors/AG10KUJCrRk/run
+/api/predictors/run
+/api/programIndicators
+/api/pushAnalysis/<id>/render
+/api/pushAnalysis/<id>/run
+/api/reports/OeJsA6K1Otx/data.pdf
+/api/reports/OeJsA6K1Otx/data.pdf?date=2014-01-01
+/api/reportTables/FPmvWs7bn2P/data.pdf
+/api/reportTables/FPmvWs7bn2P/data.xls
+/api/reportTables/jIISuEWxmoI/data.html
+/api/reportTables/jIISuEWxmoI/data.html?date=2013-01-01
+/api/resourceTables
+/api/resourceTables/analytics
+/api/resourceTables/monitoring
+/api/schemas
+/api/schemas/constant
+/api/schemas/constant.json
+/api/schemas/dataElement
+/api/schemas/dataElement.
+/api/schemas/dataElement.json
+/api/schemas endpoint, i.e. to figure out which constraints a data
+/api/schemas.json
+/api/schemas/TYPE
+/api/schemas/user
+/api/schemas.xml
+/api/sharing
+/api/sharing?type=dataElement&id=fbfJHSPpUQD
+/api/sharing?type=dataElement&id=fbfJHSPpUQD" 
+/api/smsCommands
+/api/smsCommands/uid
+/api/sms/inbound
+/api/sms/inbound?message=text&originator=47XXXXXX&gateway=clickatel
+/api/sms/outbound
+/api/sms/outbound?message=text&recipient=47XXXXXX
+/api/sqlViews
+/api/sqlViews/
+/api/sqlViews/dI68mLkP1wN/data.csv?criteria=level:4
+/api/sqlViews/dI68mLkP1wN/data.csv" -u admin:district -v
+/api/sqlViews/dI68mLkP1wN/data.json?var=valueType:int
+/api/sqlViews/dI68mLkP1wN/execute" -X POST -u admin:district -v
+/api/sqlViews/{id}/data?criteria=col1:value1&criteria=col2:value2
+/api/sqlViews/{id}/data(.csv)
+/api/sqlViews/{id}/data?var=key1:value1&var=key2:value2
+/api/sqlViews/w3UxFykyHFy/data.json?filter=orgunit_level:eq:2&filter=orgunit_name:ilike:bo
+/api/sqlViews/w3UxFykyHFy/data.json?filter=orgunit_level:in:[2,4]
+/api/sqlViews/w3UxFykyHFy/data.json?filter=orgunit_name:!like:Bo
+/api/staticConfiguration/renderingOptions
+/api/staticContent
+/api/staticContent/<key>
+/api/staticContent/logo_front"
+/api/staticContent/logo_front" -L -X GET -u admin:district -v
+/api/synchronization/availability
+/api/synchronization/dataPush
+/api/synchronization/metadataPull
+/api/synchronization/metadataPull" -X POST
+/api/synchronization/metadataRepo
+/api/system
+/api/system/context
+/api/system/flags
+/api/system/id
+/api/system/id?limit=3
+/api/system/info
+/api/system/ping
+/api/systemSettings
+/api/systemSettings?key=keyApplicationNotification&key=keyApplicationIntro" 
+/api/systemSettings?key=my-key
+/api/systemSettings/my-key
+/api/systemSettings/my-key" -d "My long value" 
+/api/systemSettings/my-key?value=my-val
+/api/system/styles
+/api/system/tasks/DATAVALUE_IMPORT
+/api/system/tasks/{task-category-id}
+/api/system/taskSummaries/DATAINTEGRITY
+/api/tokens/google
+/api/trackedEntityAttributes/Gs1ICEQTPlG/generateAndReserve?numberToReserve=3&ORG_UNIT_CODE=OSLO
+/api/trackedEntityAttributes/Gs1ICEQTPlG/generate?ORG_UNIT_CODE=OSLO
+/api/trackedEntityAttributes/Gs1ICEQTPlG/requiredValues
+/api/trackedEntityInstanceFilters
+/api/trackedEntityInstances
+/api/trackedEntityInstances/<entityId>/<attributeId>/image
+/api/trackedEntityInstances/grid
+/api/trackedEntityInstances/query.json?attribute=zHXD5Ve1Efw:EQ:A
+/api/trackedEntityInstances/query.json?attribute=zHXD5Ve1Efw:EQ:A&filter=AMpUYgxuCaE:LIKE:Road&ou=DiszpKrYNg8
+/api/trackedEntityInstances/query.json?filter=zHXD5Ve1Efw:EQ:A
+/api/trackedEntityInstances/query.json?ou=DiszpKrYNg8
+/api/trackedEntityInstances/query.json?ou=DiszpKrYNg8&attribute=dv3nChNSIxy:IN:Scott;Jimmy;Santiago
+/api/trackedEntityInstances/query.json?ou=DiszpKrYNg8&program=ur1Edk5Oe2n&filter=lw1SqmMlnfh:GT:150:LT:190
+/api/trackedEntityInstances/query.json?ou=O6uvpzGd5pu
+/api/trackedEntityInstances/query.json?query=isabel%20may&ou=DiszpKrYNg8
+/api/trackedEntityInstances/query.json?query=isabel&attribute=dv3nChNSIxy&attribute=AMpUYgxuCaE&ou=DiszpKrYNg8
+/api/trackedEntityInstances/query.json?query=LIKE:scott&ou=DiszpKrYNg8
+/api/trackedEntityInstances/query.json?query=scott&ou=DiszpKrYNg8
+/api/trackedEntityInstances?strategy=CREATE_AND_UPDATE
+/api/trackedEntityInstances/<tracked-entity-instance-id>
+/api/trackedEntityInstances" -X POST 
+/api/trackedEntityInstances/ZRyCnJ1qUXS/zDhUuAYrxNC/image?height=200&width=200
+/api/trackedEntityInstasnces?strategy=DELETE"
+/api/translations
+/api/translations.json?fields=*&filter=className:eq:DataElement&filter=locale:eq:es
+/api/translations.json?fields=*&filter=className:eq:DataElement&filter=locale:eq:fr&filter=objectId:eq:fbfJHSPpUQD
+/api/userCredentials
+/api/userCredentials?fields=username,code&filter=username:^like:adm
+/api/userCredentials?filter=username:eq:admin
+/api/userDataStore
+/api/userDataStore/foo"
+/api/userDataStore/foo/bar"
+/api/userDataStore/foo" -v
+/api/userDataStore/<namespace>
+/api/userDataStore/<namespace>/<key>
+/api/userDataStore/<namespace>/<key>?encrypt=true
+/api/userDataStore" -v
+/api/users
+/api/userSettings
+/api/userSettings/keyUiLocale?value=fr" -X POST -u admin:district -v
+/api/userSettings/my-key
+/api/userSettings/my-key" -d "My long value" 
+/api/userSettings/my-key?user=username&value=my-val
+/api/userSettings/my-key?value=my-val
+/api/userSettings?useFallback=false
+/api/users/ID
+/api/users/invite" -H "Content-Type:application/json" -u admin:district -v
+/api/users/invites" -H "Content-Type:application/json"
+/api/users/N3PZBUlN8vq/replica" 
+/api/users/PhzytPW3g2J"/> where
+/api/users?query=konan&authSubset=true&pageSize=10
+/api/users/<uid>/replica
+/api/users"/>. We continue by following link to the
+/api/users/xE7jOejl9FI"
+/api/validation/dataSet/QX4ZTUbOt3a.json?pe=201501&ou=DiszpKrYNg8
+/api/validationResults
+/api/validationResults/<id>
+/api/validationRules?dataSet=<dataset-id>
+/api/validation/sendNotifications
+/api"/> where we find and follow the

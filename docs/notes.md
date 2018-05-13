@@ -1,6 +1,8 @@
 # general notes
 
 
+
+
 "x-status" can be:
 
  - **template**: generated from various sources, not yet updated manually
@@ -20,6 +22,8 @@
 
  - tool will generate create/update requests from specification (test also ranges and failure cases)
  - tool keeps track of successful create/update and check with _reads_
+
+## filtering tests
 
 Difficult to document complex structures in specification - we may have to create tooling for these, e.g.:
 - metadata object filter
@@ -90,3 +94,62 @@ DESC_foo_n-bar_pop will update the following:
 
 # issues
 - bug in ReDoc: readOnly objects are still shown in request body schema
+
+
+# tools
+
+
+```mermaid
+
+
+graph TB
+
+A(code) --> a[spring-mvc-api doclet]
+a --> B(endpoints_via_doclet.json)
+C(docs) --> c[convert web_api.xml to commonmark]
+c --> D(web_api.cm)
+E(api) --> e[download]
+e --> F(schemas.json)
+
+D --> d[scrape]
+d --> G(endpoints_from_doc.txt)
+G --> H(endpoints_list_all_sources.txt)
+F --> H
+B --> H
+
+F --> s[map_schemas.py]
+s --> S(schemas_api.json)
+
+B --> b[build_paths.py]
+S --> b
+H --> b
+
+b --> p(paths.json)
+b --> t(tags.json)
+
+O(openapi.json) --> k[merge_parts.py]
+p --> k
+t --> k
+S --> k
+k --> O
+
+O --> w[insert_descriptions.py]	
+D --> w
+w --> O
+
+classDef sources  fill:#c9f,stroke:#333,stroke-width:1px
+class A,C,E sources
+
+classDef input2 fill:#9fc,stroke:#333,stroke-width:1px
+class D,F,G,H input2
+
+classDef apiIntermediate  fill:#9cf,stroke:#333,stroke-width:2px
+class B,S,p,t apiIntermediate
+
+classDef apiSpec  fill:#ccf,stroke:#333,stroke-width:2px
+class O apiSpec
+
+classDef file fill:#fff,stroke:#bbb,stroke-width:1px
+class a,b,c,e,d,s,w,k file
+
+```
