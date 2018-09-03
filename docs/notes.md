@@ -1,14 +1,21 @@
 # general notes
 
+*In case someone stumbles across this page, please be advised that these notes are mostly "to self" at the moment. I will slowly improve them to bring others on board... at which point the key parts will be added to the repo readme.*
+
+The specification is based on OpenAPI standard.
+
+A few additional "x-" extensions are used. The ones with a "-dhis2" suffix are unique to the dhis2 project.
 
 
+|key|value|description|
+||---|---|
+|**x-status-dhis2**|template| generated from various sources, not yet updated manually|
+||draft|work in progress|
+||approved|completed, not fully tested|
+||verified|tested|
+|
 
-"x-status" can be:
 
- - **template**: generated from various sources, not yet updated manually
- - **draft**: work in progress
- - **approved**: completed, not fully tested
- - **verified**: tested
 
 ## inputs
 - doclet to pull path info from code
@@ -98,7 +105,7 @@ DESC_foo_n-bar_pop will update the following:
 
 # tools
 
-
+(view the following with https://mermaidjs.github.io/mermaid-live-editor)
 ```mermaid
 
 

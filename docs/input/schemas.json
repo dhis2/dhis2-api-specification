@@ -2513,7 +2513,6 @@
                     "identifiableObject": true,
                     "cascade": "none",
                     "manyToMany": false,
-                    "length": 255,
                     "collection": false,
                     "owningRole": "org.hisp.dhis.pushanalysis.PushAnalysis.lastUpdatedBy",
                     "apiEndpoint": "https://play.dhis2.org/dev/api/users",
