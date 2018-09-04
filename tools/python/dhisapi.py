@@ -35,7 +35,7 @@ import requests
 import json
 import sys, re
 import logging
-from random import randint,seed
+import random
 
 # create logger with 'spam_application'
 logger = logging.getLogger('dhis2api')
@@ -216,17 +216,23 @@ class ep_model:
         self.payload={}
         self.required={}
         self.readonly={}
-        seed(rnd_seed)
-
+        self.random_gen=random.Random()
+        self.random_gen2=random.Random()
+        self.reseed(rnd_seed)
+        
     def reseed(self,rnd_seed):
-        seed(rnd_seed)
+        self.random_gen.seed(rnd_seed)
+        self.random_gen2.seed(self.random_gen.randint(0,999999))
+        
+    def reseed_unique(self,rnd_seed):
+        self.random_gen2.seed(rnd_seed)
     
     def set_attributes(self,alist,attribute, val="true"):
         """
         we need to map the attribute list, with items in the form
          "<level1>:<level2>:..." (with one or more levels/names)
         to the structure like
-         schema['items']['properties'][<level1>]['properties'][<level2>]... 
+         schema['items']['properties'][<level1>]['items']['properties'][<level2>]... 
         The last "level" is the item we want to apply the attribute to
         """
         # create a "moving" reference to the schema
@@ -236,8 +242,14 @@ class ep_model:
         for a_item in alist:
             # drill down through the "levels" (separated by ":")
             for level in a_item.split(':'):
-                schema_part2 = schema_part['properties']
-                schema_part = schema_part2[level]
+                try:
+                    int(level) 
+                except ValueError:
+                    try:
+                        schema_part2 = schema_part['properties']
+                    except KeyError:
+                        schema_part2 = schema_part['items']['properties']
+                    schema_part = schema_part2[level]
             schema_part[attribute] = "true"
             schema_part = self.schema['items']
     
@@ -269,24 +281,24 @@ class ep_model:
         #loop over the schema
         #print(self.schema['type'])
         func = self.functions[self.schema['type']]
-        payload=func(self.schema,"")
+        payload=func(self.schema,"",self.random_gen)
         self.payload = payload
         #return payload
 
-    def array_component(self,schema,name):
+    def array_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
         ret = []
         try:
             func = self.functions[schema['items']['type']]
             for _ in range(1):
-                ret.append(func(schema['items'],"items"))
+                ret.append(func(schema['items'],"items",self.random_gen))
         except KeyError:
             pass
         self.location.pop()
         return ret
 
-    def object_component(self,schema,name):
+    def object_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
         ret = {}
@@ -299,40 +311,45 @@ class ep_model:
             #is it required according to the schema?
             if self.mode == "full":
                 func = self.functions[schema['properties'][p]['type']]
-                ret.update({p:func(schema['properties'][p],p)})
+                ret.update({p:func(schema['properties'][p],p,self.random_gen)})
             if self.mode == "required":
                 for r in schema['required']:
                     if r == p:
                         func = self.functions[schema['properties'][p]['type']]
-                        ret.update({p:func(schema['properties'][p],p)})
+                        ret.update({p:func(schema['properties'][p],p,self.random_gen)})
             if self.mode == "minimal":
                 try:
                     if self.required[p] == "REQUIRED":
                         #print("MINIMAL--required:",p)
                         schema['required'].append(p)
                         func = self.functions[schema['properties'][p]['type']]
-                        ret.update({p:func(schema['properties'][p],p)})
+                        ret.update({p:func(schema['properties'][p],p,self.random_gen)})
                 except KeyError:
                     pass
             if self.mode == "writable":
                 writable=True
                 try:
                     if schema['properties'][p]['readOnly'] == "true":
-                        print(p,"readonly")
+                        #print(p,"readonly")
                         writable=False
                 except KeyError:
                     pass
                 if writable:
-                    print(p,"writable")
+                    #print(p,"\n- writable")
                     func = self.functions[schema['properties'][p]['type']]
-                    ret.update({p:func(schema['properties'][p],p)})
+                    try:
+                        if schema['properties'][p]['unique'] == "true":
+                            #print("- unique")
+                            ret.update({p:func(schema['properties'][p],p,self.random_gen2)})
+                    except KeyError:
+                        ret.update({p:func(schema['properties'][p],p,self.random_gen)})
         
         #if self.mode == "minimal":
             #print("=REMOVE REQUIRED: ",schema['required'])
         self.location.pop()
         return ret
 
-    def integer_component(self,schema,name):
+    def integer_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
         val = "integer"
@@ -340,7 +357,7 @@ class ep_model:
         self.location.pop()
         return val
 
-    def boolean_component(self,schema,name):
+    def boolean_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
         val = False
@@ -349,7 +366,7 @@ class ep_model:
         self.location.pop()
         return val
 
-    def number_component(self,schema,name):
+    def number_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
         val = "number"
@@ -357,22 +374,36 @@ class ep_model:
         self.location.pop()
         return val
 
-    def string_component(self,schema,name):
+    def string_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
         val = "string"
+        if schema['format'] == "enum":
+            val = "ENUMTEST"
+            selection = schema['enum']
+            val = selection[rnd_gen.randint(0,len(selection)-1)]
         if schema['format'] == "date-time":
             val = "2014-03-02T03:07:54.855"
+        if schema['format'] == "access":
+            val = "rw------"
         if schema['format'] == "uid":
             val = ""
             for _ in range(11):
-                val += self.uid_chars[randint(0,len(self.uid_chars)-1)]
+                val += self.uid_chars[rnd_gen.randint(0,len(self.uid_chars)-1)]
         if schema['format'] == "url":
             val = "http://play.dhis2.org/api/example"
         if schema['format'] == "general":
             val = ""
             for _ in range(schema['max']):
-                val += self.name_chars[randint(0,len(self.name_chars)-1)]
+                val += self.name_chars[rnd_gen.randint(0,len(self.name_chars)-1)]
+        
+        try:
+            if schema['association'] == "true":
+                # use example as the input
+                val = schema['example']
+                print("example:",val)
+        except KeyError:
+            pass
         self.location.pop()
         return val
 
