@@ -1749,8 +1749,7 @@
         "openIdConnectUrl": "https://play.dhis2.org/api/oAuthClients",
         "type": "openIdConnect",
         "x-status-dhis2": "template"
-      },
-      "x-status-dhis2": "template"
+      }
     }
   }
 }
