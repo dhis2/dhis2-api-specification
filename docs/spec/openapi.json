@@ -609,7 +609,6 @@
   },
   "components": {
     "callbacks": {
-      "x-status-dhis2": "template"
     },
     "parameters": {
       "query": {
