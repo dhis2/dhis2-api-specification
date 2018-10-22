@@ -331,12 +331,7 @@
         "summary": "update a constant",
         "parameters": [
           {
-            "description": "unique id of the constant in the system.",
-            "in": "path",
-            "name": "id",
-            "schema": {
-              "$ref": "#/components/schemas/constant/properties/id"
-            }
+            "$ref": "#/components/parameters/path/id"
           }
         ],
         "requestBody": {
@@ -465,12 +460,7 @@
         "summary": "delete a constant by ID",
         "parameters": [
           {
-            "description": "unique id of the constant in the system.",
-            "in": "path",
-            "name": "id",
-            "schema": {
-              "$ref": "#/components/schemas/constant/properties/id"
-            }
+            "$ref": "#/components/parameters/path/id"
           }
         ],
         "responses": {
