@@ -751,13 +751,10 @@
       ]
     },
     "links": {
-      "x-status-dhis2": "template"
     },
     "requestBodies": {
-      "x-status-dhis2": "template"
     },
     "responses": {
-      "x-status-dhis2": "template"
     },
     "schemas": {
       "webmessage": {
