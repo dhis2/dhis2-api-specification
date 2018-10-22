@@ -539,11 +539,7 @@
             "$ref": "#/components/parameters/filters/field"
           },
           {
-            "default": "",
-            "description": "organisationUnit",
-            "in": "query",
-            "name": "ou",
-            "required": true
+            "$ref": "#/components/parameters/query/organizationUnit"
           }
         ],
         "responses": {
@@ -603,11 +599,7 @@
         "description": "create a new tracked entity instance",
         "parameters": [
           {
-            "default": "CREATE_AND_UPDATE",
-            "description": "",
-            "in": "query",
-            "name": "strategy",
-            "required": false
+            "$ref": "#/components/parameters/query/strategy"
           }
         ],
         "requestBody": {},
@@ -675,6 +667,13 @@
             "type": "string"
           },
           "required": true
+        },
+        "strategy": {
+          "default": "CREATE_AND_UPDATE",
+          "description": "",
+          "in": "query",
+          "name": "strategy",
+          "required": false
         }
       },
       "filters": {
