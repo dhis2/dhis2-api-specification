@@ -665,6 +665,16 @@
               "<property>:idesc"
             ]
           }
+        },
+        "organizationUnit": {
+          "description": "organisationUnit",
+          "in": "query",
+          "name": "ou",
+          "schema":{
+            "default": "",
+            "type": "string"
+          },
+          "required": true
         }
       },
       "filters": {
