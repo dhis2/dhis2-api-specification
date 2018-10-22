@@ -282,12 +282,7 @@
             "$ref": "#/components/parameters/filters/field"
           },
           {
-            "description": "unique id of the constant in the system.",
-            "in": "path",
-            "name": "id",
-            "schema": {
-              "$ref": "#/components/schemas/constant/properties/id"
-            }
+            "$ref": "#/components/parameters/path/id"
           }
         ],
         "responses": {
@@ -704,6 +699,16 @@
           "schema": {
             "type": "string"
           }
+        }
+      },
+      "path": {
+        "id": {
+          "description": "unique id of the constant in the system",
+          "in": "path",
+          "name": "id", 
+          "schema": {
+              "$ref": "#/components/schemas/constant/properties/id"
+            }
         }
       },
       "constant": [
