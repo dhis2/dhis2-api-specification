@@ -83,22 +83,22 @@
         "summary": "list constants",
         "parameters": [
           {
-            "$ref": "#/components/parameters/query/paging"
+            "$ref": "#/components/parameters/queryPaging"
           },
           {
-            "$ref": "#/components/parameters/query/page"
+            "$ref": "#/components/parameters/queryPage"
           },
           {
-            "$ref": "#/components/parameters/query/pageSize"
+            "$ref": "#/components/parameters/queryPageSize"
           },
           {
-            "$ref": "#/components/parameters/query/order"
+            "$ref": "#/components/parameters/queryOrder"
           },
           {
-            "$ref": "#/components/parameters/filters/filter"
+            "$ref": "#/components/parameters/queryFilter"
           },
           {
-            "$ref": "#/components/parameters/filters/field"
+            "$ref": "#/components/parameters/queryField"
           }
         ],
         "responses": {
@@ -276,13 +276,13 @@
         "operationId": "getConstant",
         "parameters": [
           {
-            "$ref": "#/components/parameters/filters/filter"
+            "$ref": "#/components/parameters/queryFilter"
           },
           {
-            "$ref": "#/components/parameters/filters/field"
+            "$ref": "#/components/parameters/queryField"
           },
           {
-            "$ref": "#/components/parameters/path/id"
+            "$ref": "#/components/parameters/pathId"
           }
         ],
         "responses": {
@@ -331,7 +331,7 @@
         "summary": "update a constant",
         "parameters": [
           {
-            "$ref": "#/components/parameters/path/id"
+            "$ref": "#/components/parameters/pathId"
           }
         ],
         "requestBody": {
@@ -460,7 +460,7 @@
         "summary": "delete a constant by ID",
         "parameters": [
           {
-            "$ref": "#/components/parameters/path/id"
+            "$ref": "#/components/parameters/pathId"
           }
         ],
         "responses": {
@@ -521,103 +521,97 @@
     "callbacks": {
     },
     "parameters": {
-      "query": {
-        "paging": {
-          "description":
-            "Indicates whether to return lists of elements in pages.",
-          "in": "query",
-          "name": "paging",
-          "schema": {
-            "default": true,
-            "type": "boolean"
-          }
-        },
-        "page": {
-          "description": "Defines which page number to return.",
-          "in": "query",
-          "name": "page",
-          "schema": {
-            "default": 1,
-            "type": "integer"
-          }
-        },
-        "pageSize": {
-          "description":
-            "Defines the number of elements to return for each page.",
-          "in": "query",
-          "name": "pageSize",
-          "schema": {
-            "default": 50,
-            "type": "integer"
-          }
-        },
-        "order": {
-          "default": "",
-          "description":
-            "Order the output using a specified order, only properties that are both persisted and simple (no collections, idObjects etc) are supported. iasc and idesc are case insensitive sorting.",
-          "in": "query",
-          "name": "order",
-          "schema": {
-            "type": "string",
-            "enum": [
-              "<property>:asc",
-              "<property>:iasc",
-              "<property>:desc",
-              "<property>:idesc"
-            ]
-          }
-        },
-        "organizationUnit": {
-          "description": "organisationUnit",
-          "in": "query",
-          "name": "ou",
-          "schema":{
-            "default": "",
-            "type": "string"
-          },
-          "required": true
-        },
-        "strategy": {
-          "default": "CREATE_AND_UPDATE",
-          "description": "",
-          "in": "query",
-          "name": "strategy",
-          "required": false
+      "queryPaging": {
+        "description":
+          "Indicates whether to return lists of elements in pages.",
+        "in": "query",
+        "name": "paging",
+        "schema": {
+          "default": true,
+          "type": "boolean"
         }
       },
-      "filters": {
-        "filter": {
-          "default": "",
-          "description":
-            "Apply filter operations to the returned list of metadata. See <a href='#section/Metadata-object-filter'>Metadata-object-filter</a>.",
-          "in": "query",
-          "name": "filter",
-          "schema": {
-            "type": "string",
-            "format": "property>:<operator>:<value"
-          }
-        },
-        "field": {
-          "default": "",
-          "description":
-            "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
-          "in": "query",
-          "name": "field",
-          "required": false,
-          "schema": {
-            "type": "string"
-          }
+      "queryPage": {
+        "description": "Defines which page number to return.",
+        "in": "query",
+        "name": "page",
+        "schema": {
+          "default": 1,
+          "type": "integer"
         }
       },
-      "path": {
-        "id": {
-          "description": "unique id of the constant in the system",
-          "in": "path",
-          "name": "id", 
-          "schema": {
-              "$ref": "#/components/schemas/constant/properties/id"
-            }
+      "queryPageSize": {
+        "description":
+          "Defines the number of elements to return for each page.",
+        "in": "query",
+        "name": "pageSize",
+        "schema": {
+          "default": 50,
+          "type": "integer"
         }
+      },
+      "queryOrder": {
+        "default": "",
+        "description":
+          "Order the output using a specified order, only properties that are both persisted and simple (no collections, idObjects etc) are supported. iasc and idesc are case insensitive sorting.",
+        "in": "query",
+        "name": "order",
+        "schema": {
+          "type": "string",
+          "enum": [
+            "<property>:asc",
+            "<property>:iasc",
+            "<property>:desc",
+            "<property>:idesc"
+          ]
+        }
+      },
+      "queryOrganizationUnit": {
+        "description": "organisationUnit",
+        "in": "query",
+        "name": "ou",
+        "schema":{
+          "default": "",
+          "type": "string"
+        },
+        "required": true
+      },
+      "queryStrategy": {
+        "default": "CREATE_AND_UPDATE",
+        "description": "",
+        "in": "query",
+        "name": "strategy",
+        "required": false
+      },
+      "queryFilter": {
+        "default": "",
+        "description":
+          "Apply filter operations to the returned list of metadata. See <a href='#section/Metadata-object-filter'>Metadata-object-filter</a>.",
+        "in": "query",
+        "name": "filter",
+        "schema": {
+          "type": "string",
+          "format": "property>:<operator>:<value"
+        }
+      },
+      "queryField": {
+        "default": "",
+        "description":
+          "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
+        "in": "query",
+        "name": "field",
+        "required": false,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "pathId": {
+        "description": "unique id of the constant in the system",
+        "in": "path",
+        "name": "id", 
+        "schema": {
+            "$ref": "#/components/schemas/constant/properties/id"
+          }
       },
       "constant": [
         {
