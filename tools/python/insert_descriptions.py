@@ -9,8 +9,10 @@ Created on Wed Apr 18 15:34:25 2018
 import requests
 import json
 
-specfile="../../docs/spec/openapi.json"
-docsfile="../../docs/input/web_api.cm"
+specfile="../../docs/spec/newbase_openapi.json"
+#docsfile="../../docs/input/web_api.cm"
+
+docsfile="/home/philld/reps/dhis2-markdown-docs/src/commonmark/en/content/developer/web-api.md"
 
 
 ofile=open(specfile,'r')

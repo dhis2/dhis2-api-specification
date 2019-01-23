@@ -1,0 +1,42 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+      "title": "DHIS2 API",
+      "version": "2.31"
+  },
+  "paths": {},
+  "x-tagGroups": [
+    {
+      "name": "User Management",
+      "tags": []
+    },
+    {
+      "name": "Analytics",
+      "tags": [
+        "analyticsTableHooks",
+        "charts"
+      ]
+    },
+    {
+      "name": "Metatdata-Global",
+      "tags": [
+        "constants",
+        "colorSets",
+        "attributes",
+        "categories",
+        "categoryCombos",
+        "categoryOptions",
+        "categoryOptionCombos",
+        "categoryOptionGroups",
+        "categoryOptionGroupSets"
+      ]
+    },
+    {
+      "name": "Tracker",
+      "tags": [
+        "trackedEntityInstances"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,334 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+      "title": "DHIS2 API",
+      "version": "2.31"
+  },
+  "paths": {},
+  "tags": [
+    {
+      "description": "/",
+      "name": "",
+      "x-status": "draft"
+    },
+    {
+      "description": "",
+      "name": "analyticsTableHooks"
+    },
+    {
+      "description": "",
+      "name": "attributes"
+    },
+    {
+      "description": "",
+      "name": "categories"
+    },
+    {
+      "description": "",
+      "name": "categoryCombos"
+    },
+    {
+      "description": "",
+      "name": "categoryOptionCombos"
+    },
+    {
+      "description": "",
+      "name": "categoryOptionGroupSets"
+    },
+    {
+      "description": "",
+      "name": "categoryOptionGroups"
+    },
+    {
+      "description": "",
+      "name": "categoryOptions"
+    },
+    {
+      "description": "",
+      "name": "charts"
+    },
+    {
+      "description": "",
+      "name": "colorSets"
+    },
+    {
+      "description": "Constants are static values which can be made available to users for use in data elements and indicators. Some indicators, such as \"Couple year protection rate\" depend on constants which usually do not change over time.",
+      "name": "constants",
+      "x-status": "draft"
+    },
+    {
+      "description": "",
+      "name": "dashboardItems"
+    },
+    {
+      "description": "",
+      "name": "dashboards"
+    },
+    {
+      "description": "",
+      "name": "dataApprovalLevels"
+    },
+    {
+      "description": "",
+      "name": "dataApprovalWorkflows"
+    },
+    {
+      "description": "",
+      "name": "dataElementGroupSets"
+    },
+    {
+      "description": "",
+      "name": "dataElementGroups"
+    },
+    {
+      "description": "",
+      "name": "dataElementOperands"
+    },
+    {
+      "description": "",
+      "name": "dataElements"
+    },
+    {
+      "description": "",
+      "name": "dataEntryForms"
+    },
+    {
+      "description": "",
+      "name": "dataSetNotificationTemplates"
+    },
+    {
+      "description": "",
+      "name": "dataSets"
+    },
+    {
+      "description": "",
+      "name": "documents"
+    },
+    {
+      "description": "",
+      "name": "eventCharts"
+    },
+    {
+      "description": "",
+      "name": "eventReports"
+    },
+    {
+      "description": "",
+      "name": "externalFileResources"
+    },
+    {
+      "description": "",
+      "name": "externalMapLayers"
+    },
+    {
+      "description": "",
+      "name": "fileResources"
+    },
+    {
+      "description": "",
+      "name": "indicatorGroupSets"
+    },
+    {
+      "description": "",
+      "name": "indicatorGroups"
+    },
+    {
+      "description": "",
+      "name": "indicatorTypes"
+    },
+    {
+      "description": "",
+      "name": "indicators"
+    },
+    {
+      "description": "",
+      "name": "interpretations"
+    },
+    {
+      "description": "",
+      "name": "jobConfigurations"
+    },
+    {
+      "description": "",
+      "name": "legendSets"
+    },
+    {
+      "description": "",
+      "name": "mapViews"
+    },
+    {
+      "description": "",
+      "name": "maps"
+    },
+    {
+      "description": "",
+      "name": "messageConversations"
+    },
+    {
+      "description": "",
+      "name": "metadata/version"
+    },
+    {
+      "description": "",
+      "name": "minMaxDataElements"
+    },
+    {
+      "description": "",
+      "name": "oAuth2Clients"
+    },
+    {
+      "description": "",
+      "name": "optionGroupSets"
+    },
+    {
+      "description": "",
+      "name": "optionGroups"
+    },
+    {
+      "description": "",
+      "name": "optionSets"
+    },
+    {
+      "description": "",
+      "name": "options"
+    },
+    {
+      "description": "",
+      "name": "organisationUnitGroupSets"
+    },
+    {
+      "description": "",
+      "name": "organisationUnitGroups"
+    },
+    {
+      "description": "",
+      "name": "organisationUnitLevels"
+    },
+    {
+      "description": "",
+      "name": "organisationUnits"
+    },
+    {
+      "description": "",
+      "name": "predictors"
+    },
+    {
+      "description": "",
+      "name": "programDataElements"
+    },
+    {
+      "description": "",
+      "name": "programIndicatorGroups"
+    },
+    {
+      "description": "",
+      "name": "programIndicators"
+    },
+    {
+      "description": "",
+      "name": "programNotificationTemplates"
+    },
+    {
+      "description": "",
+      "name": "programRuleActions"
+    },
+    {
+      "description": "",
+      "name": "programRuleVariables"
+    },
+    {
+      "description": "",
+      "name": "programRules"
+    },
+    {
+      "description": "",
+      "name": "programSections"
+    },
+    {
+      "description": "",
+      "name": "programStageSections"
+    },
+    {
+      "description": "",
+      "name": "programStages"
+    },
+    {
+      "description": "",
+      "name": "programTrackedEntityAttributeGroups"
+    },
+    {
+      "description": "",
+      "name": "programs"
+    },
+    {
+      "description": "",
+      "name": "pushAnalysis"
+    },
+    {
+      "description": "",
+      "name": "relationshipTypes"
+    },
+    {
+      "description": "",
+      "name": "reportTables"
+    },
+    {
+      "description": "",
+      "name": "reports"
+    },
+    {
+      "description": "",
+      "name": "sections"
+    },
+    {
+      "description": "",
+      "name": "smsCommands"
+    },
+    {
+      "description": "",
+      "name": "sqlViews"
+    },
+    {
+      "description": "",
+      "name": "trackedEntityAttributes"
+    },
+    {
+      "description": "Tracked entity instances have full CRUD (create, read, update, delete) support in the Web-API. Together with the API for enrollment most operations needed for working with tracked entity instances and programs are supported.",
+      "name": "trackedEntityInstances",
+      "x-status": "draft"
+    },
+    {
+      "description": "",
+      "name": "trackedEntityTypes"
+    },
+    {
+      "description": "",
+      "name": "userGroups"
+    },
+    {
+      "description": "",
+      "name": "userRoles"
+    },
+    {
+      "description": "",
+      "name": "users"
+    },
+    {
+      "description": "",
+      "name": "validationNotificationTemplates"
+    },
+    {
+      "description": "",
+      "name": "validationResults"
+    },
+    {
+      "description": "",
+      "name": "validationRuleGroups"
+    },
+    {
+      "description": "",
+      "name": "validationRules"
+    }
+  ]
+}
+
