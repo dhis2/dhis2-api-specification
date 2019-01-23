@@ -10,21 +10,15 @@ import requests
 import json
 import copy
 
-endpointsfile="./../docs/input/endpoints_via_doclet.json"
-schemabase="../../docs/input/schemas.json"
-schemafile="../../docs/input/schemas_api.json"
-endpointslist="../../docs/input/endpoints_combo.txt"
-specbase="../../docs/spec/openapi_base.json"
-specfile="../../docs/spec/openapi.json"
-pathsfile="../../docs/input/paths.json"
-tagsfile="../../docs/input/tags.json"
+schemafile="../../docs/input/schemas.json"
+outfile="../../docs/input/schemas_api.json"
 
 def f(x):
     return {
         "BOOLEAN" : [{ "type": "boolean", "format": "boolean"},"minLength","maxLength"],
         "COLLECTION" : [{ "type": "array"},"minItems","maxItems"],
         "COLOR" : [{ "type": "string", "format": "COLOR"},"",""],
-        "COMPLEX" : [{ "type": "object", "format": "<FILLIN>"},"minLength","maxLength"],
+        "COMPLEX" : [{ "type": "object"},"minItems","maxItems"],
         "CONSTANT" : [{ "type": "string"},"","maxLength"],
         "DATE" : [{ "type": "string", "format": "date-time"},"minLength","maxLength"],
         "EMAIL" : [{ "type": "string", "format": "boolean"},"minLength","maxLength"],
@@ -40,11 +34,11 @@ def f(x):
     }[x]
 
 
-r_schemas = requests.get("https://play.dhis2.org/dev/api/schemas.json",auth=('system','System123'))
+r_schemas = requests.get("http://localhost:8080/api/schemas.json",auth=('system','System123'))
 
-sfile=open(schemafile,'r')
-r_schemas = json.load(sfile)
-sfile.close()
+# sfile=open(schemafile,'r')
+# r_schemas = json.load(sfile)
+# sfile.close()
 
 schemas = {}
 
@@ -78,16 +72,23 @@ for s in r_schemas.json()["schemas"]:
                     if p["itemPropertyType"] == "COMPLEX":
                         iprops = {}
                         for s in r_schemas.json()["schemas"]:
-                            if s["name"].lower() == endName.lower() or s["name"].lower() == endName.rstrip('s').lower():
+                            single = endName.rstrip('s')
+                            if single[-2:] == 'ie':
+                                single = single[:-2]+'y'
+                            if s["name"].lower() == endName.lower() or s["name"].lower() == single.lower():
                                 iprops = {"schema": {"$ref":"#/components/schemas/"+s["name"]}}
                     else:    
                         itemPropertyType = p["itemPropertyType"]
-                        iprops = f(itemPropertyType)
+                        iprops = f(itemPropertyType)[0]
 
                 line = 1.5
                 if p["propertyType"] == "COLLECTION":
                     print(2, p["itemPropertyType"], props[0])
                     schemas[n]["properties"][endName].update({"items": iprops })
+
+
+                if p["propertyType"] == "COMPLEX":
+                    schemas[n]["properties"][endName].update({"$ref":"#/components/schemas/"+endName})
 
                 line = 2
                 if "min" in p:
@@ -101,6 +102,12 @@ for s in r_schemas.json()["schemas"]:
                 line = 5
                 if "constants" in p:
                     schemas[n]["properties"][endName].update({"enum": p["constants"]})
+                    schemas[n]["properties"][endName].update({"format": "enum"})
+
+                if p["propertyType"] == "COMPLEX":
+                    schemas[n]["properties"][endName].update({"$ref":"#/components/schemas/"+endName})
+                    schemas[n]["properties"][endName].update({endMin: 1})
+                    schemas[n]["properties"][endName].update({endMax: 1})
                 #print(p["required"])
                 line = 6
                 if p["required"] == True:
@@ -120,7 +127,7 @@ for s in r_schemas.json()["schemas"]:
     
 #print(json.dumps(schemas , sort_keys=True, indent=2, separators=(',', ': ')))
 
-apifile= open("/home/philld/api/examples/redoc/schemas_api.json",'w')
+apifile= open(outfile,'w')
 apifile.write(json.dumps(schemas , sort_keys=True, indent=2, separators=(',', ': ')))
 apifile.close()
 

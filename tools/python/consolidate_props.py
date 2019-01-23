@@ -9,9 +9,14 @@ Created on Wed Apr 18 15:34:25 2018
 import requests
 import json
 import copy
+from dhis2api.explorer import specsorter
 
-specfile="../../docs/spec/updated.json"
-outfile="../../docs/spec/updated.json"
+# specfile="schema_out.json"
+# outfile="schema_out.json"
+
+
+specfile="../../docs/spec/output_openapi.json"
+outfile="../../docs/spec/output_c_openapi.json"
 
 
 ofile=open(specfile,'r')
@@ -34,7 +39,7 @@ def between(value, a, b):
 
 
 
-def chooseObjects(a,b):
+def chooseObjects(a,b,interactive=False):
     ret = 0
     retcodes = ["a","b","s","w", "r"]
     while ret not in retcodes:
@@ -44,7 +49,7 @@ def chooseObjects(a,b):
         sCombkeys = list(set(combKeys))
         sCombkeys.sort()
         cnt = 0
-        selector = '{:>20} {:>20} {:>20}   {}\n'.format("key", "existing", "new", "row")
+        selector = '{:>20} {:>20} {:>20}   {}\n'.format("key", "a", "b", "row")
         for k in sCombkeys:
             av = ""
             bv = ""
@@ -54,11 +59,14 @@ def chooseObjects(a,b):
             if k in bKeys:
                 bv = b[k]
             try:
-                selector+= '{:>20} {:>20} {:>20}   [{}]\n'.format(k, av, bv, cnt)            
+                selector+= '{:>20} {:>20} {:>20}   [{}]\n'.format(k, av, bv, cnt)
             except TypeError:
                 return "s"
         selector += '\na - use a | b - use b | r - replace a with b | s - skip | w - write file (save) | [1-{}] - swap rows\n : '.format(cnt)
-        ret = input(selector)
+        if interactive:
+            ret = input(selector)
+        else:
+            ret = "b"
         if ret not in retcodes:
             swapKey = sCombkeys[int(ret)-1]
             print("swapping",swapKey)
@@ -124,16 +132,16 @@ def recurseDict(d):
 
         # write to the output file (save)
         apifile= open(outfile,'w')
-        apifile.write(json.dumps(d , sort_keys=False, indent=2, separators=(',', ': ')))
+        apifile.write(json.dumps(d , sort_keys=True, indent=2, separators=(',', ': ')))
         apifile.close()
 
 
 
 recurseDict(openapi)
 
+ss = specsorter(openapi)
+openapi_sorted = ss.sortspec()
+
 apifile= open(outfile,'w')
-apifile.write(json.dumps(openapi , sort_keys=False, indent=2, separators=(',', ': ')))
+apifile.write(json.dumps(openapi_sorted , sort_keys=True, indent=2, separators=(',', ': ')))
 apifile.close()
-
-
-

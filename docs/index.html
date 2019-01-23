@@ -6,19 +6,30 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
     <!--
     ReDoc doesn't change outer page styles
     -->
     <style>
       body {
+        font-family: Roboto;
         margin: 0;
-        padding: 0;
+        padding: 10;
+      }
+      .menu-content img {
+        width:90%;
+        margin:auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
     </style>
   </head>
-  <body>
-    <redoc spec-url='./spec/openapi.json' required-props-first ></redoc>
+  <body id="redoc">
+    <!-- redoc spec-url='./spec/newbase_openapi.json' required-props-first ></redoc -->
     <script src="./redoc/redoc.standalone.js"> </script>
+    <script>
+    Redoc.init('./spec/openapi.json', {}, document.getElementById('redoc'))
+   </script>
   </body>
 </html>
