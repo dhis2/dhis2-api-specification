@@ -6,9 +6,9 @@ The DHIS2 Core API Specification document is available for viewing via github pa
 
 [DHIS 2 OpenAPI Specification](https://dhis2.github.io/dhis2-api-specification/)
 
-This default view is based on ReDoc (https://github.com/Rebilly/ReDoc).
+This default view is based on [ReDoc](https://github.com/Rebilly/ReDoc).
 
-An alternative view, based on Swagger-UI (https://github.com/jensoleg/swagger-ui) is available here:
+An alternative view, based on [Swagger-UI](https://github.com/jensoleg/swagger-ui) is available here:
 [swagger-ui view](https://dhis2.github.io/dhis2-api-specification/swagger-ui/)
 
 ## Structure
