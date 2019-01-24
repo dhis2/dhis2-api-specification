@@ -52,7 +52,7 @@
             "description": "OK"
           }
         },
-        "summary": "list analyticsTableHooks",
+        "summary": "list analyticsTableHooks [DRAFT]",
         "tags": [
           "analyticsTableHooks"
         ]
@@ -91,7 +91,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create a new analyticsTableHook",
+        "summary": "create a new analyticsTableHook [DRAFT]",
         "tags": [
           "analyticsTableHooks"
         ]
@@ -155,7 +155,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a analyticsTableHook by ID",
+        "summary": "delete a analyticsTableHook by ID [DRAFT]",
         "tags": [
           "analyticsTableHooks"
         ]
@@ -210,7 +210,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a analyticsTableHook by ID",
+        "summary": "get a analyticsTableHook by ID [DRAFT]",
         "tags": [
           "analyticsTableHooks"
         ]
@@ -333,7 +333,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a analyticsTableHook",
+        "summary": "update a analyticsTableHook [DRAFT]",
         "tags": [
           "analyticsTableHooks"
         ]
@@ -386,7 +386,7 @@
             "description": "OK"
           }
         },
-        "summary": "list attributes",
+        "summary": "list attributes [DRAFT]",
         "tags": [
           "attributes"
         ]
@@ -436,7 +436,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create a new attribute",
+        "summary": "create a new attribute [DRAFT]",
         "tags": [
           "attributes"
         ]
@@ -500,7 +500,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a attribute by ID",
+        "summary": "delete a attribute by ID [DRAFT]",
         "tags": [
           "attributes"
         ]
@@ -555,7 +555,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a attribute by ID",
+        "summary": "get a attribute by ID [DRAFT]",
         "tags": [
           "attributes"
         ]
@@ -678,7 +678,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a attribute",
+        "summary": "update a attribute [DRAFT]",
         "tags": [
           "attributes"
         ]
@@ -731,7 +731,7 @@
             "description": "OK"
           }
         },
-        "summary": "list categories",
+        "summary": "list categories [DRAFT]",
         "tags": [
           "categories"
         ]
@@ -781,7 +781,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create a new category",
+        "summary": "create a new category [DRAFT]",
         "tags": [
           "categories"
         ]
@@ -845,7 +845,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a category by ID",
+        "summary": "delete a category by ID [DRAFT]",
         "tags": [
           "categories"
         ]
@@ -900,7 +900,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a category by ID",
+        "summary": "get a category by ID [DRAFT]",
         "tags": [
           "categories"
         ]
@@ -1023,7 +1023,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a category",
+        "summary": "update a category [DRAFT]",
         "tags": [
           "categories"
         ]
@@ -1076,7 +1076,7 @@
             "description": "OK"
           }
         },
-        "summary": "list categoryCombos",
+        "summary": "list categoryCombos [DRAFT]",
         "tags": [
           "categoryCombos"
         ]
@@ -1126,7 +1126,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create a new categoryCombo",
+        "summary": "create a new categoryCombo [DRAFT]",
         "tags": [
           "categoryCombos"
         ]
@@ -1190,7 +1190,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a categoryCombo by ID",
+        "summary": "delete a categoryCombo by ID [DRAFT]",
         "tags": [
           "categoryCombos"
         ]
@@ -1245,7 +1245,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a categoryCombo by ID",
+        "summary": "get a categoryCombo by ID [DRAFT]",
         "tags": [
           "categoryCombos"
         ]
@@ -1368,7 +1368,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a categoryCombo",
+        "summary": "update a categoryCombo [DRAFT]",
         "tags": [
           "categoryCombos"
         ]
@@ -1421,7 +1421,7 @@
             "description": "OK"
           }
         },
-        "summary": "list categoryOptionCombos",
+        "summary": "list categoryOptionCombos [DRAFT]",
         "tags": [
           "categoryOptionCombos"
         ]
@@ -1460,7 +1460,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create categoryOptionCombos",
+        "summary": "create categoryOptionCombos [DRAFT]",
         "tags": [
           "categoryOptionCombos"
         ]
@@ -1524,7 +1524,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a categoryOptionCombo by ID",
+        "summary": "delete a categoryOptionCombo by ID [DRAFT]",
         "tags": [
           "categoryOptionCombos"
         ]
@@ -1579,7 +1579,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a categoryOptionCombo by ID",
+        "summary": "get a categoryOptionCombo by ID [DRAFT]",
         "tags": [
           "categoryOptionCombos"
         ]
@@ -1702,7 +1702,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a categoryOptionCombo",
+        "summary": "update a categoryOptionCombo [DRAFT]",
         "tags": [
           "categoryOptionCombos"
         ]
@@ -1755,7 +1755,7 @@
             "description": "OK"
           }
         },
-        "summary": "list categoryOptionGroupSets",
+        "summary": "list categoryOptionGroupSets [DRAFT]",
         "tags": [
           "categoryOptionGroupSets"
         ]
@@ -1805,7 +1805,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create categoryOptionGroupSets",
+        "summary": "create categoryOptionGroupSets [DRAFT]",
         "tags": [
           "categoryOptionGroupSets"
         ]
@@ -1869,7 +1869,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a categoryOptionGroupSet by ID",
+        "summary": "delete a categoryOptionGroupSet by ID [DRAFT]",
         "tags": [
           "categoryOptionGroupSets"
         ]
@@ -1924,7 +1924,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a categoryOptionGroupSet by ID",
+        "summary": "get a categoryOptionGroupSet by ID [DRAFT]",
         "tags": [
           "categoryOptionGroupSets"
         ]
@@ -2047,7 +2047,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a categoryOptionGroupSet",
+        "summary": "update a categoryOptionGroupSet [DRAFT]",
         "tags": [
           "categoryOptionGroupSets"
         ]
@@ -2100,7 +2100,7 @@
             "description": "OK"
           }
         },
-        "summary": "list categoryOptionGroups",
+        "summary": "list categoryOptionGroups [DRAFT]",
         "tags": [
           "categoryOptionGroups"
         ]
@@ -2150,7 +2150,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create categoryOptionGroups",
+        "summary": "create categoryOptionGroups [DRAFT]",
         "tags": [
           "categoryOptionGroups"
         ]
@@ -2214,7 +2214,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a categoryOptionGroup by ID",
+        "summary": "delete a categoryOptionGroup by ID [DRAFT]",
         "tags": [
           "categoryOptionGroups"
         ]
@@ -2269,7 +2269,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a categoryOptionGroup by ID",
+        "summary": "get a categoryOptionGroup by ID [DRAFT]",
         "tags": [
           "categoryOptionGroups"
         ]
@@ -2392,7 +2392,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a categoryOptionGroup",
+        "summary": "update a categoryOptionGroup [DRAFT]",
         "tags": [
           "categoryOptionGroups"
         ]
@@ -2445,7 +2445,7 @@
             "description": "OK"
           }
         },
-        "summary": "list categoryOptions",
+        "summary": "list categoryOptions [DRAFT]",
         "tags": [
           "categoryOptions"
         ]
@@ -2495,7 +2495,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create categoryOptions",
+        "summary": "create categoryOptions [DRAFT]",
         "tags": [
           "categoryOptions"
         ]
@@ -2559,7 +2559,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a categoryOption by ID",
+        "summary": "delete a categoryOption by ID [DRAFT]",
         "tags": [
           "categoryOptions"
         ]
@@ -2614,7 +2614,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a categoryOption by ID",
+        "summary": "get a categoryOption by ID [DRAFT]",
         "tags": [
           "categoryOptions"
         ]
@@ -2737,7 +2737,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a categoryOption",
+        "summary": "update a categoryOption [DRAFT]",
         "tags": [
           "categoryOptions"
         ]
@@ -2790,7 +2790,7 @@
             "description": "OK"
           }
         },
-        "summary": "list charts",
+        "summary": "list charts [DRAFT]",
         "tags": [
           "charts"
         ]
@@ -2829,7 +2829,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create charts",
+        "summary": "create charts [DRAFT]",
         "tags": [
           "charts"
         ]
@@ -2893,7 +2893,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a chart by ID",
+        "summary": "delete a chart by ID [DRAFT]",
         "tags": [
           "charts"
         ]
@@ -2948,7 +2948,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a chart by ID",
+        "summary": "get a chart by ID [DRAFT]",
         "tags": [
           "charts"
         ]
@@ -3071,7 +3071,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a chart",
+        "summary": "update a chart [DRAFT]",
         "tags": [
           "charts"
         ]
@@ -3124,7 +3124,7 @@
             "description": "OK"
           }
         },
-        "summary": "list colorSets",
+        "summary": "list colorSets [DRAFT]",
         "tags": [
           "colorSets"
         ]
@@ -3163,7 +3163,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create colorSets",
+        "summary": "create colorSets [DRAFT]",
         "tags": [
           "colorSets"
         ]
@@ -3227,7 +3227,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a colorSet by ID",
+        "summary": "delete a colorSet by ID [DRAFT]",
         "tags": [
           "colorSets"
         ]
@@ -3282,7 +3282,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a colorSet by ID",
+        "summary": "get a colorSet by ID [DRAFT]",
         "tags": [
           "colorSets"
         ]
@@ -3405,7 +3405,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a colorSet",
+        "summary": "update a colorSet [DRAFT]",
         "tags": [
           "colorSets"
         ]
@@ -3464,7 +3464,7 @@
             "description": "OK"
           }
         },
-        "summary": "list constants",
+        "summary": "list constants [DRAFT]",
         "tags": [
           "constants"
         ]
@@ -3515,7 +3515,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create constants",
+        "summary": "create constants [DRAFT]",
         "tags": [
           "constants"
         ]
@@ -3579,7 +3579,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a constant by ID",
+        "summary": "delete a constant by ID [DRAFT]",
         "tags": [
           "constants"
         ]
@@ -3634,7 +3634,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a constant by ID",
+        "summary": "get a constant by ID [DRAFT]",
         "tags": [
           "constants"
         ]
@@ -3768,7 +3768,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a constant",
+        "summary": "update a constant [DRAFT]",
         "tags": [
           "constants"
         ]
@@ -3821,7 +3821,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dashboardItems",
+        "summary": "list dashboardItems [DRAFT]",
         "tags": [
           "dashboardItems"
         ]
@@ -3849,7 +3849,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dashboardItems",
+        "summary": "create dashboardItems [DRAFT]",
         "tags": [
           "dashboardItems"
         ]
@@ -3913,7 +3913,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dashboardItem by ID",
+        "summary": "delete a dashboardItem by ID [DRAFT]",
         "tags": [
           "dashboardItems"
         ]
@@ -3968,7 +3968,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dashboardItem by ID",
+        "summary": "get a dashboardItem by ID [DRAFT]",
         "tags": [
           "dashboardItems"
         ]
@@ -4091,7 +4091,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dashboardItem",
+        "summary": "update a dashboardItem [DRAFT]",
         "tags": [
           "dashboardItems"
         ]
@@ -4144,7 +4144,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dashboards",
+        "summary": "list dashboards [DRAFT]",
         "tags": [
           "dashboards"
         ]
@@ -4194,7 +4194,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dashboards",
+        "summary": "create dashboards [DRAFT]",
         "tags": [
           "dashboards"
         ]
@@ -4258,7 +4258,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dashboard by ID",
+        "summary": "delete a dashboard by ID [DRAFT]",
         "tags": [
           "dashboards"
         ]
@@ -4313,7 +4313,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dashboard by ID",
+        "summary": "get a dashboard by ID [DRAFT]",
         "tags": [
           "dashboards"
         ]
@@ -4436,7 +4436,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dashboard",
+        "summary": "update a dashboard [DRAFT]",
         "tags": [
           "dashboards"
         ]
@@ -4489,7 +4489,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataApprovalLevels",
+        "summary": "list dataApprovalLevels [DRAFT]",
         "tags": [
           "dataApprovalLevels"
         ]
@@ -4539,7 +4539,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataApprovalLevels",
+        "summary": "create dataApprovalLevels [DRAFT]",
         "tags": [
           "dataApprovalLevels"
         ]
@@ -4603,7 +4603,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataApprovalLevel by ID",
+        "summary": "delete a dataApprovalLevel by ID [DRAFT]",
         "tags": [
           "dataApprovalLevels"
         ]
@@ -4658,7 +4658,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataApprovalLevel by ID",
+        "summary": "get a dataApprovalLevel by ID [DRAFT]",
         "tags": [
           "dataApprovalLevels"
         ]
@@ -4781,7 +4781,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataApprovalLevel",
+        "summary": "update a dataApprovalLevel [DRAFT]",
         "tags": [
           "dataApprovalLevels"
         ]
@@ -4834,7 +4834,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataApprovalWorkflows",
+        "summary": "list dataApprovalWorkflows [DRAFT]",
         "tags": [
           "dataApprovalWorkflows"
         ]
@@ -4873,7 +4873,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataApprovalWorkflows",
+        "summary": "create dataApprovalWorkflows [DRAFT]",
         "tags": [
           "dataApprovalWorkflows"
         ]
@@ -4937,7 +4937,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataApprovalWorkflow by ID",
+        "summary": "delete a dataApprovalWorkflow by ID [DRAFT]",
         "tags": [
           "dataApprovalWorkflows"
         ]
@@ -4992,7 +4992,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataApprovalWorkflow by ID",
+        "summary": "get a dataApprovalWorkflow by ID [DRAFT]",
         "tags": [
           "dataApprovalWorkflows"
         ]
@@ -5115,7 +5115,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataApprovalWorkflow",
+        "summary": "update a dataApprovalWorkflow [DRAFT]",
         "tags": [
           "dataApprovalWorkflows"
         ]
@@ -5168,7 +5168,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataElementGroupSets",
+        "summary": "list dataElementGroupSets [DRAFT]",
         "tags": [
           "dataElementGroupSets"
         ]
@@ -5218,7 +5218,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataElementGroupSets",
+        "summary": "create dataElementGroupSets [DRAFT]",
         "tags": [
           "dataElementGroupSets"
         ]
@@ -5282,7 +5282,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataElementGroupSet by ID",
+        "summary": "delete a dataElementGroupSet by ID [DRAFT]",
         "tags": [
           "dataElementGroupSets"
         ]
@@ -5337,7 +5337,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataElementGroupSet by ID",
+        "summary": "get a dataElementGroupSet by ID [DRAFT]",
         "tags": [
           "dataElementGroupSets"
         ]
@@ -5460,7 +5460,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataElementGroupSet",
+        "summary": "update a dataElementGroupSet [DRAFT]",
         "tags": [
           "dataElementGroupSets"
         ]
@@ -5513,7 +5513,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataElementGroups",
+        "summary": "list dataElementGroups [DRAFT]",
         "tags": [
           "dataElementGroups"
         ]
@@ -5563,7 +5563,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataElementGroups",
+        "summary": "create dataElementGroups [DRAFT]",
         "tags": [
           "dataElementGroups"
         ]
@@ -5627,7 +5627,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataElementGroup by ID",
+        "summary": "delete a dataElementGroup by ID [DRAFT]",
         "tags": [
           "dataElementGroups"
         ]
@@ -5682,7 +5682,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataElementGroup by ID",
+        "summary": "get a dataElementGroup by ID [DRAFT]",
         "tags": [
           "dataElementGroups"
         ]
@@ -5805,7 +5805,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataElementGroup",
+        "summary": "update a dataElementGroup [DRAFT]",
         "tags": [
           "dataElementGroups"
         ]
@@ -5858,7 +5858,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataElementOperands",
+        "summary": "list dataElementOperands [DRAFT]",
         "tags": [
           "dataElementOperands"
         ]
@@ -5922,7 +5922,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataElementOperand by ID",
+        "summary": "delete a dataElementOperand by ID [DRAFT]",
         "tags": [
           "dataElementOperands"
         ]
@@ -5977,7 +5977,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataElementOperand by ID",
+        "summary": "get a dataElementOperand by ID [DRAFT]",
         "tags": [
           "dataElementOperands"
         ]
@@ -6100,7 +6100,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataElementOperand",
+        "summary": "update a dataElementOperand [DRAFT]",
         "tags": [
           "dataElementOperands"
         ]
@@ -6153,7 +6153,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataElements",
+        "summary": "list dataElements [DRAFT]",
         "tags": [
           "dataElements"
         ]
@@ -6203,7 +6203,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataElements",
+        "summary": "create dataElements [DRAFT]",
         "tags": [
           "dataElements"
         ]
@@ -6267,7 +6267,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataElement by ID",
+        "summary": "delete a dataElement by ID [DRAFT]",
         "tags": [
           "dataElements"
         ]
@@ -6322,7 +6322,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataElement by ID",
+        "summary": "get a dataElement by ID [DRAFT]",
         "tags": [
           "dataElements"
         ]
@@ -6445,7 +6445,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataElement",
+        "summary": "update a dataElement [DRAFT]",
         "tags": [
           "dataElements"
         ]
@@ -6498,7 +6498,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataEntryForms",
+        "summary": "list dataEntryForms [DRAFT]",
         "tags": [
           "dataEntryForms"
         ]
@@ -6548,7 +6548,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataEntryForms",
+        "summary": "create dataEntryForms [DRAFT]",
         "tags": [
           "dataEntryForms"
         ]
@@ -6612,7 +6612,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataEntryForm by ID",
+        "summary": "delete a dataEntryForm by ID [DRAFT]",
         "tags": [
           "dataEntryForms"
         ]
@@ -6667,7 +6667,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataEntryForm by ID",
+        "summary": "get a dataEntryForm by ID [DRAFT]",
         "tags": [
           "dataEntryForms"
         ]
@@ -6790,7 +6790,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataEntryForm",
+        "summary": "update a dataEntryForm [DRAFT]",
         "tags": [
           "dataEntryForms"
         ]
@@ -6843,7 +6843,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataSetNotificationTemplates",
+        "summary": "list dataSetNotificationTemplates [DRAFT]",
         "tags": [
           "dataSetNotificationTemplates"
         ]
@@ -6882,7 +6882,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataSetNotificationTemplates",
+        "summary": "create dataSetNotificationTemplates [DRAFT]",
         "tags": [
           "dataSetNotificationTemplates"
         ]
@@ -6946,7 +6946,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataSetNotificationTemplate by ID",
+        "summary": "delete a dataSetNotificationTemplate by ID [DRAFT]",
         "tags": [
           "dataSetNotificationTemplates"
         ]
@@ -7001,7 +7001,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataSetNotificationTemplate by ID",
+        "summary": "get a dataSetNotificationTemplate by ID [DRAFT]",
         "tags": [
           "dataSetNotificationTemplates"
         ]
@@ -7124,7 +7124,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataSetNotificationTemplate",
+        "summary": "update a dataSetNotificationTemplate [DRAFT]",
         "tags": [
           "dataSetNotificationTemplates"
         ]
@@ -7177,7 +7177,7 @@
             "description": "OK"
           }
         },
-        "summary": "list dataSets",
+        "summary": "list dataSets [DRAFT]",
         "tags": [
           "dataSets"
         ]
@@ -7216,7 +7216,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create dataSets",
+        "summary": "create dataSets [DRAFT]",
         "tags": [
           "dataSets"
         ]
@@ -7280,7 +7280,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a dataSet by ID",
+        "summary": "delete a dataSet by ID [DRAFT]",
         "tags": [
           "dataSets"
         ]
@@ -7335,7 +7335,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a dataSet by ID",
+        "summary": "get a dataSet by ID [DRAFT]",
         "tags": [
           "dataSets"
         ]
@@ -7458,7 +7458,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a dataSet",
+        "summary": "update a dataSet [DRAFT]",
         "tags": [
           "dataSets"
         ]
@@ -7511,7 +7511,7 @@
             "description": "OK"
           }
         },
-        "summary": "list documents",
+        "summary": "list documents [DRAFT]",
         "tags": [
           "documents"
         ]
@@ -7575,7 +7575,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a document by ID",
+        "summary": "delete a document by ID [DRAFT]",
         "tags": [
           "documents"
         ]
@@ -7630,7 +7630,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a document by ID",
+        "summary": "get a document by ID [DRAFT]",
         "tags": [
           "documents"
         ]
@@ -7753,7 +7753,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a document",
+        "summary": "update a document [DRAFT]",
         "tags": [
           "documents"
         ]
@@ -7806,7 +7806,7 @@
             "description": "OK"
           }
         },
-        "summary": "list eventCharts",
+        "summary": "list eventCharts [DRAFT]",
         "tags": [
           "eventCharts"
         ]
@@ -7845,7 +7845,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create eventCharts",
+        "summary": "create eventCharts [DRAFT]",
         "tags": [
           "eventCharts"
         ]
@@ -7909,7 +7909,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a eventChart by ID",
+        "summary": "delete a eventChart by ID [DRAFT]",
         "tags": [
           "eventCharts"
         ]
@@ -7964,7 +7964,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a eventChart by ID",
+        "summary": "get a eventChart by ID [DRAFT]",
         "tags": [
           "eventCharts"
         ]
@@ -8087,7 +8087,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a eventChart",
+        "summary": "update a eventChart [DRAFT]",
         "tags": [
           "eventCharts"
         ]
@@ -8140,7 +8140,7 @@
             "description": "OK"
           }
         },
-        "summary": "list eventReports",
+        "summary": "list eventReports [DRAFT]",
         "tags": [
           "eventReports"
         ]
@@ -8179,7 +8179,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create eventReports",
+        "summary": "create eventReports [DRAFT]",
         "tags": [
           "eventReports"
         ]
@@ -8243,7 +8243,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a eventReport by ID",
+        "summary": "delete a eventReport by ID [DRAFT]",
         "tags": [
           "eventReports"
         ]
@@ -8298,7 +8298,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a eventReport by ID",
+        "summary": "get a eventReport by ID [DRAFT]",
         "tags": [
           "eventReports"
         ]
@@ -8421,7 +8421,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a eventReport",
+        "summary": "update a eventReport [DRAFT]",
         "tags": [
           "eventReports"
         ]
@@ -8474,7 +8474,7 @@
             "description": "OK"
           }
         },
-        "summary": "list externalMapLayers",
+        "summary": "list externalMapLayers [DRAFT]",
         "tags": [
           "externalMapLayers"
         ]
@@ -8524,7 +8524,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create externalMapLayers",
+        "summary": "create externalMapLayers [DRAFT]",
         "tags": [
           "externalMapLayers"
         ]
@@ -8588,7 +8588,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a externalMapLayer by ID",
+        "summary": "delete a externalMapLayer by ID [DRAFT]",
         "tags": [
           "externalMapLayers"
         ]
@@ -8643,7 +8643,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a externalMapLayer by ID",
+        "summary": "get a externalMapLayer by ID [DRAFT]",
         "tags": [
           "externalMapLayers"
         ]
@@ -8766,7 +8766,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a externalMapLayer",
+        "summary": "update a externalMapLayer [DRAFT]",
         "tags": [
           "externalMapLayers"
         ]
@@ -8819,7 +8819,7 @@
             "description": "OK"
           }
         },
-        "summary": "list indicatorGroupSets",
+        "summary": "list indicatorGroupSets [DRAFT]",
         "tags": [
           "indicatorGroupSets"
         ]
@@ -8869,7 +8869,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create indicatorGroupSets",
+        "summary": "create indicatorGroupSets [DRAFT]",
         "tags": [
           "indicatorGroupSets"
         ]
@@ -8933,7 +8933,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a indicatorGroupSet by ID",
+        "summary": "delete a indicatorGroupSet by ID [DRAFT]",
         "tags": [
           "indicatorGroupSets"
         ]
@@ -8988,7 +8988,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a indicatorGroupSet by ID",
+        "summary": "get a indicatorGroupSet by ID [DRAFT]",
         "tags": [
           "indicatorGroupSets"
         ]
@@ -9111,7 +9111,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a indicatorGroupSet",
+        "summary": "update a indicatorGroupSet [DRAFT]",
         "tags": [
           "indicatorGroupSets"
         ]
@@ -9164,7 +9164,7 @@
             "description": "OK"
           }
         },
-        "summary": "list indicatorGroups",
+        "summary": "list indicatorGroups [DRAFT]",
         "tags": [
           "indicatorGroups"
         ]
@@ -9214,7 +9214,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create indicatorGroups",
+        "summary": "create indicatorGroups [DRAFT]",
         "tags": [
           "indicatorGroups"
         ]
@@ -9278,7 +9278,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a indicatorGroup by ID",
+        "summary": "delete a indicatorGroup by ID [DRAFT]",
         "tags": [
           "indicatorGroups"
         ]
@@ -9333,7 +9333,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a indicatorGroup by ID",
+        "summary": "get a indicatorGroup by ID [DRAFT]",
         "tags": [
           "indicatorGroups"
         ]
@@ -9456,7 +9456,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a indicatorGroup",
+        "summary": "update a indicatorGroup [DRAFT]",
         "tags": [
           "indicatorGroups"
         ]
@@ -9509,7 +9509,7 @@
             "description": "OK"
           }
         },
-        "summary": "list indicatorTypes",
+        "summary": "list indicatorTypes [DRAFT]",
         "tags": [
           "indicatorTypes"
         ]
@@ -9559,7 +9559,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create indicatorTypes",
+        "summary": "create indicatorTypes [DRAFT]",
         "tags": [
           "indicatorTypes"
         ]
@@ -9623,7 +9623,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a indicatorType by ID",
+        "summary": "delete a indicatorType by ID [DRAFT]",
         "tags": [
           "indicatorTypes"
         ]
@@ -9678,7 +9678,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a indicatorType by ID",
+        "summary": "get a indicatorType by ID [DRAFT]",
         "tags": [
           "indicatorTypes"
         ]
@@ -9801,7 +9801,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a indicatorType",
+        "summary": "update a indicatorType [DRAFT]",
         "tags": [
           "indicatorTypes"
         ]
@@ -9854,7 +9854,7 @@
             "description": "OK"
           }
         },
-        "summary": "list indicators",
+        "summary": "list indicators [DRAFT]",
         "tags": [
           "indicators"
         ]
@@ -9893,7 +9893,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create indicators",
+        "summary": "create indicators [DRAFT]",
         "tags": [
           "indicators"
         ]
@@ -9957,7 +9957,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a indicator by ID",
+        "summary": "delete a indicator by ID [DRAFT]",
         "tags": [
           "indicators"
         ]
@@ -10012,7 +10012,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a indicator by ID",
+        "summary": "get a indicator by ID [DRAFT]",
         "tags": [
           "indicators"
         ]
@@ -10135,7 +10135,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a indicator",
+        "summary": "update a indicator [DRAFT]",
         "tags": [
           "indicators"
         ]
@@ -10188,7 +10188,7 @@
             "description": "OK"
           }
         },
-        "summary": "list interpretations",
+        "summary": "list interpretations [DRAFT]",
         "tags": [
           "interpretations"
         ]
@@ -10216,7 +10216,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create interpretations",
+        "summary": "create interpretations [DRAFT]",
         "tags": [
           "interpretations"
         ]
@@ -10280,7 +10280,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a interpretation by ID",
+        "summary": "delete a interpretation by ID [DRAFT]",
         "tags": [
           "interpretations"
         ]
@@ -10335,7 +10335,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a interpretation by ID",
+        "summary": "get a interpretation by ID [DRAFT]",
         "tags": [
           "interpretations"
         ]
@@ -10458,7 +10458,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a interpretation",
+        "summary": "update a interpretation [DRAFT]",
         "tags": [
           "interpretations"
         ]
@@ -10511,7 +10511,7 @@
             "description": "OK"
           }
         },
-        "summary": "list jobConfigurations",
+        "summary": "list jobConfigurations [DRAFT]",
         "tags": [
           "jobConfigurations"
         ]
@@ -10575,7 +10575,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a jobConfiguration by ID",
+        "summary": "delete a jobConfiguration by ID [DRAFT]",
         "tags": [
           "jobConfigurations"
         ]
@@ -10630,7 +10630,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a jobConfiguration by ID",
+        "summary": "get a jobConfiguration by ID [DRAFT]",
         "tags": [
           "jobConfigurations"
         ]
@@ -10753,7 +10753,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a jobConfiguration",
+        "summary": "update a jobConfiguration [DRAFT]",
         "tags": [
           "jobConfigurations"
         ]
@@ -10806,7 +10806,7 @@
             "description": "OK"
           }
         },
-        "summary": "list legendSets",
+        "summary": "list legendSets [DRAFT]",
         "tags": [
           "legendSets"
         ]
@@ -10856,7 +10856,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create legendSets",
+        "summary": "create legendSets [DRAFT]",
         "tags": [
           "legendSets"
         ]
@@ -10920,7 +10920,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a legendSet by ID",
+        "summary": "delete a legendSet by ID [DRAFT]",
         "tags": [
           "legendSets"
         ]
@@ -10975,7 +10975,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a legendSet by ID",
+        "summary": "get a legendSet by ID [DRAFT]",
         "tags": [
           "legendSets"
         ]
@@ -11098,7 +11098,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a legendSet",
+        "summary": "update a legendSet [DRAFT]",
         "tags": [
           "legendSets"
         ]
@@ -11151,7 +11151,7 @@
             "description": "OK"
           }
         },
-        "summary": "list mapViews",
+        "summary": "list mapViews [DRAFT]",
         "tags": [
           "mapViews"
         ]
@@ -11201,7 +11201,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create mapViews",
+        "summary": "create mapViews [DRAFT]",
         "tags": [
           "mapViews"
         ]
@@ -11265,7 +11265,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a mapView by ID",
+        "summary": "delete a mapView by ID [DRAFT]",
         "tags": [
           "mapViews"
         ]
@@ -11320,7 +11320,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a mapView by ID",
+        "summary": "get a mapView by ID [DRAFT]",
         "tags": [
           "mapViews"
         ]
@@ -11443,7 +11443,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a mapView",
+        "summary": "update a mapView [DRAFT]",
         "tags": [
           "mapViews"
         ]
@@ -11496,7 +11496,7 @@
             "description": "OK"
           }
         },
-        "summary": "list maps",
+        "summary": "list maps [DRAFT]",
         "tags": [
           "maps"
         ]
@@ -11524,7 +11524,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create maps",
+        "summary": "create maps [DRAFT]",
         "tags": [
           "maps"
         ]
@@ -11588,7 +11588,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a map by ID",
+        "summary": "delete a map by ID [DRAFT]",
         "tags": [
           "maps"
         ]
@@ -11643,7 +11643,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a map by ID",
+        "summary": "get a map by ID [DRAFT]",
         "tags": [
           "maps"
         ]
@@ -11766,7 +11766,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a map",
+        "summary": "update a map [DRAFT]",
         "tags": [
           "maps"
         ]
@@ -11819,7 +11819,7 @@
             "description": "OK"
           }
         },
-        "summary": "list messageConversations",
+        "summary": "list messageConversations [DRAFT]",
         "tags": [
           "messageConversations"
         ]
@@ -11883,7 +11883,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a messageConversation by ID",
+        "summary": "delete a messageConversation by ID [DRAFT]",
         "tags": [
           "messageConversations"
         ]
@@ -11938,7 +11938,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a messageConversation by ID",
+        "summary": "get a messageConversation by ID [DRAFT]",
         "tags": [
           "messageConversations"
         ]
@@ -12061,7 +12061,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a messageConversation",
+        "summary": "update a messageConversation [DRAFT]",
         "tags": [
           "messageConversations"
         ]
@@ -12114,7 +12114,7 @@
             "description": "OK"
           }
         },
-        "summary": "list metadata/version",
+        "summary": "list metadata/version [DRAFT]",
         "tags": [
           "metadata"
         ]
@@ -12178,7 +12178,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a metadata by ID",
+        "summary": "delete a metadata by ID [DRAFT]",
         "tags": [
           "metadata"
         ]
@@ -12233,7 +12233,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a metadata by ID",
+        "summary": "get a metadata by ID [DRAFT]",
         "tags": [
           "metadata"
         ]
@@ -12356,7 +12356,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a metadata",
+        "summary": "update a metadata [DRAFT]",
         "tags": [
           "metadata"
         ]
@@ -12409,7 +12409,7 @@
             "description": "OK"
           }
         },
-        "summary": "list minMaxDataElements",
+        "summary": "list minMaxDataElements [DRAFT]",
         "tags": [
           "minMaxDataElements"
         ]
@@ -12473,7 +12473,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a minMaxDataElement by ID",
+        "summary": "delete a minMaxDataElement by ID [DRAFT]",
         "tags": [
           "minMaxDataElements"
         ]
@@ -12528,7 +12528,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a minMaxDataElement by ID",
+        "summary": "get a minMaxDataElement by ID [DRAFT]",
         "tags": [
           "minMaxDataElements"
         ]
@@ -12651,7 +12651,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a minMaxDataElement",
+        "summary": "update a minMaxDataElement [DRAFT]",
         "tags": [
           "minMaxDataElements"
         ]
@@ -12704,7 +12704,7 @@
             "description": "OK"
           }
         },
-        "summary": "list oAuth2Clients",
+        "summary": "list oAuth2Clients [DRAFT]",
         "tags": [
           "oAuth2Clients"
         ]
@@ -12743,7 +12743,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create oAuth2Clients",
+        "summary": "create oAuth2Clients [DRAFT]",
         "tags": [
           "oAuth2Clients"
         ]
@@ -12807,7 +12807,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a oAuth2Client by ID",
+        "summary": "delete a oAuth2Client by ID [DRAFT]",
         "tags": [
           "oAuth2Clients"
         ]
@@ -12862,7 +12862,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a oAuth2Client by ID",
+        "summary": "get a oAuth2Client by ID [DRAFT]",
         "tags": [
           "oAuth2Clients"
         ]
@@ -12985,7 +12985,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a oAuth2Client",
+        "summary": "update a oAuth2Client [DRAFT]",
         "tags": [
           "oAuth2Clients"
         ]
@@ -13038,7 +13038,7 @@
             "description": "OK"
           }
         },
-        "summary": "list optionGroupSets",
+        "summary": "list optionGroupSets [DRAFT]",
         "tags": [
           "optionGroupSets"
         ]
@@ -13077,7 +13077,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create optionGroupSets",
+        "summary": "create optionGroupSets [DRAFT]",
         "tags": [
           "optionGroupSets"
         ]
@@ -13141,7 +13141,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a optionGroupSet by ID",
+        "summary": "delete a optionGroupSet by ID [DRAFT]",
         "tags": [
           "optionGroupSets"
         ]
@@ -13196,7 +13196,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a optionGroupSet by ID",
+        "summary": "get a optionGroupSet by ID [DRAFT]",
         "tags": [
           "optionGroupSets"
         ]
@@ -13319,7 +13319,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a optionGroupSet",
+        "summary": "update a optionGroupSet [DRAFT]",
         "tags": [
           "optionGroupSets"
         ]
@@ -13372,7 +13372,7 @@
             "description": "OK"
           }
         },
-        "summary": "list optionGroups",
+        "summary": "list optionGroups [DRAFT]",
         "tags": [
           "optionGroups"
         ]
@@ -13411,7 +13411,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create optionGroups",
+        "summary": "create optionGroups [DRAFT]",
         "tags": [
           "optionGroups"
         ]
@@ -13475,7 +13475,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a optionGroup by ID",
+        "summary": "delete a optionGroup by ID [DRAFT]",
         "tags": [
           "optionGroups"
         ]
@@ -13530,7 +13530,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a optionGroup by ID",
+        "summary": "get a optionGroup by ID [DRAFT]",
         "tags": [
           "optionGroups"
         ]
@@ -13653,7 +13653,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a optionGroup",
+        "summary": "update a optionGroup [DRAFT]",
         "tags": [
           "optionGroups"
         ]
@@ -13706,7 +13706,7 @@
             "description": "OK"
           }
         },
-        "summary": "list optionSets",
+        "summary": "list optionSets [DRAFT]",
         "tags": [
           "optionSets"
         ]
@@ -13756,7 +13756,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create optionSets",
+        "summary": "create optionSets [DRAFT]",
         "tags": [
           "optionSets"
         ]
@@ -13820,7 +13820,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a optionSet by ID",
+        "summary": "delete a optionSet by ID [DRAFT]",
         "tags": [
           "optionSets"
         ]
@@ -13875,7 +13875,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a optionSet by ID",
+        "summary": "get a optionSet by ID [DRAFT]",
         "tags": [
           "optionSets"
         ]
@@ -13998,7 +13998,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a optionSet",
+        "summary": "update a optionSet [DRAFT]",
         "tags": [
           "optionSets"
         ]
@@ -14051,7 +14051,7 @@
             "description": "OK"
           }
         },
-        "summary": "list options",
+        "summary": "list options [DRAFT]",
         "tags": [
           "options"
         ]
@@ -14101,7 +14101,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create options",
+        "summary": "create options [DRAFT]",
         "tags": [
           "options"
         ]
@@ -14165,7 +14165,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a option by ID",
+        "summary": "delete a option by ID [DRAFT]",
         "tags": [
           "options"
         ]
@@ -14220,7 +14220,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a option by ID",
+        "summary": "get a option by ID [DRAFT]",
         "tags": [
           "options"
         ]
@@ -14343,7 +14343,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a option",
+        "summary": "update a option [DRAFT]",
         "tags": [
           "options"
         ]
@@ -14396,7 +14396,7 @@
             "description": "OK"
           }
         },
-        "summary": "list organisationUnitGroupSets",
+        "summary": "list organisationUnitGroupSets [DRAFT]",
         "tags": [
           "organisationUnitGroupSets"
         ]
@@ -14446,7 +14446,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create organisationUnitGroupSets",
+        "summary": "create organisationUnitGroupSets [DRAFT]",
         "tags": [
           "organisationUnitGroupSets"
         ]
@@ -14510,7 +14510,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a organisationUnitGroupSet by ID",
+        "summary": "delete a organisationUnitGroupSet by ID [DRAFT]",
         "tags": [
           "organisationUnitGroupSets"
         ]
@@ -14565,7 +14565,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a organisationUnitGroupSet by ID",
+        "summary": "get a organisationUnitGroupSet by ID [DRAFT]",
         "tags": [
           "organisationUnitGroupSets"
         ]
@@ -14688,7 +14688,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a organisationUnitGroupSet",
+        "summary": "update a organisationUnitGroupSet [DRAFT]",
         "tags": [
           "organisationUnitGroupSets"
         ]
@@ -14741,7 +14741,7 @@
             "description": "OK"
           }
         },
-        "summary": "list organisationUnitGroups",
+        "summary": "list organisationUnitGroups [DRAFT]",
         "tags": [
           "organisationUnitGroups"
         ]
@@ -14791,7 +14791,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create organisationUnitGroups",
+        "summary": "create organisationUnitGroups [DRAFT]",
         "tags": [
           "organisationUnitGroups"
         ]
@@ -14855,7 +14855,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a organisationUnitGroup by ID",
+        "summary": "delete a organisationUnitGroup by ID [DRAFT]",
         "tags": [
           "organisationUnitGroups"
         ]
@@ -14910,7 +14910,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a organisationUnitGroup by ID",
+        "summary": "get a organisationUnitGroup by ID [DRAFT]",
         "tags": [
           "organisationUnitGroups"
         ]
@@ -15033,7 +15033,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a organisationUnitGroup",
+        "summary": "update a organisationUnitGroup [DRAFT]",
         "tags": [
           "organisationUnitGroups"
         ]
@@ -15086,7 +15086,7 @@
             "description": "OK"
           }
         },
-        "summary": "list organisationUnitLevels",
+        "summary": "list organisationUnitLevels [DRAFT]",
         "tags": [
           "organisationUnitLevels"
         ]
@@ -15150,7 +15150,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a organisationUnitLevel by ID",
+        "summary": "delete a organisationUnitLevel by ID [DRAFT]",
         "tags": [
           "organisationUnitLevels"
         ]
@@ -15205,7 +15205,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a organisationUnitLevel by ID",
+        "summary": "get a organisationUnitLevel by ID [DRAFT]",
         "tags": [
           "organisationUnitLevels"
         ]
@@ -15328,7 +15328,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a organisationUnitLevel",
+        "summary": "update a organisationUnitLevel [DRAFT]",
         "tags": [
           "organisationUnitLevels"
         ]
@@ -15381,7 +15381,7 @@
             "description": "OK"
           }
         },
-        "summary": "list organisationUnits",
+        "summary": "list organisationUnits [DRAFT]",
         "tags": [
           "organisationUnits"
         ]
@@ -15431,7 +15431,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create organisationUnits",
+        "summary": "create organisationUnits [DRAFT]",
         "tags": [
           "organisationUnits"
         ]
@@ -15495,7 +15495,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a organisationUnit by ID",
+        "summary": "delete a organisationUnit by ID [DRAFT]",
         "tags": [
           "organisationUnits"
         ]
@@ -15550,7 +15550,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a organisationUnit by ID",
+        "summary": "get a organisationUnit by ID [DRAFT]",
         "tags": [
           "organisationUnits"
         ]
@@ -15673,7 +15673,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a organisationUnit",
+        "summary": "update a organisationUnit [DRAFT]",
         "tags": [
           "organisationUnits"
         ]
@@ -15726,7 +15726,7 @@
             "description": "OK"
           }
         },
-        "summary": "list predictors",
+        "summary": "list predictors [DRAFT]",
         "tags": [
           "predictors"
         ]
@@ -15790,7 +15790,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a predictor by ID",
+        "summary": "delete a predictor by ID [DRAFT]",
         "tags": [
           "predictors"
         ]
@@ -15845,7 +15845,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a predictor by ID",
+        "summary": "get a predictor by ID [DRAFT]",
         "tags": [
           "predictors"
         ]
@@ -15968,7 +15968,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a predictor",
+        "summary": "update a predictor [DRAFT]",
         "tags": [
           "predictors"
         ]
@@ -16021,7 +16021,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programDataElements",
+        "summary": "list programDataElements [DRAFT]",
         "tags": [
           "programDataElements"
         ]
@@ -16085,7 +16085,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programDataElement by ID",
+        "summary": "delete a programDataElement by ID [DRAFT]",
         "tags": [
           "programDataElements"
         ]
@@ -16140,7 +16140,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programDataElement by ID",
+        "summary": "get a programDataElement by ID [DRAFT]",
         "tags": [
           "programDataElements"
         ]
@@ -16263,7 +16263,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programDataElement",
+        "summary": "update a programDataElement [DRAFT]",
         "tags": [
           "programDataElements"
         ]
@@ -16316,7 +16316,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programIndicatorGroups",
+        "summary": "list programIndicatorGroups [DRAFT]",
         "tags": [
           "programIndicatorGroups"
         ]
@@ -16366,7 +16366,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programIndicatorGroups",
+        "summary": "create programIndicatorGroups [DRAFT]",
         "tags": [
           "programIndicatorGroups"
         ]
@@ -16430,7 +16430,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programIndicatorGroup by ID",
+        "summary": "delete a programIndicatorGroup by ID [DRAFT]",
         "tags": [
           "programIndicatorGroups"
         ]
@@ -16485,7 +16485,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programIndicatorGroup by ID",
+        "summary": "get a programIndicatorGroup by ID [DRAFT]",
         "tags": [
           "programIndicatorGroups"
         ]
@@ -16608,7 +16608,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programIndicatorGroup",
+        "summary": "update a programIndicatorGroup [DRAFT]",
         "tags": [
           "programIndicatorGroups"
         ]
@@ -16661,7 +16661,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programIndicators",
+        "summary": "list programIndicators [DRAFT]",
         "tags": [
           "programIndicators"
         ]
@@ -16700,7 +16700,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programIndicators",
+        "summary": "create programIndicators [DRAFT]",
         "tags": [
           "programIndicators"
         ]
@@ -16764,7 +16764,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programIndicator by ID",
+        "summary": "delete a programIndicator by ID [DRAFT]",
         "tags": [
           "programIndicators"
         ]
@@ -16819,7 +16819,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programIndicator by ID",
+        "summary": "get a programIndicator by ID [DRAFT]",
         "tags": [
           "programIndicators"
         ]
@@ -16942,7 +16942,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programIndicator",
+        "summary": "update a programIndicator [DRAFT]",
         "tags": [
           "programIndicators"
         ]
@@ -16995,7 +16995,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programNotificationTemplates",
+        "summary": "list programNotificationTemplates [DRAFT]",
         "tags": [
           "programNotificationTemplates"
         ]
@@ -17059,7 +17059,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programNotificationTemplate by ID",
+        "summary": "delete a programNotificationTemplate by ID [DRAFT]",
         "tags": [
           "programNotificationTemplates"
         ]
@@ -17114,7 +17114,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programNotificationTemplate by ID",
+        "summary": "get a programNotificationTemplate by ID [DRAFT]",
         "tags": [
           "programNotificationTemplates"
         ]
@@ -17237,7 +17237,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programNotificationTemplate",
+        "summary": "update a programNotificationTemplate [DRAFT]",
         "tags": [
           "programNotificationTemplates"
         ]
@@ -17290,7 +17290,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programRuleActions",
+        "summary": "list programRuleActions [DRAFT]",
         "tags": [
           "programRuleActions"
         ]
@@ -17340,7 +17340,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programRuleActions",
+        "summary": "create programRuleActions [DRAFT]",
         "tags": [
           "programRuleActions"
         ]
@@ -17404,7 +17404,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programRuleAction by ID",
+        "summary": "delete a programRuleAction by ID [DRAFT]",
         "tags": [
           "programRuleActions"
         ]
@@ -17459,7 +17459,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programRuleAction by ID",
+        "summary": "get a programRuleAction by ID [DRAFT]",
         "tags": [
           "programRuleActions"
         ]
@@ -17582,7 +17582,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programRuleAction",
+        "summary": "update a programRuleAction [DRAFT]",
         "tags": [
           "programRuleActions"
         ]
@@ -17635,7 +17635,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programRuleVariables",
+        "summary": "list programRuleVariables [DRAFT]",
         "tags": [
           "programRuleVariables"
         ]
@@ -17674,7 +17674,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programRuleVariables",
+        "summary": "create programRuleVariables [DRAFT]",
         "tags": [
           "programRuleVariables"
         ]
@@ -17738,7 +17738,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programRuleVariable by ID",
+        "summary": "delete a programRuleVariable by ID [DRAFT]",
         "tags": [
           "programRuleVariables"
         ]
@@ -17793,7 +17793,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programRuleVariable by ID",
+        "summary": "get a programRuleVariable by ID [DRAFT]",
         "tags": [
           "programRuleVariables"
         ]
@@ -17916,7 +17916,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programRuleVariable",
+        "summary": "update a programRuleVariable [DRAFT]",
         "tags": [
           "programRuleVariables"
         ]
@@ -17969,7 +17969,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programRules",
+        "summary": "list programRules [DRAFT]",
         "tags": [
           "programRules"
         ]
@@ -18008,7 +18008,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programRules",
+        "summary": "create programRules [DRAFT]",
         "tags": [
           "programRules"
         ]
@@ -18072,7 +18072,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programRule by ID",
+        "summary": "delete a programRule by ID [DRAFT]",
         "tags": [
           "programRules"
         ]
@@ -18127,7 +18127,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programRule by ID",
+        "summary": "get a programRule by ID [DRAFT]",
         "tags": [
           "programRules"
         ]
@@ -18250,7 +18250,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programRule",
+        "summary": "update a programRule [DRAFT]",
         "tags": [
           "programRules"
         ]
@@ -18303,7 +18303,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programSections",
+        "summary": "list programSections [DRAFT]",
         "tags": [
           "programSections"
         ]
@@ -18342,7 +18342,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programSections",
+        "summary": "create programSections [DRAFT]",
         "tags": [
           "programSections"
         ]
@@ -18406,7 +18406,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programSection by ID",
+        "summary": "delete a programSection by ID [DRAFT]",
         "tags": [
           "programSections"
         ]
@@ -18461,7 +18461,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programSection by ID",
+        "summary": "get a programSection by ID [DRAFT]",
         "tags": [
           "programSections"
         ]
@@ -18584,7 +18584,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programSection",
+        "summary": "update a programSection [DRAFT]",
         "tags": [
           "programSections"
         ]
@@ -18637,7 +18637,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programStageSections",
+        "summary": "list programStageSections [DRAFT]",
         "tags": [
           "programStageSections"
         ]
@@ -18676,7 +18676,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programStageSections",
+        "summary": "create programStageSections [DRAFT]",
         "tags": [
           "programStageSections"
         ]
@@ -18740,7 +18740,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programStageSection by ID",
+        "summary": "delete a programStageSection by ID [DRAFT]",
         "tags": [
           "programStageSections"
         ]
@@ -18795,7 +18795,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programStageSection by ID",
+        "summary": "get a programStageSection by ID [DRAFT]",
         "tags": [
           "programStageSections"
         ]
@@ -18918,7 +18918,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programStageSection",
+        "summary": "update a programStageSection [DRAFT]",
         "tags": [
           "programStageSections"
         ]
@@ -18971,7 +18971,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programStages",
+        "summary": "list programStages [DRAFT]",
         "tags": [
           "programStages"
         ]
@@ -18999,7 +18999,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programStages",
+        "summary": "create programStages [DRAFT]",
         "tags": [
           "programStages"
         ]
@@ -19063,7 +19063,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programStage by ID",
+        "summary": "delete a programStage by ID [DRAFT]",
         "tags": [
           "programStages"
         ]
@@ -19118,7 +19118,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programStage by ID",
+        "summary": "get a programStage by ID [DRAFT]",
         "tags": [
           "programStages"
         ]
@@ -19241,7 +19241,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programStage",
+        "summary": "update a programStage [DRAFT]",
         "tags": [
           "programStages"
         ]
@@ -19294,7 +19294,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programTrackedEntityAttributeGroups",
+        "summary": "list programTrackedEntityAttributeGroups [DRAFT]",
         "tags": [
           "programTrackedEntityAttributeGroups"
         ]
@@ -19333,7 +19333,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programTrackedEntityAttributeGroups",
+        "summary": "create programTrackedEntityAttributeGroups [DRAFT]",
         "tags": [
           "programTrackedEntityAttributeGroups"
         ]
@@ -19397,7 +19397,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a programTrackedEntityAttributeGroup by ID",
+        "summary": "delete a programTrackedEntityAttributeGroup by ID [DRAFT]",
         "tags": [
           "programTrackedEntityAttributeGroups"
         ]
@@ -19452,7 +19452,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a programTrackedEntityAttributeGroup by ID",
+        "summary": "get a programTrackedEntityAttributeGroup by ID [DRAFT]",
         "tags": [
           "programTrackedEntityAttributeGroups"
         ]
@@ -19575,7 +19575,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a programTrackedEntityAttributeGroup",
+        "summary": "update a programTrackedEntityAttributeGroup [DRAFT]",
         "tags": [
           "programTrackedEntityAttributeGroups"
         ]
@@ -19628,7 +19628,7 @@
             "description": "OK"
           }
         },
-        "summary": "list programs",
+        "summary": "list programs [DRAFT]",
         "tags": [
           "programs"
         ]
@@ -19678,7 +19678,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create programs",
+        "summary": "create programs [DRAFT]",
         "tags": [
           "programs"
         ]
@@ -19742,7 +19742,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a program by ID",
+        "summary": "delete a program by ID [DRAFT]",
         "tags": [
           "programs"
         ]
@@ -19797,7 +19797,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a program by ID",
+        "summary": "get a program by ID [DRAFT]",
         "tags": [
           "programs"
         ]
@@ -19920,7 +19920,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a program",
+        "summary": "update a program [DRAFT]",
         "tags": [
           "programs"
         ]
@@ -19973,7 +19973,7 @@
             "description": "OK"
           }
         },
-        "summary": "list pushAnalysis",
+        "summary": "list pushAnalysis [DRAFT]",
         "tags": [
           "pushAnalysis"
         ]
@@ -20037,7 +20037,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a pushAnalysi by ID",
+        "summary": "delete a pushAnalysi by ID [DRAFT]",
         "tags": [
           "pushAnalysis"
         ]
@@ -20092,7 +20092,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a pushAnalysi by ID",
+        "summary": "get a pushAnalysi by ID [DRAFT]",
         "tags": [
           "pushAnalysis"
         ]
@@ -20215,7 +20215,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a pushAnalysi",
+        "summary": "update a pushAnalysi [DRAFT]",
         "tags": [
           "pushAnalysis"
         ]
@@ -20268,7 +20268,7 @@
             "description": "OK"
           }
         },
-        "summary": "list relationshipTypes",
+        "summary": "list relationshipTypes [DRAFT]",
         "tags": [
           "relationshipTypes"
         ]
@@ -20307,7 +20307,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create relationshipTypes",
+        "summary": "create relationshipTypes [DRAFT]",
         "tags": [
           "relationshipTypes"
         ]
@@ -20371,7 +20371,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a relationshipType by ID",
+        "summary": "delete a relationshipType by ID [DRAFT]",
         "tags": [
           "relationshipTypes"
         ]
@@ -20426,7 +20426,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a relationshipType by ID",
+        "summary": "get a relationshipType by ID [DRAFT]",
         "tags": [
           "relationshipTypes"
         ]
@@ -20549,7 +20549,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a relationshipType",
+        "summary": "update a relationshipType [DRAFT]",
         "tags": [
           "relationshipTypes"
         ]
@@ -20602,7 +20602,7 @@
             "description": "OK"
           }
         },
-        "summary": "list reportTables",
+        "summary": "list reportTables [DRAFT]",
         "tags": [
           "reportTables"
         ]
@@ -20652,7 +20652,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create reportTables",
+        "summary": "create reportTables [DRAFT]",
         "tags": [
           "reportTables"
         ]
@@ -20716,7 +20716,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a reportTable by ID",
+        "summary": "delete a reportTable by ID [DRAFT]",
         "tags": [
           "reportTables"
         ]
@@ -20771,7 +20771,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a reportTable by ID",
+        "summary": "get a reportTable by ID [DRAFT]",
         "tags": [
           "reportTables"
         ]
@@ -20894,7 +20894,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a reportTable",
+        "summary": "update a reportTable [DRAFT]",
         "tags": [
           "reportTables"
         ]
@@ -20947,7 +20947,7 @@
             "description": "OK"
           }
         },
-        "summary": "list reports",
+        "summary": "list reports [DRAFT]",
         "tags": [
           "reports"
         ]
@@ -20986,7 +20986,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create reports",
+        "summary": "create reports [DRAFT]",
         "tags": [
           "reports"
         ]
@@ -21050,7 +21050,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a report by ID",
+        "summary": "delete a report by ID [DRAFT]",
         "tags": [
           "reports"
         ]
@@ -21105,7 +21105,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a report by ID",
+        "summary": "get a report by ID [DRAFT]",
         "tags": [
           "reports"
         ]
@@ -21228,7 +21228,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a report",
+        "summary": "update a report [DRAFT]",
         "tags": [
           "reports"
         ]
@@ -21281,7 +21281,7 @@
             "description": "OK"
           }
         },
-        "summary": "list sections",
+        "summary": "list sections [DRAFT]",
         "tags": [
           "sections"
         ]
@@ -21320,7 +21320,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create sections",
+        "summary": "create sections [DRAFT]",
         "tags": [
           "sections"
         ]
@@ -21384,7 +21384,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a section by ID",
+        "summary": "delete a section by ID [DRAFT]",
         "tags": [
           "sections"
         ]
@@ -21439,7 +21439,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a section by ID",
+        "summary": "get a section by ID [DRAFT]",
         "tags": [
           "sections"
         ]
@@ -21562,7 +21562,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a section",
+        "summary": "update a section [DRAFT]",
         "tags": [
           "sections"
         ]
@@ -21615,7 +21615,7 @@
             "description": "OK"
           }
         },
-        "summary": "list smsCommands",
+        "summary": "list smsCommands [DRAFT]",
         "tags": [
           "smsCommands"
         ]
@@ -21643,7 +21643,7 @@
             "description": "Created"
           }
         },
-        "summary": "create smsCommands",
+        "summary": "create smsCommands [DRAFT]",
         "tags": [
           "smsCommands"
         ]
@@ -21707,7 +21707,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a smsCommand by ID",
+        "summary": "delete a smsCommand by ID [DRAFT]",
         "tags": [
           "smsCommands"
         ]
@@ -21762,7 +21762,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a smsCommand by ID",
+        "summary": "get a smsCommand by ID [DRAFT]",
         "tags": [
           "smsCommands"
         ]
@@ -21885,7 +21885,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a smsCommand",
+        "summary": "update a smsCommand [DRAFT]",
         "tags": [
           "smsCommands"
         ]
@@ -21938,7 +21938,7 @@
             "description": "OK"
           }
         },
-        "summary": "list sqlViews",
+        "summary": "list sqlViews [DRAFT]",
         "tags": [
           "sqlViews"
         ]
@@ -21999,7 +21999,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create sqlViews",
+        "summary": "create sqlViews [DRAFT]",
         "tags": [
           "sqlViews"
         ]
@@ -22063,7 +22063,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a sqlView by ID",
+        "summary": "delete a sqlView by ID [DRAFT]",
         "tags": [
           "sqlViews"
         ]
@@ -22118,7 +22118,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a sqlView by ID",
+        "summary": "get a sqlView by ID [DRAFT]",
         "tags": [
           "sqlViews"
         ]
@@ -22241,7 +22241,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a sqlView",
+        "summary": "update a sqlView [DRAFT]",
         "tags": [
           "sqlViews"
         ]
@@ -22294,7 +22294,7 @@
             "description": "OK"
           }
         },
-        "summary": "list trackedEntityAttributes",
+        "summary": "list trackedEntityAttributes [DRAFT]",
         "tags": [
           "trackedEntityAttributes"
         ]
@@ -22344,7 +22344,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create trackedEntityAttributes",
+        "summary": "create trackedEntityAttributes [DRAFT]",
         "tags": [
           "trackedEntityAttributes"
         ]
@@ -22408,7 +22408,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a trackedEntityAttribute by ID",
+        "summary": "delete a trackedEntityAttribute by ID [DRAFT]",
         "tags": [
           "trackedEntityAttributes"
         ]
@@ -22463,7 +22463,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a trackedEntityAttribute by ID",
+        "summary": "get a trackedEntityAttribute by ID [DRAFT]",
         "tags": [
           "trackedEntityAttributes"
         ]
@@ -22586,7 +22586,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a trackedEntityAttribute",
+        "summary": "update a trackedEntityAttribute [DRAFT]",
         "tags": [
           "trackedEntityAttributes"
         ]
@@ -22668,7 +22668,7 @@
             "description": "Conflict"
           }
         },
-        "summary": "list trackedEntityInstances",
+        "summary": "list trackedEntityInstances [DRAFT]",
         "tags": [
           "trackedEntityInstances"
         ]
@@ -22750,7 +22750,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a trackedEntityInstance by ID",
+        "summary": "delete a trackedEntityInstance by ID [DRAFT]",
         "tags": [
           "trackedEntityInstances"
         ]
@@ -22805,7 +22805,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a trackedEntityInstance by ID",
+        "summary": "get a trackedEntityInstance by ID [DRAFT]",
         "tags": [
           "trackedEntityInstances"
         ]
@@ -22928,7 +22928,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a trackedEntityInstance",
+        "summary": "update a trackedEntityInstance [DRAFT]",
         "tags": [
           "trackedEntityInstances"
         ]
@@ -22981,7 +22981,7 @@
             "description": "OK"
           }
         },
-        "summary": "list trackedEntityTypes",
+        "summary": "list trackedEntityTypes [DRAFT]",
         "tags": [
           "trackedEntityTypes"
         ]
@@ -23031,7 +23031,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create trackedEntityTypes",
+        "summary": "create trackedEntityTypes [DRAFT]",
         "tags": [
           "trackedEntityTypes"
         ]
@@ -23095,7 +23095,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a trackedEntityType by ID",
+        "summary": "delete a trackedEntityType by ID [DRAFT]",
         "tags": [
           "trackedEntityTypes"
         ]
@@ -23150,7 +23150,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a trackedEntityType by ID",
+        "summary": "get a trackedEntityType by ID [DRAFT]",
         "tags": [
           "trackedEntityTypes"
         ]
@@ -23273,7 +23273,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a trackedEntityType",
+        "summary": "update a trackedEntityType [DRAFT]",
         "tags": [
           "trackedEntityTypes"
         ]
@@ -23326,7 +23326,7 @@
             "description": "OK"
           }
         },
-        "summary": "list userGroups",
+        "summary": "list userGroups [DRAFT]",
         "tags": [
           "userGroups"
         ]
@@ -23376,7 +23376,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create userGroups",
+        "summary": "create userGroups [DRAFT]",
         "tags": [
           "userGroups"
         ]
@@ -23440,7 +23440,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a userGroup by ID",
+        "summary": "delete a userGroup by ID [DRAFT]",
         "tags": [
           "userGroups"
         ]
@@ -23495,7 +23495,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a userGroup by ID",
+        "summary": "get a userGroup by ID [DRAFT]",
         "tags": [
           "userGroups"
         ]
@@ -23618,7 +23618,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a userGroup",
+        "summary": "update a userGroup [DRAFT]",
         "tags": [
           "userGroups"
         ]
@@ -23671,7 +23671,7 @@
             "description": "OK"
           }
         },
-        "summary": "list userRoles",
+        "summary": "list userRoles [DRAFT]",
         "tags": [
           "userRoles"
         ]
@@ -23710,7 +23710,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create userRoles",
+        "summary": "create userRoles [DRAFT]",
         "tags": [
           "userRoles"
         ]
@@ -23774,7 +23774,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a userRole by ID",
+        "summary": "delete a userRole by ID [DRAFT]",
         "tags": [
           "userRoles"
         ]
@@ -23829,7 +23829,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a userRole by ID",
+        "summary": "get a userRole by ID [DRAFT]",
         "tags": [
           "userRoles"
         ]
@@ -23952,7 +23952,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a userRole",
+        "summary": "update a userRole [DRAFT]",
         "tags": [
           "userRoles"
         ]
@@ -24005,7 +24005,7 @@
             "description": "OK"
           }
         },
-        "summary": "list users",
+        "summary": "list users [DRAFT]",
         "tags": [
           "users"
         ]
@@ -24069,7 +24069,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a user by ID",
+        "summary": "delete a user by ID [DRAFT]",
         "tags": [
           "users"
         ]
@@ -24124,7 +24124,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a user by ID",
+        "summary": "get a user by ID [DRAFT]",
         "tags": [
           "users"
         ]
@@ -24247,7 +24247,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a user",
+        "summary": "update a user [DRAFT]",
         "tags": [
           "users"
         ]
@@ -24300,7 +24300,7 @@
             "description": "OK"
           }
         },
-        "summary": "list validationNotificationTemplates",
+        "summary": "list validationNotificationTemplates [DRAFT]",
         "tags": [
           "validationNotificationTemplates"
         ]
@@ -24364,7 +24364,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a validationNotificationTemplate by ID",
+        "summary": "delete a validationNotificationTemplate by ID [DRAFT]",
         "tags": [
           "validationNotificationTemplates"
         ]
@@ -24419,7 +24419,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a validationNotificationTemplate by ID",
+        "summary": "get a validationNotificationTemplate by ID [DRAFT]",
         "tags": [
           "validationNotificationTemplates"
         ]
@@ -24542,7 +24542,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a validationNotificationTemplate",
+        "summary": "update a validationNotificationTemplate [DRAFT]",
         "tags": [
           "validationNotificationTemplates"
         ]
@@ -24595,7 +24595,7 @@
             "description": "OK"
           }
         },
-        "summary": "list validationResults",
+        "summary": "list validationResults [DRAFT]",
         "tags": [
           "validationResults"
         ]
@@ -24659,7 +24659,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a validationResult by ID",
+        "summary": "delete a validationResult by ID [DRAFT]",
         "tags": [
           "validationResults"
         ]
@@ -24714,7 +24714,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a validationResult by ID",
+        "summary": "get a validationResult by ID [DRAFT]",
         "tags": [
           "validationResults"
         ]
@@ -24837,7 +24837,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a validationResult",
+        "summary": "update a validationResult [DRAFT]",
         "tags": [
           "validationResults"
         ]
@@ -24890,7 +24890,7 @@
             "description": "OK"
           }
         },
-        "summary": "list validationRuleGroups",
+        "summary": "list validationRuleGroups [DRAFT]",
         "tags": [
           "validationRuleGroups"
         ]
@@ -24940,7 +24940,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create validationRuleGroups",
+        "summary": "create validationRuleGroups [DRAFT]",
         "tags": [
           "validationRuleGroups"
         ]
@@ -25004,7 +25004,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a validationRuleGroup by ID",
+        "summary": "delete a validationRuleGroup by ID [DRAFT]",
         "tags": [
           "validationRuleGroups"
         ]
@@ -25059,7 +25059,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a validationRuleGroup by ID",
+        "summary": "get a validationRuleGroup by ID [DRAFT]",
         "tags": [
           "validationRuleGroups"
         ]
@@ -25182,7 +25182,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a validationRuleGroup",
+        "summary": "update a validationRuleGroup [DRAFT]",
         "tags": [
           "validationRuleGroups"
         ]
@@ -25235,7 +25235,7 @@
             "description": "OK"
           }
         },
-        "summary": "list validationRules",
+        "summary": "list validationRules [DRAFT]",
         "tags": [
           "validationRules"
         ]
@@ -25274,7 +25274,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "create validationRules",
+        "summary": "create validationRules [DRAFT]",
         "tags": [
           "validationRules"
         ]
@@ -25338,7 +25338,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "delete a validationRule by ID",
+        "summary": "delete a validationRule by ID [DRAFT]",
         "tags": [
           "validationRules"
         ]
@@ -25393,7 +25393,7 @@
             "description": "Not Found"
           }
         },
-        "summary": "get a validationRule by ID",
+        "summary": "get a validationRule by ID [DRAFT]",
         "tags": [
           "validationRules"
         ]
@@ -25516,7 +25516,7 @@
             "description": "Internal Server Error"
           }
         },
-        "summary": "update a validationRule",
+        "summary": "update a validationRule [DRAFT]",
         "tags": [
           "validationRules"
         ]
