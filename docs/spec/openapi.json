@@ -319,11 +319,7 @@
             "type": "boolean"
           },
           "href": {
-            "format": "url",
-            "maxLength": 255,
-            "minLength": 1,
-            "readOnly": false,
-            "type": "string"
+            "$ref": "#/components/schemas/href"
           },
           "id": {
             "format": "uid",
@@ -3872,11 +3868,7 @@
                             "type": "array"
                           },
                           "href": {
-                            "example": "http://localhost:8080/api/legendSets/Yf6UHoPkdS6",
-                            "format": "url",
-                            "maxLength": 255,
-                            "minLength": 1,
-                            "type": "string"
+                            "$ref": "#/components/schemas/href"
                           },
                           "id": {
                             "example": "Yf6UHoPkdS6",
@@ -6672,11 +6664,7 @@
                         "type": "array"
                       },
                       "href": {
-                        "example": "http://localhost:8080/api/reports/Kvg1AhYHM8Q",
-                        "format": "url",
-                        "maxLength": 255,
-                        "minLength": 1,
-                        "type": "string"
+                        "$ref": "#/components/schemas/href"
                       },
                       "id": {
                         "example": "Kvg1AhYHM8Q",
@@ -9810,9 +9798,7 @@
             "type": "array"
           },
           "href": {
-            "format": "url",
-            "maxLength": 2147483647,
-            "type": "string"
+            "$ref": "#/components/schemas/href"
           },
           "id": {
             "example": "myid",
@@ -10544,11 +10530,7 @@
                         "type": "array"
                       },
                       "href": {
-                        "example": "http://localhost:8080/api/legendSets/Yf6UHoPkdS6",
-                        "format": "url",
-                        "maxLength": 255,
-                        "minLength": 1,
-                        "type": "string"
+                        "$ref": "#/components/schemas/href"
                       },
                       "id": {
                         "example": "Yf6UHoPkdS6",
@@ -13249,11 +13231,7 @@
                   "type": "array"
                 },
                 "href": {
-                  "example": "http://localhost:8080/api/organisationUnitLevels/tTUf91fCytl",
-                  "format": "url",
-                  "maxLength": 255,
-                  "minLength": 1,
-                  "type": "string"
+                  "$ref": "#/components/schemas/href"
                 },
                 "id": {
                   "example": "tTUf91fCytl",
@@ -14646,11 +14624,7 @@
                   "type": "array"
                 },
                 "href": {
-                  "example": "http://localhost:8080/api/organisationUnitLevels/tTUf91fCytl",
-                  "format": "url",
-                  "maxLength": 255,
-                  "minLength": 1,
-                  "type": "string"
+                  "$ref": "#/components/schemas/href"
                 },
                 "id": {
                   "example": "tTUf91fCytl",
@@ -15782,7 +15756,7 @@
         "format": "url",
         "maxLength": 255,
         "minLength": 1,
-        "readOnly": false,
+        "readOnly": true,
         "type": "string"
       },
       "htmlCode": {
@@ -19426,11 +19400,7 @@
                             "type": "array"
                           },
                           "href": {
-                            "example": "http://localhost:8080/api/legendSets/Yf6UHoPkdS6",
-                            "format": "url",
-                            "maxLength": 255,
-                            "minLength": 1,
-                            "type": "string"
+                            "$ref": "#/components/schemas/href"
                           },
                           "id": {
                             "example": "Yf6UHoPkdS6",
@@ -20595,11 +20565,7 @@
                   "type": "array"
                 },
                 "href": {
-                  "example": "http://localhost:8080/api/interpretations/c5sjWWhIPDE",
-                  "format": "url",
-                  "maxLength": 255,
-                  "minLength": 1,
-                  "type": "string"
+                  "$ref": "#/components/schemas/href"
                 },
                 "id": {
                   "example": "c5sjWWhIPDE",
@@ -26008,11 +25974,7 @@
                   "type": "string"
                 },
                 "href": {
-                  "format": "url",
-                  "maxLength": 255,
-                  "minLength": 1,
-                  "readOnly": false,
-                  "type": "string"
+                  "$ref": "#/components/schemas/href"
                 },
                 "id": {
                   "format": "uid",
@@ -26498,11 +26460,7 @@
                         "type": "boolean"
                       },
                       "href": {
-                        "format": "url",
-                        "maxLength": 255,
-                        "minLength": 1,
-                        "readOnly": false,
-                        "type": "string"
+                        "$ref": "#/components/schemas/href"
                       },
                       "id": {
                         "format": "uid",
@@ -32959,11 +32917,7 @@
                             "type": "array"
                           },
                           "href": {
-                            "example": "http://localhost:8080/api/legendSets/Yf6UHoPkdS6",
-                            "format": "url",
-                            "maxLength": 255,
-                            "minLength": 1,
-                            "type": "string"
+                            "$ref": "#/components/schemas/href"
                           },
                           "id": {
                             "example": "Yf6UHoPkdS6",
@@ -33786,11 +33740,7 @@
                             "type": "array"
                           },
                           "href": {
-                            "example": "http://localhost:8080/api/legendSets/Yf6UHoPkdS6",
-                            "format": "url",
-                            "maxLength": 255,
-                            "minLength": 1,
-                            "type": "string"
+                            "$ref": "#/components/schemas/href"
                           },
                           "id": {
                             "example": "Yf6UHoPkdS6",
@@ -35959,11 +35909,7 @@
                         "type": "array"
                       },
                       "href": {
-                        "example": "http://localhost:8080/api/legendSets/Yf6UHoPkdS6",
-                        "format": "url",
-                        "maxLength": 255,
-                        "minLength": 1,
-                        "type": "string"
+                        "$ref": "#/components/schemas/href"
                       },
                       "id": {
                         "example": "Yf6UHoPkdS6",
