@@ -11,32 +11,38 @@ import json
 
 base="../../docs/spec/"
 src="../../docs/spec/src/"
-specfile=src+"base_openapi.json"
-combifile=base+"openapi.json"
 
-def replaceRefs(spec):
-    for p in spec:
-        if "$ref" in spec[p]:
-            ref=(spec[p]["$ref"]).strip('./').split('#/')
-            f=ref[0]
-            part=ref[1]
-            tfile=open(src+f)
-            spec[p] = json.load(tfile)[part]
-            tfile.close()
-        elif isinstance(spec[p], dict):
-            replaceRefs(spec[p])
+specs=[
+    {"base":"metadata_base_openapi.json", "output":"metadata_openapi.json"},
+]
 
-ofile=open(specfile,'r')
-openapi = json.load(ofile)
-ofile.close()
+for spec in specs:
+    specfile=src+spec["base"]
+    combifile=base+spec["output"]
 
-replaceRefs(openapi)
+    def replaceRefs(spec):
+        for p in spec:
+            if "$ref" in spec[p]:
+                ref=(spec[p]["$ref"]).strip('./').split('#/')
+                f=ref[0]
+                part=ref[1]
+                tfile=open(src+f)
+                spec[p] = json.load(tfile)[part]
+                tfile.close()
+            elif isinstance(spec[p], dict):
+                replaceRefs(spec[p])
 
-jout=json.dumps(openapi , sort_keys=True, indent=2, separators=(',', ': '))
-# jout=jout.replace("#/parameters","#/components/parameters")
-# jout=jout.replace("#/schemas","#/components/schemas")
-jout=jout.replace("./components_openapi.json#","#")
+    ofile=open(specfile,'r')
+    openapi = json.load(ofile)
+    ofile.close()
 
-apifile= open(combifile,'w')
-apifile.write(jout)
-apifile.close()
+    replaceRefs(openapi)
+
+    jout=json.dumps(openapi , sort_keys=True, indent=2, separators=(',', ': '))
+    # jout=jout.replace("#/parameters","#/components/parameters")
+    # jout=jout.replace("#/schemas","#/components/schemas")
+    jout=jout.replace("./components_openapi.json#","#")
+
+    apifile= open(combifile,'w')
+    apifile.write(jout)
+    apifile.close()

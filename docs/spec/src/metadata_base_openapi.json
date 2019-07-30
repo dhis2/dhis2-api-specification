@@ -1,0 +1,41 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "$ref": "./info_openapi.json#/info"
+  },
+  "components": {
+    "$ref": "./components_openapi.json#/components"
+  },
+  "externalDocs": {
+    "description": "",
+    "url": "https://docs.dhis2.org/master/en/developer/html/dhis2_developer_manual_full.html",
+    "x-status-dhis2": "draft"
+  },
+  "paths": {
+      "$ref":"./metadata_paths_openapi.json#/paths"
+    },
+  "security": [
+    {
+      "basicAuth": []
+    },
+    {
+      "oAuth": []
+    }
+  ],
+  "servers": [
+    {
+      "description": "localhost",
+      "url": "http://localhost:8080/api"
+    },
+    {
+      "description": "DHIS2 demo server",
+      "url": "https://play.dhis2.org/2.31/api"
+    }
+  ],
+  "tags": {
+    "$ref": "./metadata_tags_openapi.json#/tags"
+  },
+  "x-draft-tagGroups": {
+    "$ref": "./metadata_tagGroups_openapi.json#/x-tagGroups"
+  }
+}

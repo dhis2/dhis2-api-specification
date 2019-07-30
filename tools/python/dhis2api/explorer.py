@@ -76,20 +76,20 @@ class specsorter:
                     self.sortList(v)
                 else:
                     l.sort()
-            
-            
+
+
     def sortDict(self,d):
         for k, v in d.items():
             if k == "tags" and not v == []:
                 if isinstance(v[0], dict):
                     # tags are not nested and should be sorted by name
-                    d[k] = sorted(v, key=itemgetter('name')) 
+                    d[k] = sorted(v, key=itemgetter('name'))
             elif isinstance(v, dict):
                 self.sortDict(v)
             else:
                 if isinstance(v, list):
                     self.sortList(v)
-    
+
     def sortspec(self):
         self.sortDict(self.myDict)
         return self.myDict
@@ -199,7 +199,7 @@ class endpoint_explorer():
             #pprint(deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint])
             if deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint]:
                 component_schema = deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint]
-                
+
                 ins = pformat(component_schema)
                 dins = literal_eval(ins)
 
@@ -250,10 +250,10 @@ class endpoint_explorer():
             return dict1
         for k in dict2:
             if k == "500":
-            if k in dict1:
-                dict1[k] = self.merge_dicts(dict1[k], dict2[k])
-            else:
-                dict1[k] = dict2[k]
+                if k in dict1:
+                    dict1[k] = self.merge_dicts(dict1[k], dict2[k])
+                else:
+                    dict1[k] = dict2[k]
         return dict1
 
     def merge_schemas(self, a, b, path=None, update=True):

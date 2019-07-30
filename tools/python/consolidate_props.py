@@ -15,8 +15,8 @@ from dhis2api.explorer import specsorter
 # outfile="schema_out.json"
 
 
-specfile="../../docs/spec/output_openapi.json"
-outfile="../../docs/spec/output_c_openapi.json"
+specfile="../../docs/spec/src/components_openapi.json"
+outfile="../../docs/spec/src/components_c_openapi.json"
 
 
 ofile=open(specfile,'r')
@@ -66,7 +66,8 @@ def chooseObjects(a,b,interactive=False):
         if interactive:
             ret = input(selector)
         else:
-            ret = "b"
+            print(selector)
+            ret = "a"
         if ret not in retcodes:
             swapKey = sCombkeys[int(ret)-1]
             print("swapping",swapKey)
@@ -116,6 +117,22 @@ def makeRef(d,props,kp,k):
             else:
                 # there is no existing schema, so add it
                 d["components"]["schemas"][kp] = props[kp]
+
+        elif props[kp]["type"] in ["array"]:
+            try:
+                subProps = props[kp]["items"]["properties"]
+                for sp in subProps.keys():
+                    makeRef( d, subProps, sp,kp)
+            except KeyError:
+                pass
+
+        elif props[kp]["type"] in ["object"]:
+            try:
+                subProps = props[kp]["properties"]
+                for sp in subProps.keys():
+                    makeRef( d, subProps, sp,kp)
+            except KeyError:
+                pass
 
 
 

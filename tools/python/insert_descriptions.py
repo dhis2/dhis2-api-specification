@@ -8,11 +8,12 @@ Created on Wed Apr 18 15:34:25 2018
 
 import requests
 import json
+import re
 
-specfile="../../docs/spec/newbase_openapi.json"
+specfile="../../docs/spec/src/info_openapi.json"
 #docsfile="../../docs/input/web_api.cm"
 
-docsfile="/home/philld/reps/dhis2-markdown-docs/src/commonmark/en/content/developer/web-api.md"
+docsfile="/home/philld/reps/dhis2-docs/src/commonmark/en/content/developer/web-api.md"
 
 
 ofile=open(specfile,'r')
@@ -68,7 +69,8 @@ def recurseDict(d,p):
                     tagE= "<!-- API-"+p+" -->"
                     text = between(docs,tagS,tagE)
                     if text != "":
-                        text = "<!-- auto-inserted: do not edit here -->"+text
+                        text = re.sub(r'([a-zA-Z])\n([a-zA-Z])',r'\1 \2',"<!-- auto-inserted: do not edit here -->"+text)
+                        #print(text[0:500])
                         d.update({"description":text})
 
 
