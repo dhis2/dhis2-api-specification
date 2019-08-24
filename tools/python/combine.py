@@ -14,6 +14,7 @@ src="../../docs/spec/src/"
 
 specs=[
     {"base":"metadata_base_openapi.json", "output":"metadata_openapi.json"},
+    {"base":"assertible_base_openapi.json", "output":"assertible_openapi.json"},
 ]
 
 for spec in specs:
