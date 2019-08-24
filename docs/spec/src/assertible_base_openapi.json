@@ -24,12 +24,8 @@
   ],
   "servers": [
     {
-      "description": "localhost",
-      "url": "http://localhost:8080/api"
-    },
-    {
       "description": "DHIS2 demo server",
-      "url": "https://play.dhis2.org/2.31/api"
+      "url": "https://verify.dhis2.org/dev/api"
     }
   ],
   "tags": {
