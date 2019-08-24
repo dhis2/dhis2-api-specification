@@ -55,6 +55,12 @@ def recurseDict(d,p):
                     del d[k]
                 except KeyError:
                     pass
+            elif k.find('{id}') != -1:
+                print(p,k)
+                try:
+                    del d[k]
+                except KeyError:
+                    pass
             else:
                 recurseDict(d[k],nP)
         else:

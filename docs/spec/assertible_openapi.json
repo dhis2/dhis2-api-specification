@@ -35054,63 +35054,6 @@
         ]
       }
     },
-    "/analyticsTableHooks/{id}": {
-      "get": {
-        "operationId": "getAnalyticsTableHook",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/analyticsTableHook"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "AnalyticsTableHook with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a analyticsTableHook by ID [DRAFT]",
-        "tags": [
-          "analyticsTableHooks"
-        ]
-      }
-    },
     "/attributes": {
       "get": {
         "parameters": [
@@ -35159,63 +35102,6 @@
           }
         },
         "summary": "list attributes [DRAFT]",
-        "tags": [
-          "attributes"
-        ]
-      }
-    },
-    "/attributes/{id}": {
-      "get": {
-        "operationId": "getAttribute",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/attribute"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Attribute with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a attribute by ID [DRAFT]",
         "tags": [
           "attributes"
         ]
@@ -35274,63 +35160,6 @@
         ]
       }
     },
-    "/categories/{id}": {
-      "get": {
-        "operationId": "getCategory",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/category"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Category with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a category by ID [DRAFT]",
-        "tags": [
-          "categories"
-        ]
-      }
-    },
     "/categoryCombos": {
       "get": {
         "parameters": [
@@ -35379,63 +35208,6 @@
           }
         },
         "summary": "list categoryCombos [DRAFT]",
-        "tags": [
-          "categoryCombos"
-        ]
-      }
-    },
-    "/categoryCombos/{id}": {
-      "get": {
-        "operationId": "getCategoryCombo",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/categoryCombo"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "CategoryCombo with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a categoryCombo by ID [DRAFT]",
         "tags": [
           "categoryCombos"
         ]
@@ -35494,63 +35266,6 @@
         ]
       }
     },
-    "/categoryOptionCombos/{id}": {
-      "get": {
-        "operationId": "getCategoryOptionCombo",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/categoryOptionCombo"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "CategoryOptionCombo with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a categoryOptionCombo by ID [DRAFT]",
-        "tags": [
-          "categoryOptionCombos"
-        ]
-      }
-    },
     "/categoryOptionGroupSets": {
       "get": {
         "parameters": [
@@ -35599,63 +35314,6 @@
           }
         },
         "summary": "list categoryOptionGroupSets [DRAFT]",
-        "tags": [
-          "categoryOptionGroupSets"
-        ]
-      }
-    },
-    "/categoryOptionGroupSets/{id}": {
-      "get": {
-        "operationId": "getCategoryOptionGroupSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/categoryOptionGroupSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "CategoryOptionGroupSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a categoryOptionGroupSet by ID [DRAFT]",
         "tags": [
           "categoryOptionGroupSets"
         ]
@@ -35714,63 +35372,6 @@
         ]
       }
     },
-    "/categoryOptionGroups/{id}": {
-      "get": {
-        "operationId": "getCategoryOptionGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/categoryOptionGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "CategoryOptionGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a categoryOptionGroup by ID [DRAFT]",
-        "tags": [
-          "categoryOptionGroups"
-        ]
-      }
-    },
     "/categoryOptions": {
       "get": {
         "parameters": [
@@ -35819,63 +35420,6 @@
           }
         },
         "summary": "list categoryOptions [DRAFT]",
-        "tags": [
-          "categoryOptions"
-        ]
-      }
-    },
-    "/categoryOptions/{id}": {
-      "get": {
-        "operationId": "getCategoryOption",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/categoryOption"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "CategoryOption with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a categoryOption by ID [DRAFT]",
         "tags": [
           "categoryOptions"
         ]
@@ -35934,63 +35478,6 @@
         ]
       }
     },
-    "/charts/{id}": {
-      "get": {
-        "operationId": "getChart",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/chart"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Chart with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a chart by ID [DRAFT]",
-        "tags": [
-          "charts"
-        ]
-      }
-    },
     "/colorSets": {
       "get": {
         "parameters": [
@@ -36039,63 +35526,6 @@
           }
         },
         "summary": "list colorSets [DRAFT]",
-        "tags": [
-          "colorSets"
-        ]
-      }
-    },
-    "/colorSets/{id}": {
-      "get": {
-        "operationId": "getColorSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/colorSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ColorSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a colorSet by ID [DRAFT]",
         "tags": [
           "colorSets"
         ]
@@ -36160,63 +35590,6 @@
         ]
       }
     },
-    "/constants/{id}": {
-      "get": {
-        "operationId": "getConstant",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/constant"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Constant with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a constant by ID [DRAFT]",
-        "tags": [
-          "constants"
-        ]
-      }
-    },
     "/dashboardItems": {
       "get": {
         "parameters": [
@@ -36265,63 +35638,6 @@
           }
         },
         "summary": "list dashboardItems [DRAFT]",
-        "tags": [
-          "dashboardItems"
-        ]
-      }
-    },
-    "/dashboardItems/{id}": {
-      "get": {
-        "operationId": "getDashboardItem",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dashboardItem"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DashboardItem with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dashboardItem by ID [DRAFT]",
         "tags": [
           "dashboardItems"
         ]
@@ -36380,63 +35696,6 @@
         ]
       }
     },
-    "/dashboards/{id}": {
-      "get": {
-        "operationId": "getDashboard",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dashboard"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Dashboard with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dashboard by ID [DRAFT]",
-        "tags": [
-          "dashboards"
-        ]
-      }
-    },
     "/dataApprovalLevels": {
       "get": {
         "parameters": [
@@ -36485,63 +35744,6 @@
           }
         },
         "summary": "list dataApprovalLevels [DRAFT]",
-        "tags": [
-          "dataApprovalLevels"
-        ]
-      }
-    },
-    "/dataApprovalLevels/{id}": {
-      "get": {
-        "operationId": "getDataApprovalLevel",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataApprovalLevel"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataApprovalLevel with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataApprovalLevel by ID [DRAFT]",
         "tags": [
           "dataApprovalLevels"
         ]
@@ -36600,63 +35802,6 @@
         ]
       }
     },
-    "/dataApprovalWorkflows/{id}": {
-      "get": {
-        "operationId": "getDataApprovalWorkflow",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataApprovalWorkflow"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataApprovalWorkflow with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataApprovalWorkflow by ID [DRAFT]",
-        "tags": [
-          "dataApprovalWorkflows"
-        ]
-      }
-    },
     "/dataElementGroupSets": {
       "get": {
         "parameters": [
@@ -36705,63 +35850,6 @@
           }
         },
         "summary": "list dataElementGroupSets [DRAFT]",
-        "tags": [
-          "dataElementGroupSets"
-        ]
-      }
-    },
-    "/dataElementGroupSets/{id}": {
-      "get": {
-        "operationId": "getDataElementGroupSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataElementGroupSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataElementGroupSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataElementGroupSet by ID [DRAFT]",
         "tags": [
           "dataElementGroupSets"
         ]
@@ -36820,63 +35908,6 @@
         ]
       }
     },
-    "/dataElementGroups/{id}": {
-      "get": {
-        "operationId": "getDataElementGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataElementGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataElementGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataElementGroup by ID [DRAFT]",
-        "tags": [
-          "dataElementGroups"
-        ]
-      }
-    },
     "/dataElementOperands": {
       "get": {
         "parameters": [
@@ -36925,63 +35956,6 @@
           }
         },
         "summary": "list dataElementOperands [DRAFT]",
-        "tags": [
-          "dataElementOperands"
-        ]
-      }
-    },
-    "/dataElementOperands/{id}": {
-      "get": {
-        "operationId": "getDataElementOperand",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataElementOperand"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataElementOperand with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataElementOperand by ID [DRAFT]",
         "tags": [
           "dataElementOperands"
         ]
@@ -37040,63 +36014,6 @@
         ]
       }
     },
-    "/dataElements/{id}": {
-      "get": {
-        "operationId": "getDataElement",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataElement"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataElement with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataElement by ID [DRAFT]",
-        "tags": [
-          "dataElements"
-        ]
-      }
-    },
     "/dataEntryForms": {
       "get": {
         "parameters": [
@@ -37145,63 +36062,6 @@
           }
         },
         "summary": "list dataEntryForms [DRAFT]",
-        "tags": [
-          "dataEntryForms"
-        ]
-      }
-    },
-    "/dataEntryForms/{id}": {
-      "get": {
-        "operationId": "getDataEntryForm",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataEntryForm"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataEntryForm with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataEntryForm by ID [DRAFT]",
         "tags": [
           "dataEntryForms"
         ]
@@ -37260,63 +36120,6 @@
         ]
       }
     },
-    "/dataSetNotificationTemplates/{id}": {
-      "get": {
-        "operationId": "getDataSetNotificationTemplate",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataSetNotificationTemplate"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataSetNotificationTemplate with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataSetNotificationTemplate by ID [DRAFT]",
-        "tags": [
-          "dataSetNotificationTemplates"
-        ]
-      }
-    },
     "/dataSets": {
       "get": {
         "parameters": [
@@ -37365,63 +36168,6 @@
           }
         },
         "summary": "list dataSets [DRAFT]",
-        "tags": [
-          "dataSets"
-        ]
-      }
-    },
-    "/dataSets/{id}": {
-      "get": {
-        "operationId": "getDataSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/dataSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "DataSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a dataSet by ID [DRAFT]",
         "tags": [
           "dataSets"
         ]
@@ -37480,63 +36226,6 @@
         ]
       }
     },
-    "/documents/{id}": {
-      "get": {
-        "operationId": "getDocument",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/document"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Document with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a document by ID [DRAFT]",
-        "tags": [
-          "documents"
-        ]
-      }
-    },
     "/eventCharts": {
       "get": {
         "parameters": [
@@ -37585,63 +36274,6 @@
           }
         },
         "summary": "list eventCharts [DRAFT]",
-        "tags": [
-          "eventCharts"
-        ]
-      }
-    },
-    "/eventCharts/{id}": {
-      "get": {
-        "operationId": "getEventChart",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/eventChart"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "EventChart with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a eventChart by ID [DRAFT]",
         "tags": [
           "eventCharts"
         ]
@@ -37700,63 +36332,6 @@
         ]
       }
     },
-    "/eventReports/{id}": {
-      "get": {
-        "operationId": "getEventReport",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/eventReport"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "EventReport with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a eventReport by ID [DRAFT]",
-        "tags": [
-          "eventReports"
-        ]
-      }
-    },
     "/externalMapLayers": {
       "get": {
         "parameters": [
@@ -37805,63 +36380,6 @@
           }
         },
         "summary": "list externalMapLayers [DRAFT]",
-        "tags": [
-          "externalMapLayers"
-        ]
-      }
-    },
-    "/externalMapLayers/{id}": {
-      "get": {
-        "operationId": "getExternalMapLayer",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/externalMapLayer"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ExternalMapLayer with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a externalMapLayer by ID [DRAFT]",
         "tags": [
           "externalMapLayers"
         ]
@@ -37920,63 +36438,6 @@
         ]
       }
     },
-    "/indicatorGroupSets/{id}": {
-      "get": {
-        "operationId": "getIndicatorGroupSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/indicatorGroupSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "IndicatorGroupSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a indicatorGroupSet by ID [DRAFT]",
-        "tags": [
-          "indicatorGroupSets"
-        ]
-      }
-    },
     "/indicatorGroups": {
       "get": {
         "parameters": [
@@ -38025,63 +36486,6 @@
           }
         },
         "summary": "list indicatorGroups [DRAFT]",
-        "tags": [
-          "indicatorGroups"
-        ]
-      }
-    },
-    "/indicatorGroups/{id}": {
-      "get": {
-        "operationId": "getIndicatorGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/indicatorGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "IndicatorGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a indicatorGroup by ID [DRAFT]",
         "tags": [
           "indicatorGroups"
         ]
@@ -38140,63 +36544,6 @@
         ]
       }
     },
-    "/indicatorTypes/{id}": {
-      "get": {
-        "operationId": "getIndicatorType",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/indicatorType"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "IndicatorType with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a indicatorType by ID [DRAFT]",
-        "tags": [
-          "indicatorTypes"
-        ]
-      }
-    },
     "/indicators": {
       "get": {
         "parameters": [
@@ -38245,63 +36592,6 @@
           }
         },
         "summary": "list indicators [DRAFT]",
-        "tags": [
-          "indicators"
-        ]
-      }
-    },
-    "/indicators/{id}": {
-      "get": {
-        "operationId": "getIndicator",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/indicator"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Indicator with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a indicator by ID [DRAFT]",
         "tags": [
           "indicators"
         ]
@@ -38360,63 +36650,6 @@
         ]
       }
     },
-    "/interpretations/{id}": {
-      "get": {
-        "operationId": "getInterpretation",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/interpretation"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Interpretation with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a interpretation by ID [DRAFT]",
-        "tags": [
-          "interpretations"
-        ]
-      }
-    },
     "/jobConfigurations": {
       "get": {
         "parameters": [
@@ -38465,63 +36698,6 @@
           }
         },
         "summary": "list jobConfigurations [DRAFT]",
-        "tags": [
-          "jobConfigurations"
-        ]
-      }
-    },
-    "/jobConfigurations/{id}": {
-      "get": {
-        "operationId": "getJobConfiguration",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/jobConfiguration"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "JobConfiguration with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a jobConfiguration by ID [DRAFT]",
         "tags": [
           "jobConfigurations"
         ]
@@ -38580,63 +36756,6 @@
         ]
       }
     },
-    "/legendSets/{id}": {
-      "get": {
-        "operationId": "getLegendSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/legendSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "LegendSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a legendSet by ID [DRAFT]",
-        "tags": [
-          "legendSets"
-        ]
-      }
-    },
     "/mapViews": {
       "get": {
         "parameters": [
@@ -38685,63 +36804,6 @@
           }
         },
         "summary": "list mapViews [DRAFT]",
-        "tags": [
-          "mapViews"
-        ]
-      }
-    },
-    "/mapViews/{id}": {
-      "get": {
-        "operationId": "getMapView",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/mapView"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "MapView with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a mapView by ID [DRAFT]",
         "tags": [
           "mapViews"
         ]
@@ -38800,63 +36862,6 @@
         ]
       }
     },
-    "/maps/{id}": {
-      "get": {
-        "operationId": "getMap",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/map"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Map with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a map by ID [DRAFT]",
-        "tags": [
-          "maps"
-        ]
-      }
-    },
     "/messageConversations": {
       "get": {
         "parameters": [
@@ -38905,63 +36910,6 @@
           }
         },
         "summary": "list messageConversations [DRAFT]",
-        "tags": [
-          "messageConversations"
-        ]
-      }
-    },
-    "/messageConversations/{id}": {
-      "get": {
-        "operationId": "getMessageConversation",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/messageConversation"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "MessageConversation with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a messageConversation by ID [DRAFT]",
         "tags": [
           "messageConversations"
         ]
@@ -39020,63 +36968,6 @@
         ]
       }
     },
-    "/metadata/{id}": {
-      "get": {
-        "operationId": "getMetadata",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/metadata"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Metadata with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a metadata by ID [DRAFT]",
-        "tags": [
-          "metadata"
-        ]
-      }
-    },
     "/minMaxDataElements": {
       "get": {
         "parameters": [
@@ -39125,63 +37016,6 @@
           }
         },
         "summary": "list minMaxDataElements [DRAFT]",
-        "tags": [
-          "minMaxDataElements"
-        ]
-      }
-    },
-    "/minMaxDataElements/{id}": {
-      "get": {
-        "operationId": "getMinMaxDataElement",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/minMaxDataElement"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "MinMaxDataElement with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a minMaxDataElement by ID [DRAFT]",
         "tags": [
           "minMaxDataElements"
         ]
@@ -39240,63 +37074,6 @@
         ]
       }
     },
-    "/oAuth2Clients/{id}": {
-      "get": {
-        "operationId": "getOAuth2Client",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/oAuth2Client"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OAuth2Client with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a oAuth2Client by ID [DRAFT]",
-        "tags": [
-          "oAuth2Clients"
-        ]
-      }
-    },
     "/optionGroupSets": {
       "get": {
         "parameters": [
@@ -39345,63 +37122,6 @@
           }
         },
         "summary": "list optionGroupSets [DRAFT]",
-        "tags": [
-          "optionGroupSets"
-        ]
-      }
-    },
-    "/optionGroupSets/{id}": {
-      "get": {
-        "operationId": "getOptionGroupSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/optionGroupSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OptionGroupSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a optionGroupSet by ID [DRAFT]",
         "tags": [
           "optionGroupSets"
         ]
@@ -39460,63 +37180,6 @@
         ]
       }
     },
-    "/optionGroups/{id}": {
-      "get": {
-        "operationId": "getOptionGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/optionGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OptionGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a optionGroup by ID [DRAFT]",
-        "tags": [
-          "optionGroups"
-        ]
-      }
-    },
     "/optionSets": {
       "get": {
         "parameters": [
@@ -39565,63 +37228,6 @@
           }
         },
         "summary": "list optionSets [DRAFT]",
-        "tags": [
-          "optionSets"
-        ]
-      }
-    },
-    "/optionSets/{id}": {
-      "get": {
-        "operationId": "getOptionSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/optionSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OptionSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a optionSet by ID [DRAFT]",
         "tags": [
           "optionSets"
         ]
@@ -39680,63 +37286,6 @@
         ]
       }
     },
-    "/options/{id}": {
-      "get": {
-        "operationId": "getOption",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/option"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Option with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a option by ID [DRAFT]",
-        "tags": [
-          "options"
-        ]
-      }
-    },
     "/organisationUnitGroupSets": {
       "get": {
         "parameters": [
@@ -39785,63 +37334,6 @@
           }
         },
         "summary": "list organisationUnitGroupSets [DRAFT]",
-        "tags": [
-          "organisationUnitGroupSets"
-        ]
-      }
-    },
-    "/organisationUnitGroupSets/{id}": {
-      "get": {
-        "operationId": "getOrganisationUnitGroupSet",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/organisationUnitGroupSet"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OrganisationUnitGroupSet with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a organisationUnitGroupSet by ID [DRAFT]",
         "tags": [
           "organisationUnitGroupSets"
         ]
@@ -39900,63 +37392,6 @@
         ]
       }
     },
-    "/organisationUnitGroups/{id}": {
-      "get": {
-        "operationId": "getOrganisationUnitGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/organisationUnitGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OrganisationUnitGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a organisationUnitGroup by ID [DRAFT]",
-        "tags": [
-          "organisationUnitGroups"
-        ]
-      }
-    },
     "/organisationUnitLevels": {
       "get": {
         "parameters": [
@@ -40005,63 +37440,6 @@
           }
         },
         "summary": "list organisationUnitLevels [DRAFT]",
-        "tags": [
-          "organisationUnitLevels"
-        ]
-      }
-    },
-    "/organisationUnitLevels/{id}": {
-      "get": {
-        "operationId": "getOrganisationUnitLevel",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/organisationUnitLevel"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OrganisationUnitLevel with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a organisationUnitLevel by ID [DRAFT]",
         "tags": [
           "organisationUnitLevels"
         ]
@@ -40120,63 +37498,6 @@
         ]
       }
     },
-    "/organisationUnits/{id}": {
-      "get": {
-        "operationId": "getOrganisationUnit",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/organisationUnit"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "OrganisationUnit with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a organisationUnit by ID [DRAFT]",
-        "tags": [
-          "organisationUnits"
-        ]
-      }
-    },
     "/predictors": {
       "get": {
         "parameters": [
@@ -40225,63 +37546,6 @@
           }
         },
         "summary": "list predictors [DRAFT]",
-        "tags": [
-          "predictors"
-        ]
-      }
-    },
-    "/predictors/{id}": {
-      "get": {
-        "operationId": "getPredictor",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/predictor"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Predictor with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a predictor by ID [DRAFT]",
         "tags": [
           "predictors"
         ]
@@ -40340,63 +37604,6 @@
         ]
       }
     },
-    "/programDataElements/{id}": {
-      "get": {
-        "operationId": "getProgramDataElement",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programDataElement"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramDataElement with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programDataElement by ID [DRAFT]",
-        "tags": [
-          "programDataElements"
-        ]
-      }
-    },
     "/programIndicatorGroups": {
       "get": {
         "parameters": [
@@ -40445,63 +37652,6 @@
           }
         },
         "summary": "list programIndicatorGroups [DRAFT]",
-        "tags": [
-          "programIndicatorGroups"
-        ]
-      }
-    },
-    "/programIndicatorGroups/{id}": {
-      "get": {
-        "operationId": "getProgramIndicatorGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programIndicatorGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramIndicatorGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programIndicatorGroup by ID [DRAFT]",
         "tags": [
           "programIndicatorGroups"
         ]
@@ -40560,63 +37710,6 @@
         ]
       }
     },
-    "/programIndicators/{id}": {
-      "get": {
-        "operationId": "getProgramIndicator",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programIndicator"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramIndicator with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programIndicator by ID [DRAFT]",
-        "tags": [
-          "programIndicators"
-        ]
-      }
-    },
     "/programNotificationTemplates": {
       "get": {
         "parameters": [
@@ -40665,63 +37758,6 @@
           }
         },
         "summary": "list programNotificationTemplates [DRAFT]",
-        "tags": [
-          "programNotificationTemplates"
-        ]
-      }
-    },
-    "/programNotificationTemplates/{id}": {
-      "get": {
-        "operationId": "getProgramNotificationTemplate",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programNotificationTemplate"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramNotificationTemplate with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programNotificationTemplate by ID [DRAFT]",
         "tags": [
           "programNotificationTemplates"
         ]
@@ -40780,63 +37816,6 @@
         ]
       }
     },
-    "/programRuleActions/{id}": {
-      "get": {
-        "operationId": "getProgramRuleAction",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programRuleAction"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramRuleAction with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programRuleAction by ID [DRAFT]",
-        "tags": [
-          "programRuleActions"
-        ]
-      }
-    },
     "/programRuleVariables": {
       "get": {
         "parameters": [
@@ -40885,63 +37864,6 @@
           }
         },
         "summary": "list programRuleVariables [DRAFT]",
-        "tags": [
-          "programRuleVariables"
-        ]
-      }
-    },
-    "/programRuleVariables/{id}": {
-      "get": {
-        "operationId": "getProgramRuleVariable",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programRuleVariable"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramRuleVariable with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programRuleVariable by ID [DRAFT]",
         "tags": [
           "programRuleVariables"
         ]
@@ -41000,63 +37922,6 @@
         ]
       }
     },
-    "/programRules/{id}": {
-      "get": {
-        "operationId": "getProgramRule",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programRule"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramRule with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programRule by ID [DRAFT]",
-        "tags": [
-          "programRules"
-        ]
-      }
-    },
     "/programSections": {
       "get": {
         "parameters": [
@@ -41105,63 +37970,6 @@
           }
         },
         "summary": "list programSections [DRAFT]",
-        "tags": [
-          "programSections"
-        ]
-      }
-    },
-    "/programSections/{id}": {
-      "get": {
-        "operationId": "getProgramSection",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programSection"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramSection with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programSection by ID [DRAFT]",
         "tags": [
           "programSections"
         ]
@@ -41220,63 +38028,6 @@
         ]
       }
     },
-    "/programStageSections/{id}": {
-      "get": {
-        "operationId": "getProgramStageSection",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programStageSection"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramStageSection with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programStageSection by ID [DRAFT]",
-        "tags": [
-          "programStageSections"
-        ]
-      }
-    },
     "/programStages": {
       "get": {
         "parameters": [
@@ -41325,63 +38076,6 @@
           }
         },
         "summary": "list programStages [DRAFT]",
-        "tags": [
-          "programStages"
-        ]
-      }
-    },
-    "/programStages/{id}": {
-      "get": {
-        "operationId": "getProgramStage",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programStage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramStage with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programStage by ID [DRAFT]",
         "tags": [
           "programStages"
         ]
@@ -41440,63 +38134,6 @@
         ]
       }
     },
-    "/programTrackedEntityAttributeGroups/{id}": {
-      "get": {
-        "operationId": "getProgramTrackedEntityAttributeGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/programTrackedEntityAttributeGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ProgramTrackedEntityAttributeGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a programTrackedEntityAttributeGroup by ID [DRAFT]",
-        "tags": [
-          "programTrackedEntityAttributeGroups"
-        ]
-      }
-    },
     "/programs": {
       "get": {
         "parameters": [
@@ -41545,63 +38182,6 @@
           }
         },
         "summary": "list programs [DRAFT]",
-        "tags": [
-          "programs"
-        ]
-      }
-    },
-    "/programs/{id}": {
-      "get": {
-        "operationId": "getProgram",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/program"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Program with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a program by ID [DRAFT]",
         "tags": [
           "programs"
         ]
@@ -41660,63 +38240,6 @@
         ]
       }
     },
-    "/pushAnalysis/{id}": {
-      "get": {
-        "operationId": "getPushAnalysi",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/pushAnalysi"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "PushAnalysi with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a pushAnalysi by ID [DRAFT]",
-        "tags": [
-          "pushAnalysis"
-        ]
-      }
-    },
     "/relationshipTypes": {
       "get": {
         "parameters": [
@@ -41765,63 +38288,6 @@
           }
         },
         "summary": "list relationshipTypes [DRAFT]",
-        "tags": [
-          "relationshipTypes"
-        ]
-      }
-    },
-    "/relationshipTypes/{id}": {
-      "get": {
-        "operationId": "getRelationshipType",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/relationshipType"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "RelationshipType with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a relationshipType by ID [DRAFT]",
         "tags": [
           "relationshipTypes"
         ]
@@ -41880,63 +38346,6 @@
         ]
       }
     },
-    "/reportTables/{id}": {
-      "get": {
-        "operationId": "getReportTable",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/reportTable"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ReportTable with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a reportTable by ID [DRAFT]",
-        "tags": [
-          "reportTables"
-        ]
-      }
-    },
     "/reports": {
       "get": {
         "parameters": [
@@ -41985,63 +38394,6 @@
           }
         },
         "summary": "list reports [DRAFT]",
-        "tags": [
-          "reports"
-        ]
-      }
-    },
-    "/reports/{id}": {
-      "get": {
-        "operationId": "getReport",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/report"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Report with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a report by ID [DRAFT]",
         "tags": [
           "reports"
         ]
@@ -42100,63 +38452,6 @@
         ]
       }
     },
-    "/sections/{id}": {
-      "get": {
-        "operationId": "getSection",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/section"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "Section with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a section by ID [DRAFT]",
-        "tags": [
-          "sections"
-        ]
-      }
-    },
     "/smsCommands": {
       "get": {
         "parameters": [
@@ -42205,63 +38500,6 @@
           }
         },
         "summary": "list smsCommands [DRAFT]",
-        "tags": [
-          "smsCommands"
-        ]
-      }
-    },
-    "/smsCommands/{id}": {
-      "get": {
-        "operationId": "getSmsCommand",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/smsCommand"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "SmsCommand with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a smsCommand by ID [DRAFT]",
         "tags": [
           "smsCommands"
         ]
@@ -42320,63 +38558,6 @@
         ]
       }
     },
-    "/sqlViews/{id}": {
-      "get": {
-        "operationId": "getSqlView",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/sqlView"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "SqlView with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a sqlView by ID [DRAFT]",
-        "tags": [
-          "sqlViews"
-        ]
-      }
-    },
     "/trackedEntityAttributes": {
       "get": {
         "parameters": [
@@ -42425,63 +38606,6 @@
           }
         },
         "summary": "list trackedEntityAttributes [DRAFT]",
-        "tags": [
-          "trackedEntityAttributes"
-        ]
-      }
-    },
-    "/trackedEntityAttributes/{id}": {
-      "get": {
-        "operationId": "getTrackedEntityAttribute",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/trackedEntityAttribute"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "TrackedEntityAttribute with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a trackedEntityAttribute by ID [DRAFT]",
         "tags": [
           "trackedEntityAttributes"
         ]
@@ -42569,63 +38693,6 @@
         ]
       }
     },
-    "/trackedEntityInstances/{id}": {
-      "get": {
-        "operationId": "getTrackedEntityInstance",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/trackedEntityInstance"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "TrackedEntityInstance with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a trackedEntityInstance by ID [DRAFT]",
-        "tags": [
-          "trackedEntityInstances"
-        ]
-      }
-    },
     "/trackedEntityTypes": {
       "get": {
         "parameters": [
@@ -42674,63 +38741,6 @@
           }
         },
         "summary": "list trackedEntityTypes [DRAFT]",
-        "tags": [
-          "trackedEntityTypes"
-        ]
-      }
-    },
-    "/trackedEntityTypes/{id}": {
-      "get": {
-        "operationId": "getTrackedEntityType",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/trackedEntityType"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "TrackedEntityType with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a trackedEntityType by ID [DRAFT]",
         "tags": [
           "trackedEntityTypes"
         ]
@@ -42789,63 +38799,6 @@
         ]
       }
     },
-    "/userGroups/{id}": {
-      "get": {
-        "operationId": "getUserGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/userGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "UserGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a userGroup by ID [DRAFT]",
-        "tags": [
-          "userGroups"
-        ]
-      }
-    },
     "/userRoles": {
       "get": {
         "parameters": [
@@ -42894,63 +38847,6 @@
           }
         },
         "summary": "list userRoles [DRAFT]",
-        "tags": [
-          "userRoles"
-        ]
-      }
-    },
-    "/userRoles/{id}": {
-      "get": {
-        "operationId": "getUserRole",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/userRole"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "UserRole with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a userRole by ID [DRAFT]",
         "tags": [
           "userRoles"
         ]
@@ -43009,63 +38905,6 @@
         ]
       }
     },
-    "/users/{id}": {
-      "get": {
-        "operationId": "getUser",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/user"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "User with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a user by ID [DRAFT]",
-        "tags": [
-          "users"
-        ]
-      }
-    },
     "/validationNotificationTemplates": {
       "get": {
         "parameters": [
@@ -43114,63 +38953,6 @@
           }
         },
         "summary": "list validationNotificationTemplates [DRAFT]",
-        "tags": [
-          "validationNotificationTemplates"
-        ]
-      }
-    },
-    "/validationNotificationTemplates/{id}": {
-      "get": {
-        "operationId": "getValidationNotificationTemplate",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/validationNotificationTemplate"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ValidationNotificationTemplate with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a validationNotificationTemplate by ID [DRAFT]",
         "tags": [
           "validationNotificationTemplates"
         ]
@@ -43229,63 +39011,6 @@
         ]
       }
     },
-    "/validationResults/{id}": {
-      "get": {
-        "operationId": "getValidationResult",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/validationResult"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ValidationResult with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a validationResult by ID [DRAFT]",
-        "tags": [
-          "validationResults"
-        ]
-      }
-    },
     "/validationRuleGroups": {
       "get": {
         "parameters": [
@@ -43339,63 +39064,6 @@
         ]
       }
     },
-    "/validationRuleGroups/{id}": {
-      "get": {
-        "operationId": "getValidationRuleGroup",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/validationRuleGroup"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ValidationRuleGroup with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a validationRuleGroup by ID [DRAFT]",
-        "tags": [
-          "validationRuleGroups"
-        ]
-      }
-    },
     "/validationRules": {
       "get": {
         "parameters": [
@@ -43444,63 +39112,6 @@
           }
         },
         "summary": "list validationRules [DRAFT]",
-        "tags": [
-          "validationRules"
-        ]
-      }
-    },
-    "/validationRules/{id}": {
-      "get": {
-        "operationId": "getValidationRule",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/field"
-          },
-          {
-            "$ref": "#/components/parameters/id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/validationRule"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "OK",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "OK"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "example": {
-                  "httpStatus": "Not Found",
-                  "httpStatusCode": 404,
-                  "message": "ValidationRule with id FuG5VuW9VB could not be found.",
-                  "status": "ERROR"
-                },
-                "schema": {
-                  "$ref": "#/components/schemas/webmessage"
-                }
-              },
-              "text/plain": {
-                "schema": {
-                  "example": "ERROR",
-                  "type": "string"
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "summary": "get a validationRule by ID [DRAFT]",
         "tags": [
           "validationRules"
         ]

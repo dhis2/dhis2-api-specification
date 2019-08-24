@@ -8,6 +8,7 @@
         "name": "fields",
         "required": false,
         "schema": {
+	  "default": ":all",	
           "type": "string"
         }
       },
