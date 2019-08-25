@@ -8,7 +8,7 @@
         "name": "fields",
         "required": false,
         "schema": {
-	  "default": ":all",	
+          "default": ":all",
           "type": "string"
         }
       },
@@ -569,7 +569,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -1028,7 +1028,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -1350,7 +1350,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -1684,7 +1684,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -2025,7 +2025,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -2321,7 +2321,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -2635,7 +2635,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -3121,7 +3121,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -3216,7 +3216,7 @@
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "$ref": "#/components/schemas/favorite"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -3331,7 +3331,7 @@
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "$ref": "#/components/schemas/favorite"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -3772,7 +3772,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -3992,7 +3992,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -4964,7 +4964,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -5339,7 +5339,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -5480,7 +5480,7 @@
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "$ref": "#/components/schemas/favorite"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -6004,11 +6004,7 @@
           },
           "favorites": {
             "items": {
-              "example": "xE7jOejl9FI",
-              "format": "uid",
-              "maxLength": 11,
-              "minLength": 11,
-              "type": "string"
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -6478,7 +6474,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -6722,7 +6718,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -7123,7 +7119,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -7526,7 +7522,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -7860,7 +7856,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8342,7 +8338,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8684,7 +8680,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -8779,7 +8775,7 @@
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "$ref": "#/components/schemas/favorite"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -8890,7 +8886,7 @@
                             },
                             "favorites": {
                               "items": {
-                                "properties": {}
+                                "$ref": "#/components/schemas/favorite"
                               },
                               "maxItems": 2147483647,
                               "minItems": 0,
@@ -9336,7 +9332,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -10166,7 +10162,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -11053,7 +11049,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -12027,7 +12023,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -12247,7 +12243,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -12929,7 +12925,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -13489,7 +13485,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -13779,7 +13775,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -14031,7 +14027,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -14240,7 +14236,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -14784,7 +14780,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "type": "array"
           },
@@ -15312,7 +15308,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -15423,7 +15419,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -15782,7 +15778,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -16284,7 +16280,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -16379,7 +16375,7 @@
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "$ref": "#/components/schemas/favorite"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -16490,7 +16486,7 @@
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "$ref": "#/components/schemas/favorite"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -16926,7 +16922,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -17141,7 +17137,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -17291,7 +17287,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -18128,7 +18124,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "type": "array"
           },
@@ -18927,7 +18923,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -19709,7 +19705,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -20092,7 +20088,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -20470,7 +20466,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -20774,7 +20770,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -21027,7 +21023,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -21403,7 +21399,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -21760,7 +21756,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -22213,7 +22209,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -23221,7 +23217,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -23438,7 +23434,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -23710,7 +23706,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -23942,7 +23938,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -24185,7 +24181,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -24442,7 +24438,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -24751,7 +24747,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -25269,7 +25265,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -25464,7 +25460,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -25887,7 +25883,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -26392,7 +26388,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -26744,7 +26740,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -27020,7 +27016,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -27697,7 +27693,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -27792,7 +27788,7 @@
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "$ref": "#/components/schemas/favorite"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -27903,7 +27899,7 @@
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "$ref": "#/components/schemas/favorite"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -28335,7 +28331,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -28424,7 +28420,7 @@
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "$ref": "#/components/schemas/favorite"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -28535,7 +28531,7 @@
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "$ref": "#/components/schemas/favorite"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -28979,7 +28975,7 @@
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "$ref": "#/components/schemas/favorite"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -29213,7 +29209,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -29996,7 +29992,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -30121,7 +30117,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -30216,7 +30212,7 @@
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "$ref": "#/components/schemas/favorite"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -30327,7 +30323,7 @@
                             },
                             "favorites": {
                               "items": {
-                                "properties": {}
+                                "$ref": "#/components/schemas/favorite"
                               },
                               "maxItems": 2147483647,
                               "minItems": 0,
@@ -30977,7 +30973,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -31302,7 +31298,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -31761,7 +31757,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -32224,7 +32220,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -32362,7 +32358,7 @@
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "$ref": "#/components/schemas/favorite"
                   },
                   "type": "array"
                 },
@@ -32776,7 +32772,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -33305,7 +33301,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -33682,7 +33678,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -33917,7 +33913,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -34269,7 +34265,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -34629,7 +34625,7 @@
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "$ref": "#/components/schemas/favorite"
             },
             "maxItems": 2147483647,
             "minItems": 0,
