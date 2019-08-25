@@ -6,8 +6,8 @@
         "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
         "in": "query",
         "name": "fields",
-        "required": false,
         "schema": {
+          "default": ":all",
           "type": "string"
         }
       },
@@ -329,12 +329,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "href": {
             "format": "url",
@@ -721,16 +716,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -1385,16 +1375,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -1813,16 +1798,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -2299,16 +2279,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -2778,16 +2753,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -3201,16 +3171,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -3644,16 +3609,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -4283,16 +4243,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -4421,16 +4376,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -4586,16 +4536,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -5186,16 +5131,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -5483,16 +5423,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -6423,12 +6358,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "href": {
             "format": "url",
@@ -6742,16 +6672,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -7243,16 +7168,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -7458,16 +7378,11 @@
                         "type": "boolean"
                       },
                       "favorite": {
-                        "example": "jp826jAJHUc",
-                        "format": "uid",
-                        "maxLength": 11,
-                        "minLength": 11,
-                        "type": "string",
-                        "x-unique": "true"
+                        "type": "boolean"
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "type": "boolean"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -8106,20 +8021,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "example": "xE7jOejl9FI",
-              "format": "uid",
-              "maxLength": 11,
-              "minLength": 11,
-              "type": "string"
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8445,21 +8351,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "example": "jp826jAJHUc",
-              "format": "uid",
-              "maxLength": 11,
-              "minLength": 11,
-              "type": "string",
-              "x-unique": "true"
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8877,16 +8773,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -9229,16 +9120,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -9775,16 +9661,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -10299,16 +10180,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -10752,16 +10628,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -11192,18 +11063,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "format": "boolean",
-            "readOnly": true,
             "type": "boolean"
           },
           "favorites": {
             "items": {
-              "example": "jp826jAJHUc",
-              "format": "uid",
-              "maxLength": 11,
-              "minLength": 11,
-              "type": "string",
-              "x-unique": "true"
+              "type": "boolean"
             },
             "type": "array"
           },
@@ -11484,16 +11348,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -11974,16 +11833,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -12112,16 +11966,11 @@
                         "type": "boolean"
                       },
                       "favorite": {
-                        "example": "jp826jAJHUc",
-                        "format": "uid",
-                        "maxLength": 11,
-                        "minLength": 11,
-                        "type": "string",
-                        "x-unique": "true"
+                        "type": "boolean"
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "type": "boolean"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -12277,16 +12126,11 @@
                               "type": "boolean"
                             },
                             "favorite": {
-                              "example": "jp826jAJHUc",
-                              "format": "uid",
-                              "maxLength": 11,
-                              "minLength": 11,
-                              "type": "string",
-                              "x-unique": "true"
+                              "type": "boolean"
                             },
                             "favorites": {
                               "items": {
-                                "properties": {}
+                                "type": "boolean"
                               },
                               "maxItems": 2147483647,
                               "minItems": 0,
@@ -12887,16 +12731,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -13445,12 +13284,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "href": {
             "format": "url",
@@ -14000,16 +13834,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -14409,16 +14238,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -15578,12 +15402,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "filterDimensions": {
             "items": {
@@ -15883,16 +15702,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -17136,16 +16950,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -17429,16 +17238,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -18294,16 +18098,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -18543,12 +18342,7 @@
         "type": "integer"
       },
       "favorite": {
-        "example": "jp826jAJHUc",
-        "format": "uid",
-        "maxLength": 11,
-        "minLength": 11,
-        "type": "string",
-        "x-unique": "true"
+        "type": "boolean"
       },
       "featureType": {
         "enum": [
@@ -19027,16 +18821,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -19431,16 +19220,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -19779,16 +19563,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -20081,16 +19860,11 @@
             "type": "integer"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -20422,21 +20196,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "example": "jp826jAJHUc",
-              "format": "uid",
-              "maxLength": 11,
-              "minLength": 11,
-              "type": "string",
-              "x-unique": "true"
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -20860,16 +20624,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "type": "array"
           },
@@ -21542,16 +21301,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -21707,16 +21461,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -22197,16 +21946,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -22896,16 +22640,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -23034,16 +22773,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -23199,16 +22933,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -23798,16 +23527,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -24104,16 +23828,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -24301,16 +24020,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -25389,16 +25103,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "type": "array"
           },
@@ -26105,12 +25814,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "grantType": {
             "items": {
@@ -26455,16 +26159,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -26853,12 +26552,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "href": {
             "format": "url",
@@ -27214,12 +26908,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "filter": {
             "maxLength": 255,
@@ -27525,16 +27214,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -28095,16 +27779,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -28644,16 +28323,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -29089,16 +28763,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -29442,16 +29111,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -29916,16 +29580,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -30408,16 +30067,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -30703,12 +30357,7 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "formName": {
                   "example": "myformName",
@@ -31035,16 +30684,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -31222,12 +30866,7 @@
                         "type": "boolean"
                       },
                       "favorite": {
-                        "example": "jp826jAJHUc",
-                        "format": "uid",
-                        "maxLength": 11,
-                        "minLength": 11,
-                        "type": "string",
-                        "x-unique": "true"
+                        "type": "boolean"
                       },
                       "href": {
                         "format": "url",
@@ -31999,12 +31638,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "href": {
             "format": "url",
@@ -32388,16 +32022,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -32697,16 +32326,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -33074,16 +32698,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -33398,16 +33017,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -33769,16 +33383,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -34130,16 +33739,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -34568,16 +34172,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -34926,12 +34525,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "formName": {
             "example": "myformName",
@@ -35298,16 +34892,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -35571,16 +35160,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -36139,16 +35723,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -36537,12 +36116,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "href": {
             "format": "url",
@@ -36838,16 +36412,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -37284,16 +36853,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -37673,16 +37237,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -38492,16 +38051,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -38630,16 +38184,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -38795,16 +38344,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -39386,16 +38930,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -39510,16 +39049,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -39675,16 +39209,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -40282,16 +39811,11 @@
                       "type": "boolean"
                     },
                     "favorite": {
-                      "example": "jp826jAJHUc",
-                      "format": "uid",
-                      "maxLength": 11,
-                      "minLength": 11,
-                      "type": "string",
-                      "x-unique": "true"
+                      "type": "boolean"
                     },
                     "favorites": {
                       "items": {
-                        "properties": {}
+                        "type": "boolean"
                       },
                       "maxItems": 2147483647,
                       "minItems": 0,
@@ -40592,16 +40116,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -41553,16 +41072,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -41725,16 +41239,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -41863,16 +41372,11 @@
                         "type": "boolean"
                       },
                       "favorite": {
-                        "example": "jp826jAJHUc",
-                        "format": "uid",
-                        "maxLength": 11,
-                        "minLength": 11,
-                        "type": "string",
-                        "x-unique": "true"
+                        "type": "boolean"
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "type": "boolean"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -42028,16 +41532,11 @@
                               "type": "boolean"
                             },
                             "favorite": {
-                              "example": "jp826jAJHUc",
-                              "format": "uid",
-                              "maxLength": 11,
-                              "minLength": 11,
-                              "type": "string",
-                              "x-unique": "true"
+                              "type": "boolean"
                             },
                             "favorites": {
                               "items": {
-                                "properties": {}
+                                "type": "boolean"
                               },
                               "maxItems": 2147483647,
                               "minItems": 0,
@@ -42886,16 +42385,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -43345,16 +42839,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -43915,16 +43404,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -44490,16 +43974,11 @@
                         "type": "boolean"
                       },
                       "favorite": {
-                        "example": "jp826jAJHUc",
-                        "format": "uid",
-                        "maxLength": 11,
-                        "minLength": 11,
-                        "type": "string",
-                        "x-unique": "true"
+                        "type": "boolean"
                       },
                       "favorites": {
                         "items": {
-                          "properties": {}
+                          "type": "boolean"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -45096,9 +44575,6 @@
             "type": "array"
           },
           "favorite": {
-            "example": null,
-            "format": "boolean",
-            "readOnly": true,
             "type": "boolean"
           },
           "featureType": {
@@ -45328,16 +44804,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -45536,16 +45007,11 @@
                   "type": "boolean"
                 },
                 "favorite": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "favorites": {
                   "items": {
-                    "properties": {}
+                    "type": "boolean"
                   },
                   "type": "array"
                 },
@@ -46095,16 +45561,11 @@
             "type": "string"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -46471,21 +45932,11 @@
                 "type": "boolean"
               },
               "favorite": {
-                "example": "jp826jAJHUc",
-                "format": "uid",
-                "maxLength": 11,
-                "minLength": 11,
-                "type": "string",
-                "x-unique": "true"
+                "type": "boolean"
               },
               "favorites": {
                 "items": {
-                  "example": "jp826jAJHUc",
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string",
-                  "x-unique": "true"
+                  "type": "boolean"
                 },
                 "type": "array"
               },
@@ -46947,16 +46398,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -47425,16 +46871,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -47748,16 +47189,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -48255,16 +47691,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -48754,16 +48185,11 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "favorites": {
             "items": {
-              "properties": {}
+              "type": "boolean"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -49027,12 +48453,7 @@
             "type": "boolean"
           },
           "favorite": {
-            "example": "jp826jAJHUc",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-unique": "true"
+            "type": "boolean"
           },
           "hashCode": {
             "example": "myhashCode",
@@ -49304,8 +48725,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -49432,12 +48853,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "href": {
                             "format": "url",
@@ -49728,8 +49144,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -49900,16 +49316,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -50313,8 +49724,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -50563,16 +49974,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -50928,8 +50334,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -51114,16 +50520,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -51430,8 +50831,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -51672,16 +51073,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -52000,8 +51396,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -52227,16 +51623,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -52554,8 +51945,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -52772,16 +52163,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -53111,8 +52497,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -53404,16 +52790,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -53764,8 +53145,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -54196,16 +53577,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -54334,16 +53710,11 @@
                                             "type": "boolean"
                                           },
                                           "favorite": {
-                                            "example": "jp826jAJHUc",
-                                            "format": "uid",
-                                            "maxLength": 11,
-                                            "minLength": 11,
-                                            "type": "string",
-                                            "x-unique": "true"
+                                            "type": "boolean"
                                           },
                                           "favorites": {
                                             "items": {
-                                              "properties": {}
+                                              "type": "boolean"
                                             },
                                             "maxItems": 2147483647,
                                             "minItems": 0,
@@ -54499,16 +53870,11 @@
                                                   "type": "boolean"
                                                 },
                                                 "favorite": {
-                                                  "example": "jp826jAJHUc",
-                                                  "format": "uid",
-                                                  "maxLength": 11,
-                                                  "minLength": 11,
-                                                  "type": "string",
-                                                  "x-unique": "true"
+                                                  "type": "boolean"
                                                 },
                                                 "favorites": {
                                                   "items": {
-                                                    "properties": {}
+                                                    "type": "boolean"
                                                   },
                                                   "maxItems": 2147483647,
                                                   "minItems": 0,
@@ -55099,16 +54465,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -55396,16 +54757,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -56272,8 +55628,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -56398,12 +55754,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "href": {
                             "format": "url",
@@ -56657,8 +56008,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -56796,16 +56147,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -57092,8 +56438,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -57238,21 +56584,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "example": "jp826jAJHUc",
-                              "format": "uid",
-                              "maxLength": 11,
-                              "minLength": 11,
-                              "type": "string",
-                              "x-unique": "true"
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -57661,8 +56997,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -57930,16 +57266,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -58145,16 +57476,11 @@
                                         "type": "boolean"
                                       },
                                       "favorite": {
-                                        "example": "jp826jAJHUc",
-                                        "format": "uid",
-                                        "maxLength": 11,
-                                        "minLength": 11,
-                                        "type": "string",
-                                        "x-unique": "true"
+                                        "type": "boolean"
                                       },
                                       "favorites": {
                                         "items": {
-                                          "properties": {}
+                                          "type": "boolean"
                                         },
                                         "maxItems": 2147483647,
                                         "minItems": 0,
@@ -58793,20 +58119,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "example": "xE7jOejl9FI",
-                              "format": "uid",
-                              "maxLength": 11,
-                              "minLength": 11,
-                              "type": "string"
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -59112,8 +58429,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -59240,16 +58557,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -59546,8 +58858,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -59718,16 +59030,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -60012,8 +59319,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -60241,16 +59548,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -60568,8 +59870,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -60778,16 +60080,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -61125,8 +60422,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -61358,18 +60655,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "format": "boolean",
-                            "readOnly": true,
                             "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "example": "jp826jAJHUc",
-                              "format": "uid",
-                              "maxLength": 11,
-                              "minLength": 11,
-                              "type": "string",
-                              "x-unique": "true"
+                              "type": "boolean"
                             },
                             "type": "array"
                           },
@@ -61655,8 +60945,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -62006,16 +61296,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -62437,8 +61722,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -62558,16 +61843,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -62860,8 +62140,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -63003,12 +62283,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "href": {
                             "format": "url",
@@ -63315,8 +62590,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -63626,16 +62901,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -63764,16 +63034,11 @@
                                         "type": "boolean"
                                       },
                                       "favorite": {
-                                        "example": "jp826jAJHUc",
-                                        "format": "uid",
-                                        "maxLength": 11,
-                                        "minLength": 11,
-                                        "type": "string",
-                                        "x-unique": "true"
+                                        "type": "boolean"
                                       },
                                       "favorites": {
                                         "items": {
-                                          "properties": {}
+                                          "type": "boolean"
                                         },
                                         "maxItems": 2147483647,
                                         "minItems": 0,
@@ -63929,16 +63194,11 @@
                                               "type": "boolean"
                                             },
                                             "favorite": {
-                                              "example": "jp826jAJHUc",
-                                              "format": "uid",
-                                              "maxLength": 11,
-                                              "minLength": 11,
-                                              "type": "string",
-                                              "x-unique": "true"
+                                              "type": "boolean"
                                             },
                                             "favorites": {
                                               "items": {
-                                                "properties": {}
+                                                "type": "boolean"
                                               },
                                               "maxItems": 2147483647,
                                               "minItems": 0,
@@ -64539,16 +63799,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -65074,8 +64329,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -65208,16 +64463,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -65499,8 +64749,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -65860,12 +65110,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "filterDimensions": {
                             "items": {
@@ -66165,16 +65410,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -67043,8 +66283,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -67520,16 +66760,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -67813,16 +67048,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -68630,8 +67860,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -68758,16 +67988,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -69101,8 +68326,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -69231,16 +68456,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -69531,8 +68751,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -69652,16 +68872,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -69993,8 +69208,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -70121,16 +69336,11 @@
                             "type": "integer"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -70411,8 +69621,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -70675,16 +69885,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -71081,8 +70286,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -71241,21 +70446,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "example": "jp826jAJHUc",
-                              "format": "uid",
-                              "maxLength": 11,
-                              "minLength": 11,
-                              "type": "string",
-                              "x-unique": "true"
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -71608,8 +70803,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -71771,16 +70966,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "type": "array"
                           },
@@ -72139,8 +71329,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -72260,16 +71450,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -72425,16 +71610,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -72836,8 +72016,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -73243,16 +72423,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -73381,16 +72556,11 @@
                                             "type": "boolean"
                                           },
                                           "favorite": {
-                                            "example": "jp826jAJHUc",
-                                            "format": "uid",
-                                            "maxLength": 11,
-                                            "minLength": 11,
-                                            "type": "string",
-                                            "x-unique": "true"
+                                            "type": "boolean"
                                           },
                                           "favorites": {
                                             "items": {
-                                              "properties": {}
+                                              "type": "boolean"
                                             },
                                             "maxItems": 2147483647,
                                             "minItems": 0,
@@ -73546,16 +72716,11 @@
                                                   "type": "boolean"
                                                 },
                                                 "favorite": {
-                                                  "example": "jp826jAJHUc",
-                                                  "format": "uid",
-                                                  "maxLength": 11,
-                                                  "minLength": 11,
-                                                  "type": "string",
-                                                  "x-unique": "true"
+                                                  "type": "boolean"
                                                 },
                                                 "favorites": {
                                                   "items": {
-                                                    "properties": {}
+                                                    "type": "boolean"
                                                   },
                                                   "maxItems": 2147483647,
                                                   "minItems": 0,
@@ -74145,16 +73310,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -74451,16 +73611,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -74648,16 +73803,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -75664,8 +74814,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -75810,16 +74960,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -76209,8 +75354,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -76370,16 +75515,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "type": "array"
                           },
@@ -76813,8 +75953,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -76847,12 +75987,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "hashCode": {
                             "example": "myhashCode",
@@ -77015,8 +76150,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -77201,8 +76336,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -77322,12 +76457,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "grantType": {
                             "items": {
@@ -77610,8 +76740,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -77800,12 +76930,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "filter": {
                             "maxLength": 255,
@@ -78109,8 +77234,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -78290,12 +77415,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "href": {
                             "format": "url",
@@ -78587,8 +77707,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -78708,16 +77828,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -79063,8 +78178,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -79190,16 +78305,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -79522,8 +78632,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -79721,16 +78831,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -80073,8 +79178,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -80273,16 +79378,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -80642,8 +79742,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -80763,16 +79863,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -81053,8 +80148,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -81363,16 +80458,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -81835,8 +80925,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -82004,16 +81094,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -82346,8 +81431,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -82572,12 +81657,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "href": {
                             "format": "url",
@@ -82848,8 +81928,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -83012,16 +82092,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -83290,8 +82365,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -83529,16 +82604,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -83838,16 +82908,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -84171,8 +83236,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -84343,16 +83408,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -84669,8 +83729,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -84856,16 +83916,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -85223,8 +84278,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -85396,16 +84451,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -85707,8 +84757,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -85878,16 +84928,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -86178,8 +85223,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -86335,12 +85380,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "formName": {
                             "example": "myformName",
@@ -86604,8 +85644,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -86790,16 +85830,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -87124,8 +86159,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -87353,16 +86388,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -87626,16 +86656,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -88131,8 +87156,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -88312,12 +87337,7 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "href": {
                             "format": "url",
@@ -88551,8 +87571,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -88813,16 +87833,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -89108,12 +88123,7 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "formName": {
                                   "example": "myformName",
@@ -89440,16 +88450,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -89627,12 +88632,7 @@
                                         "type": "boolean"
                                       },
                                       "favorite": {
-                                        "example": "jp826jAJHUc",
-                                        "format": "uid",
-                                        "maxLength": 11,
-                                        "minLength": 11,
-                                        "type": "string",
-                                        "x-unique": "true"
+                                        "type": "boolean"
                                       },
                                       "href": {
                                         "format": "url",
@@ -90301,8 +89301,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -90468,16 +89468,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -90740,8 +89735,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -90922,16 +89917,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -91230,8 +90220,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -91690,16 +90680,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -91828,16 +90813,11 @@
                                             "type": "boolean"
                                           },
                                           "favorite": {
-                                            "example": "jp826jAJHUc",
-                                            "format": "uid",
-                                            "maxLength": 11,
-                                            "minLength": 11,
-                                            "type": "string",
-                                            "x-unique": "true"
+                                            "type": "boolean"
                                           },
                                           "favorites": {
                                             "items": {
-                                              "properties": {}
+                                              "type": "boolean"
                                             },
                                             "maxItems": 2147483647,
                                             "minItems": 0,
@@ -91993,16 +90973,11 @@
                                                   "type": "boolean"
                                                 },
                                                 "favorite": {
-                                                  "example": "jp826jAJHUc",
-                                                  "format": "uid",
-                                                  "maxLength": 11,
-                                                  "minLength": 11,
-                                                  "type": "string",
-                                                  "x-unique": "true"
+                                                  "type": "boolean"
                                                 },
                                                 "favorites": {
                                                   "items": {
-                                                    "properties": {}
+                                                    "type": "boolean"
                                                   },
                                                   "maxItems": 2147483647,
                                                   "minItems": 0,
@@ -92584,16 +91559,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -92708,16 +91678,11 @@
                                             "type": "boolean"
                                           },
                                           "favorite": {
-                                            "example": "jp826jAJHUc",
-                                            "format": "uid",
-                                            "maxLength": 11,
-                                            "minLength": 11,
-                                            "type": "string",
-                                            "x-unique": "true"
+                                            "type": "boolean"
                                           },
                                           "favorites": {
                                             "items": {
-                                              "properties": {}
+                                              "type": "boolean"
                                             },
                                             "maxItems": 2147483647,
                                             "minItems": 0,
@@ -92873,16 +91838,11 @@
                                                   "type": "boolean"
                                                 },
                                                 "favorite": {
-                                                  "example": "jp826jAJHUc",
-                                                  "format": "uid",
-                                                  "maxLength": 11,
-                                                  "minLength": 11,
-                                                  "type": "string",
-                                                  "x-unique": "true"
+                                                  "type": "boolean"
                                                 },
                                                 "favorites": {
                                                   "items": {
-                                                    "properties": {}
+                                                    "type": "boolean"
                                                   },
                                                   "maxItems": 2147483647,
                                                   "minItems": 0,
@@ -93480,16 +92440,11 @@
                                       "type": "boolean"
                                     },
                                     "favorite": {
-                                      "example": "jp826jAJHUc",
-                                      "format": "uid",
-                                      "maxLength": 11,
-                                      "minLength": 11,
-                                      "type": "string",
-                                      "x-unique": "true"
+                                      "type": "boolean"
                                     },
                                     "favorites": {
                                       "items": {
-                                        "properties": {}
+                                        "type": "boolean"
                                       },
                                       "maxItems": 2147483647,
                                       "minItems": 0,
@@ -93790,16 +92745,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -94607,8 +93557,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -94786,16 +93736,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -95261,8 +94206,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -95481,16 +94426,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -95653,16 +94593,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "maxItems": 2147483647,
                                   "minItems": 0,
@@ -95791,16 +94726,11 @@
                                         "type": "boolean"
                                       },
                                       "favorite": {
-                                        "example": "jp826jAJHUc",
-                                        "format": "uid",
-                                        "maxLength": 11,
-                                        "minLength": 11,
-                                        "type": "string",
-                                        "x-unique": "true"
+                                        "type": "boolean"
                                       },
                                       "favorites": {
                                         "items": {
-                                          "properties": {}
+                                          "type": "boolean"
                                         },
                                         "maxItems": 2147483647,
                                         "minItems": 0,
@@ -95956,16 +94886,11 @@
                                               "type": "boolean"
                                             },
                                             "favorite": {
-                                              "example": "jp826jAJHUc",
-                                              "format": "uid",
-                                              "maxLength": 11,
-                                              "minLength": 11,
-                                              "type": "string",
-                                              "x-unique": "true"
+                                              "type": "boolean"
                                             },
                                             "favorites": {
                                               "items": {
-                                                "properties": {}
+                                                "type": "boolean"
                                               },
                                               "maxItems": 2147483647,
                                               "minItems": 0,
@@ -96667,8 +95592,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -96843,16 +95768,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -97205,8 +96125,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -97383,16 +96303,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -97650,8 +96565,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -97891,16 +96806,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -98274,8 +97184,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -98590,16 +97500,11 @@
                                         "type": "boolean"
                                       },
                                       "favorite": {
-                                        "example": "jp826jAJHUc",
-                                        "format": "uid",
-                                        "maxLength": 11,
-                                        "minLength": 11,
-                                        "type": "string",
-                                        "x-unique": "true"
+                                        "type": "boolean"
                                       },
                                       "favorites": {
                                         "items": {
-                                          "properties": {}
+                                          "type": "boolean"
                                         },
                                         "maxItems": 2147483647,
                                         "minItems": 0,
@@ -99196,9 +98101,6 @@
                             "type": "array"
                           },
                           "favorite": {
-                            "example": null,
-                            "format": "boolean",
-                            "readOnly": true,
                             "type": "boolean"
                           },
                           "featureType": {
@@ -99441,8 +98343,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -99638,16 +98540,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -99846,16 +98743,11 @@
                                   "type": "boolean"
                                 },
                                 "favorite": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "favorites": {
                                   "items": {
-                                    "properties": {}
+                                    "type": "boolean"
                                   },
                                   "type": "array"
                                 },
@@ -100232,8 +99124,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -100390,16 +99282,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -100662,8 +99549,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -100949,16 +99836,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -101220,8 +100102,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -101435,16 +100317,11 @@
                             "type": "string"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -101811,21 +100688,11 @@
                                 "type": "boolean"
                               },
                               "favorite": {
-                                "example": "jp826jAJHUc",
-                                "format": "uid",
-                                "maxLength": 11,
-                                "minLength": 11,
-                                "type": "string",
-                                "x-unique": "true"
+                                "type": "boolean"
                               },
                               "favorites": {
                                 "items": {
-                                  "example": "jp826jAJHUc",
-                                  "format": "uid",
-                                  "maxLength": 11,
-                                  "minLength": 11,
-                                  "type": "string",
-                                  "x-unique": "true"
+                                  "type": "boolean"
                                 },
                                 "type": "array"
                               },
@@ -102215,8 +101082,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -102372,16 +101239,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -102697,8 +101559,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -102895,8 +101757,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -103063,16 +101925,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -103341,8 +102198,8 @@
             "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
             "in": "query",
             "name": "fields",
-            "required": false,
             "schema": {
+              "default": ":all",
               "type": "string"
             }
           }
@@ -103577,16 +102434,11 @@
                             "type": "boolean"
                           },
                           "favorite": {
-                            "example": "jp826jAJHUc",
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-unique": "true"
+                            "type": "boolean"
                           },
                           "favorites": {
                             "items": {
-                              "properties": {}
+                              "type": "boolean"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,

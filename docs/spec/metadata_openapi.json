@@ -6,7 +6,6 @@
         "description": "Limit the response to specific field(s). See <a href='#section/Metadata-field-filter'>Metadata-field-filter</a>.",
         "in": "query",
         "name": "fields",
-        "required": false,
         "schema": {
           "default": ":all",
           "type": "string"
