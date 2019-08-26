@@ -4084,7 +4084,7 @@
                   "type": "object"
                 },
                 "dataElementOperand": {
-                  "maxProperties": 20,
+                  "maxProperties": 21,
                   "minProperties": 0,
                   "properties": {
                     "access": {
@@ -4125,6 +4125,25 @@
                         "write"
                       ],
                       "type": "object"
+                    },
+                    "aggregationType": {
+                      "enum": [
+                        "AVERAGE",
+                        "AVERAGE_SUM_ORG_UNIT",
+                        "COUNT",
+                        "CUSTOM",
+                        "DEFAULT",
+                        "LAST",
+                        "LAST_AVERAGE_ORG_UNIT",
+                        "MAX",
+                        "MIN",
+                        "NONE",
+                        "STDDEV",
+                        "SUM",
+                        "VARIANCE"
+                      ],
+                      "format": "enum",
+                      "type": "string"
                     },
                     "attributeValues": {
                       "items": {
@@ -22482,7 +22501,7 @@
                   "type": "object"
                 },
                 "dataElementOperand": {
-                  "maxProperties": 20,
+                  "maxProperties": 21,
                   "minProperties": 0,
                   "properties": {
                     "access": {
@@ -22523,6 +22542,25 @@
                         "write"
                       ],
                       "type": "object"
+                    },
+                    "aggregationType": {
+                      "enum": [
+                        "AVERAGE",
+                        "AVERAGE_SUM_ORG_UNIT",
+                        "COUNT",
+                        "CUSTOM",
+                        "DEFAULT",
+                        "LAST",
+                        "LAST_AVERAGE_ORG_UNIT",
+                        "MAX",
+                        "MIN",
+                        "NONE",
+                        "STDDEV",
+                        "SUM",
+                        "VARIANCE"
+                      ],
+                      "format": "enum",
+                      "type": "string"
                     },
                     "attributeValues": {
                       "items": {
@@ -37848,7 +37886,7 @@
                   "type": "object"
                 },
                 "dataElementOperand": {
-                  "maxProperties": 20,
+                  "maxProperties": 21,
                   "minProperties": 0,
                   "properties": {
                     "access": {
@@ -37889,6 +37927,25 @@
                         "write"
                       ],
                       "type": "object"
+                    },
+                    "aggregationType": {
+                      "enum": [
+                        "AVERAGE",
+                        "AVERAGE_SUM_ORG_UNIT",
+                        "COUNT",
+                        "CUSTOM",
+                        "DEFAULT",
+                        "LAST",
+                        "LAST_AVERAGE_ORG_UNIT",
+                        "MAX",
+                        "MIN",
+                        "NONE",
+                        "STDDEV",
+                        "SUM",
+                        "VARIANCE"
+                      ],
+                      "format": "enum",
+                      "type": "string"
                     },
                     "attributeValues": {
                       "items": {
@@ -53343,7 +53400,7 @@
                                   "type": "object"
                                 },
                                 "dataElementOperand": {
-                                  "maxProperties": 20,
+                                  "maxProperties": 21,
                                   "minProperties": 0,
                                   "properties": {
                                     "access": {
@@ -53384,6 +53441,25 @@
                                         "write"
                                       ],
                                       "type": "object"
+                                    },
+                                    "aggregationType": {
+                                      "enum": [
+                                        "AVERAGE",
+                                        "AVERAGE_SUM_ORG_UNIT",
+                                        "COUNT",
+                                        "CUSTOM",
+                                        "DEFAULT",
+                                        "LAST",
+                                        "LAST_AVERAGE_ORG_UNIT",
+                                        "MAX",
+                                        "MIN",
+                                        "NONE",
+                                        "STDDEV",
+                                        "SUM",
+                                        "VARIANCE"
+                                      ],
+                                      "format": "enum",
+                                      "type": "string"
                                     },
                                     "attributeValues": {
                                       "items": {
@@ -72196,7 +72272,7 @@
                                   "type": "object"
                                 },
                                 "dataElementOperand": {
-                                  "maxProperties": 20,
+                                  "maxProperties": 21,
                                   "minProperties": 0,
                                   "properties": {
                                     "access": {
@@ -72237,6 +72313,25 @@
                                         "write"
                                       ],
                                       "type": "object"
+                                    },
+                                    "aggregationType": {
+                                      "enum": [
+                                        "AVERAGE",
+                                        "AVERAGE_SUM_ORG_UNIT",
+                                        "COUNT",
+                                        "CUSTOM",
+                                        "DEFAULT",
+                                        "LAST",
+                                        "LAST_AVERAGE_ORG_UNIT",
+                                        "MAX",
+                                        "MIN",
+                                        "NONE",
+                                        "STDDEV",
+                                        "SUM",
+                                        "VARIANCE"
+                                      ],
+                                      "format": "enum",
+                                      "type": "string"
                                     },
                                     "attributeValues": {
                                       "items": {
@@ -90408,7 +90503,7 @@
                                   "type": "object"
                                 },
                                 "dataElementOperand": {
-                                  "maxProperties": 20,
+                                  "maxProperties": 21,
                                   "minProperties": 0,
                                   "properties": {
                                     "access": {
@@ -90449,6 +90544,25 @@
                                         "write"
                                       ],
                                       "type": "object"
+                                    },
+                                    "aggregationType": {
+                                      "enum": [
+                                        "AVERAGE",
+                                        "AVERAGE_SUM_ORG_UNIT",
+                                        "COUNT",
+                                        "CUSTOM",
+                                        "DEFAULT",
+                                        "LAST",
+                                        "LAST_AVERAGE_ORG_UNIT",
+                                        "MAX",
+                                        "MIN",
+                                        "NONE",
+                                        "STDDEV",
+                                        "SUM",
+                                        "VARIANCE"
+                                      ],
+                                      "format": "enum",
+                                      "type": "string"
                                     },
                                     "attributeValues": {
                                       "items": {

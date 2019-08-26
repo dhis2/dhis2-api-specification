@@ -2956,7 +2956,7 @@
                   "type": "object"
                 },
                 "dataElementOperand": {
-                  "maxProperties": 20,
+                  "maxProperties": 21,
                   "minProperties": 0,
                   "properties": {
                     "access": {
@@ -2991,6 +2991,9 @@
                         "write"
                       ],
                       "type": "object"
+                    },
+                    "aggregationType": {
+                      "$ref": "#/components/schemas/aggregationType"
                     },
                     "attributeValues": {
                       "items": {
@@ -16108,7 +16111,7 @@
                   "type": "object"
                 },
                 "dataElementOperand": {
-                  "maxProperties": 20,
+                  "maxProperties": 21,
                   "minProperties": 0,
                   "properties": {
                     "access": {
@@ -16143,6 +16146,9 @@
                         "write"
                       ],
                       "type": "object"
+                    },
+                    "aggregationType": {
+                      "$ref": "#/components/schemas/aggregationType"
                     },
                     "attributeValues": {
                       "items": {
@@ -27521,7 +27527,7 @@
                   "type": "object"
                 },
                 "dataElementOperand": {
-                  "maxProperties": 20,
+                  "maxProperties": 21,
                   "minProperties": 0,
                   "properties": {
                     "access": {
@@ -27556,6 +27562,9 @@
                         "write"
                       ],
                       "type": "object"
+                    },
+                    "aggregationType": {
+                      "$ref": "#/components/schemas/aggregationType"
                     },
                     "attributeValues": {
                       "items": {
