@@ -14950,8 +14950,6 @@
       "latitude": {
         "example": 952175.62553525,
         "format": "double",
-        "maximum": 90,
-        "minimum": -90,
         "type": "number"
       },
       "layer": {
@@ -15442,8 +15440,6 @@
       "longitude": {
         "example": -1378543.6774686,
         "format": "double",
-        "maximum": 180,
-        "minimum": -180,
         "type": "number"
       },
       "manage": {
