@@ -9466,12 +9466,8 @@
           },
           "attributeValues": {
             "items": {
-              "maxProperties": 4,
-              "minProperties": 0,
               "properties": {
                 "attribute": {
-                  "maxProperties": 1,
-                  "minProperties": 0,
                   "properties": {
                     "id": {
                       "example": "NJnhOzjaLYk.qNCMOhkoQju",
@@ -9508,13 +9504,8 @@
                 }
               },
               "required": [
-                "attribute",
-                "created",
-                "lastUpdated",
-                "value"
-              ],
-              "type": "object",
-              "x-association": "true"
+                "attribute"
+              ]
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -10112,10 +10103,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -10541,10 +10541,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -11352,10 +11361,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -11683,10 +11701,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -11805,10 +11832,19 @@
                   "items": {
                     "properties": {
                       "attribute": {
-                        "format": "uid",
-                        "maxLength": 255,
-                        "readOnly": false,
-                        "type": "string"
+                        "properties": {
+                          "id": {
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
+                            "minLength": 11,
+                            "readOnly": false,
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id"
+                        ],
+                        "type": "object"
                       },
                       "created": {
                         "format": "date-time",
@@ -11986,10 +12022,19 @@
                         "items": {
                           "properties": {
                             "attribute": {
-                              "format": "uid",
-                              "maxLength": 255,
-                              "readOnly": false,
-                              "type": "string"
+                              "properties": {
+                                "id": {
+                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                  "maxLength": 2147483647,
+                                  "minLength": 11,
+                                  "readOnly": false,
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id"
+                              ],
+                              "type": "object"
                             },
                             "created": {
                               "format": "date-time",
@@ -12139,10 +12184,19 @@
                               "items": {
                                 "properties": {
                                   "attribute": {
-                                    "format": "uid",
-                                    "maxLength": 255,
-                                    "readOnly": false,
-                                    "type": "string"
+                                    "properties": {
+                                      "id": {
+                                        "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                        "maxLength": 2147483647,
+                                        "minLength": 11,
+                                        "readOnly": false,
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "id"
+                                    ],
+                                    "type": "object"
                                   },
                                   "created": {
                                     "format": "date-time",
@@ -13840,10 +13894,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -13934,9 +13997,9 @@
             "type": "string"
           },
           "lastUpdated": {
-            "format": "date-time",
-            "maxLength": 23,
-            "minLength": 0,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
+            "minLength": 11,
             "readOnly": false,
             "type": "string"
           },
@@ -15983,7 +16046,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -17516,7 +17579,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -24521,7 +24584,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -40443,7 +40506,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -59401,10 +59464,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "format": "uid",
-                                  "maxLength": 255,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -59940,10 +60012,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "format": "uid",
-                                  "maxLength": 255,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -61022,12 +61103,8 @@
                           },
                           "attributeValues": {
                             "items": {
-                              "maxProperties": 4,
-                              "minProperties": 0,
                               "properties": {
                                 "attribute": {
-                                  "maxProperties": 1,
-                                  "minProperties": 0,
                                   "properties": {
                                     "id": {
                                       "example": "NJnhOzjaLYk.qNCMOhkoQju",
@@ -61064,13 +61141,8 @@
                                 }
                               },
                               "required": [
-                                "attribute",
-                                "created",
-                                "lastUpdated",
-                                "value"
-                              ],
-                              "type": "object",
-                              "x-association": "true"
+                                "attribute"
+                              ]
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
@@ -61759,10 +61831,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "format": "uid",
-                                  "maxLength": 255,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -62650,10 +62731,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "format": "uid",
-                                  "maxLength": 255,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -62772,10 +62862,19 @@
                                   "items": {
                                     "properties": {
                                       "attribute": {
-                                        "format": "uid",
-                                        "maxLength": 255,
-                                        "readOnly": false,
-                                        "type": "string"
+                                        "properties": {
+                                          "id": {
+                                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                            "maxLength": 2147483647,
+                                            "minLength": 11,
+                                            "readOnly": false,
+                                            "type": "string"
+                                          }
+                                        },
+                                        "required": [
+                                          "id"
+                                        ],
+                                        "type": "object"
                                       },
                                       "created": {
                                         "format": "date-time",
@@ -62953,10 +63052,19 @@
                                         "items": {
                                           "properties": {
                                             "attribute": {
-                                              "format": "uid",
-                                              "maxLength": 255,
-                                              "readOnly": false,
-                                              "type": "string"
+                                              "properties": {
+                                                "id": {
+                                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                                  "maxLength": 2147483647,
+                                                  "minLength": 11,
+                                                  "readOnly": false,
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "id"
+                                              ],
+                                              "type": "object"
                                             },
                                             "created": {
                                               "format": "date-time",
@@ -63106,10 +63214,19 @@
                                               "items": {
                                                 "properties": {
                                                   "attribute": {
-                                                    "format": "uid",
-                                                    "maxLength": 255,
-                                                    "readOnly": false,
-                                                    "type": "string"
+                                                    "properties": {
+                                                      "id": {
+                                                        "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                                        "maxLength": 2147483647,
+                                                        "minLength": 11,
+                                                        "readOnly": false,
+                                                        "type": "string"
+                                                      }
+                                                    },
+                                                    "required": [
+                                                      "id"
+                                                    ],
+                                                    "type": "object"
                                                   },
                                                   "created": {
                                                     "format": "date-time",
@@ -64364,10 +64481,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "format": "uid",
-                                  "maxLength": 255,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -64458,9 +64584,9 @@
                             "type": "string"
                           },
                           "lastUpdated": {
-                            "format": "date-time",
-                            "maxLength": 23,
-                            "minLength": 0,
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
+                            "minLength": 11,
                             "readOnly": false,
                             "type": "string"
                           },
@@ -65582,7 +65708,7 @@
                           },
                           "parentGraphMap": {
                             "maxProperties": 1,
-                            "minProperties": 1,
+                            "minProperties": 0,
                             "readOnly": false,
                             "type": "object"
                           },
@@ -67211,7 +67337,7 @@
                           },
                           "parentGraphMap": {
                             "maxProperties": 1,
-                            "minProperties": 1,
+                            "minProperties": 0,
                             "readOnly": false,
                             "type": "object"
                           },
@@ -74133,7 +74259,7 @@
                           },
                           "parentGraphMap": {
                             "maxProperties": 1,
-                            "minProperties": 1,
+                            "minProperties": 0,
                             "readOnly": false,
                             "type": "object"
                           },
@@ -92729,7 +92855,7 @@
                           },
                           "parentGraphMap": {
                             "maxProperties": 1,
-                            "minProperties": 1,
+                            "minProperties": 0,
                             "readOnly": false,
                             "type": "object"
                           },

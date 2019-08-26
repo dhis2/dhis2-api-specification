@@ -6913,40 +6913,7 @@
           },
           "attributeValues": {
             "items": {
-              "maxProperties": 4,
-              "minProperties": 0,
-              "properties": {
-                "attribute": {
-                  "maxProperties": 1,
-                  "minProperties": 0,
-                  "properties": {
-                    "id": {
-                      "$ref": "#/components/schemas/id"
-                    }
-                  },
-                  "required": [
-                    "id"
-                  ],
-                  "type": "object"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute",
-                "created",
-                "lastUpdated",
-                "value"
-              ],
-              "type": "object",
-              "x-association": "true"
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -7409,26 +7376,7 @@
           },
           "attributeValues": {
             "items": {
-              "properties": {
-                "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute"
-              ]
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -7719,26 +7667,7 @@
           },
           "attributeValues": {
             "items": {
-              "properties": {
-                "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute"
-              ]
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8267,26 +8196,7 @@
           },
           "attributeValues": {
             "items": {
-              "properties": {
-                "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute"
-              ]
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8493,26 +8403,7 @@
           },
           "attributeValues": {
             "items": {
-              "properties": {
-                "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute"
-              ]
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -8575,26 +8466,7 @@
                 },
                 "attributeValues": {
                   "items": {
-                    "properties": {
-                      "attribute": {
-                        "format": "uid",
-                        "maxLength": 255,
-                        "readOnly": false,
-                        "type": "string"
-                      },
-                      "created": {
-                        "$ref": "#/components/schemas/created"
-                      },
-                      "lastUpdated": {
-                        "$ref": "#/components/schemas/lastUpdated"
-                      },
-                      "value": {
-                        "$ref": "#/components/schemas/value"
-                      }
-                    },
-                    "required": [
-                      "attribute"
-                    ]
+                    "$ref": "#/components/schemas/attributeValue"
                   },
                   "maxItems": 2147483647,
                   "minItems": 0,
@@ -8707,26 +8579,7 @@
                       },
                       "attributeValues": {
                         "items": {
-                          "properties": {
-                            "attribute": {
-                              "format": "uid",
-                              "maxLength": 255,
-                              "readOnly": false,
-                              "type": "string"
-                            },
-                            "created": {
-                              "$ref": "#/components/schemas/created"
-                            },
-                            "lastUpdated": {
-                              "$ref": "#/components/schemas/lastUpdated"
-                            },
-                            "value": {
-                              "$ref": "#/components/schemas/value"
-                            }
-                          },
-                          "required": [
-                            "attribute"
-                          ]
+                          "$ref": "#/components/schemas/attributeValue"
                         },
                         "maxItems": 2147483647,
                         "minItems": 0,
@@ -8815,26 +8668,7 @@
                             },
                             "attributeValues": {
                               "items": {
-                                "properties": {
-                                  "attribute": {
-                                    "format": "uid",
-                                    "maxLength": 255,
-                                    "readOnly": false,
-                                    "type": "string"
-                                  },
-                                  "created": {
-                                    "$ref": "#/components/schemas/created"
-                                  },
-                                  "lastUpdated": {
-                                    "$ref": "#/components/schemas/lastUpdated"
-                                  },
-                                  "value": {
-                                    "$ref": "#/components/schemas/value"
-                                  }
-                                },
-                                "required": [
-                                  "attribute"
-                                ]
+                                "$ref": "#/components/schemas/attributeValue"
                               },
                               "maxItems": 2147483647,
                               "minItems": 0,
@@ -10087,26 +9921,7 @@
           },
           "attributeValues": {
             "items": {
-              "properties": {
-                "attribute": {
-                  "format": "uid",
-                  "maxLength": 255,
-                  "readOnly": false,
-                  "type": "string"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute"
-              ]
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -10148,7 +9963,7 @@
             "$ref": "#/components/schemas/id"
           },
           "lastUpdated": {
-            "$ref": "#/components/schemas/lastUpdated"
+            "$ref": "#/components/schemas/id"
           },
           "lastUpdatedBy": {
             "$ref": "#/components/schemas/lastUpdatedBy"
@@ -11160,7 +10975,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -12354,7 +12169,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -17554,7 +17369,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
@@ -29375,7 +29190,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
