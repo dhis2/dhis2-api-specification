@@ -24589,21 +24589,11 @@
           },
           "periods": {
             "items": {
-              "maxProperties": 1,
-              "minProperties": 0,
-              "properties": {
-                "id": {
-                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                  "maxLength": 2147483647,
-                  "minLength": 11,
-                  "readOnly": false,
-                  "type": "string"
-                }
-              },
-              "required": [
-                "id"
-              ],
-              "type": "object"
+              "example": "2004",
+              "format": "general",
+              "maxLength": 255,
+              "minLength": 0,
+              "type": "string"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -74260,21 +74250,11 @@
                           },
                           "periods": {
                             "items": {
-                              "maxProperties": 1,
-                              "minProperties": 0,
-                              "properties": {
-                                "id": {
-                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                  "maxLength": 2147483647,
-                                  "minLength": 11,
-                                  "readOnly": false,
-                                  "type": "string"
-                                }
-                              },
-                              "required": [
-                                "id"
-                              ],
-                              "type": "object"
+                              "example": "2004",
+                              "format": "general",
+                              "maxLength": 255,
+                              "minLength": 0,
+                              "type": "string"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,

@@ -5,6 +5,6 @@ jsonref==0.1
 jsonschema==2.6.0
 psycopg2==2.7.5
 psycopg2-binary==2.7.5
-requests==2.19.1
+requests==2.20.0
 titlecase==0.12.0
-urllib3==1.23
+urllib3==1.24.2
