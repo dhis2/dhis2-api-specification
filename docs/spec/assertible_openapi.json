@@ -17335,7 +17335,13 @@
           },
           "periods": {
             "items": {
-              "$ref": "#/components/schemas/period"
+              "maxProperties": 1,
+              "minProperties": 0,
+              "properties": {
+                "id": {
+                  "$ref": "#/components/schemas/period"
+                }
+              }
             },
             "maxItems": 2147483647,
             "minItems": 0,

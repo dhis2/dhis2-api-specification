@@ -24589,11 +24589,17 @@
           },
           "periods": {
             "items": {
-              "example": "2004",
-              "format": "general",
-              "maxLength": 255,
-              "minLength": 0,
-              "type": "string"
+              "maxProperties": 1,
+              "minProperties": 0,
+              "properties": {
+                "id": {
+                  "example": "2004",
+                  "format": "general",
+                  "maxLength": 255,
+                  "minLength": 0,
+                  "type": "string"
+                }
+              }
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -74250,11 +74256,17 @@
                           },
                           "periods": {
                             "items": {
-                              "example": "2004",
-                              "format": "general",
-                              "maxLength": 255,
-                              "minLength": 0,
-                              "type": "string"
+                              "maxProperties": 1,
+                              "minProperties": 0,
+                              "properties": {
+                                "id": {
+                                  "example": "2004",
+                                  "format": "general",
+                                  "maxLength": 255,
+                                  "minLength": 0,
+                                  "type": "string"
+                                }
+                              }
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
