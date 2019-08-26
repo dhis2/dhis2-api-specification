@@ -12623,7 +12623,7 @@
       "expression": {
         "example": "myexpression",
         "format": "general",
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "minLength": 0,
         "type": "string"
       },
@@ -13050,7 +13050,7 @@
         "example": "myicon",
         "format": "general",
         "maxLength": 20,
-        "minLength": 20,
+        "minLength": 0,
         "type": "string"
       },
       "id": {
@@ -18192,13 +18192,15 @@
         "minProperties": 0,
         "properties": {
           "dataElement": {
-            "example": null,
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "readOnly": false,
-            "type": "string",
-            "x-association": "true"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "generated": {
             "$ref": "#/components/schemas/generated"
@@ -18210,10 +18212,26 @@
             "$ref": "#/components/schemas/min"
           },
           "optionCombo": {
-            "$ref": "#/components/schemas/optionCombo"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "source": {
-            "$ref": "#/components/schemas/source"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           }
         },
         "required": [
@@ -26405,14 +26423,15 @@
       },
       "relationshipEntity": {
         "enum": [
-          "TRACKED_ENTITY_INSTANCE"
+          "TRACKED_ENTITY_INSTANCE",
+          "PROGRAM_STAGE_INSTANCE"
         ],
         "example": "TRACKED_ENTITY_INSTANCE",
         "format": "enum",
         "type": "string"
       },
       "relationshipType": {
-        "maxProperties": 21,
+        "maxProperties": 22,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -26492,6 +26511,9 @@
             "minItems": 0,
             "type": "array"
           },
+          "bidirectional": {
+            "type": "boolean"
+          },
           "code": {
             "$ref": "#/components/schemas/code"
           },
@@ -26519,18 +26541,24 @@
             "type": "array"
           },
           "fromConstraint": {
-            "maxProperties": 2,
+            "maxProperties": 3,
             "minProperties": 1,
             "properties": {
               "relationshipEntity": {
-                "enum": [
-                  "TRACKED_ENTITY_INSTANCE"
-                ],
-                "example": "TRACKED_ENTITY_INSTANCE",
-                "format": "enum",
-                "type": "string"
+                "$ref": "#/components/schemas/relationshipEntity"
               },
               "trackedEntityType": {
+                "properties": {
+                  "id": {
+                    "$ref": "#/components/schemas/id"
+                  }
+                },
+                "required": [
+                  "id"
+                ],
+                "type": "object"
+              },
+              "user": {
                 "properties": {
                   "id": {
                     "$ref": "#/components/schemas/id"
@@ -26559,7 +26587,15 @@
             "$ref": "#/components/schemas/lastUpdated"
           },
           "lastUpdatedBy": {
-            "$ref": "#/components/schemas/lastUpdatedBy"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "name": {
             "$ref": "#/components/schemas/name"
@@ -29202,7 +29238,7 @@
               "minProperties": 0,
               "properties": {
                 "id": {
-                  "$ref": "#/components/schemas/id"
+                  "$ref": "#/components/schemas/period"
                 }
               },
               "required": [
@@ -29810,6 +29846,26 @@
                     "write"
                   ],
                   "type": "object"
+                },
+                "aggregationType": {
+                  "enum": [
+                    "AVERAGE",
+                    "AVERAGE_SUM_ORG_UNIT",
+                    "COUNT",
+                    "CUSTOM",
+                    "DEFAULT",
+                    "LAST",
+                    "LAST_AVERAGE_ORG_UNIT",
+                    "MAX",
+                    "MIN",
+                    "NONE",
+                    "STDDEV",
+                    "SUM",
+                    "VARIANCE"
+                  ],
+                  "example": "AVERAGE",
+                  "format": "enum",
+                  "type": "string"
                 },
                 "attributeValues": {
                   "items": {
@@ -32877,7 +32933,6 @@
               "access",
               "attributeValues",
               "catDimensionConstraints",
-              "code",
               "cogsDimensionConstraints",
               "created",
               "disabled",
@@ -33332,6 +33387,7 @@
                 "F_DATAELEMENT_PUBLIC_ADD",
                 "F_DATASET_PRIVATE_ADD",
                 "F_DATAVALUE_ADD",
+                "F_DATAVALUE_DELETE",
                 "F_DOCUMENT_PUBLIC_ADD",
                 "F_ENROLLMENT_CASCADE_DELETE",
                 "F_EVENTCHART_EXTERNAL",
@@ -33370,6 +33426,7 @@
                 "F_PROGRAMSTAGE_SECTION_MANAGEMENT",
                 "F_PROGRAM_INDICATOR_GROUP_PUBLIC_ADD",
                 "F_PROGRAM_INDICATOR_MANAGEMENT",
+                "F_PROGRAM_INDICATOR_PUBLIC_ADD",
                 "F_PROGRAM_RULE_UPDATE",
                 "F_PROGRAM_TRACKED_ENTITY_ATTRIBUTE_GROUP_DELETE",
                 "F_PROGRAM_VALIDATION",
@@ -33411,12 +33468,15 @@
                 "M_dhis-web-event-visualizer",
                 "M_dhis-web-importexport",
                 "M_dhis-web-interpretation",
+                "M_dhis-web-light",
                 "M_dhis-web-maintenance-dataset",
                 "M_dhis-web-maintenance-organisationunit",
                 "M_dhis-web-maintenance-user",
                 "M_dhis-web-mapping",
                 "M_dhis-web-maps",
+                "M_dhis-web-mobile",
                 "M_dhis-web-pivot",
+                "M_dhis-web-reporting",
                 "M_dhis-web-settings",
                 "M_dhis-web-validationrule",
                 "M_dhis-web-visualizer"
