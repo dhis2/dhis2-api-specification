@@ -8443,11 +8443,22 @@
             "x-association": "true"
           },
           "map": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "maxProperties": 1,
+            "minProperties": 0,
+            "properties": {
+              "id": {
+                "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                "maxLength": 2147483647,
+                "minLength": 11,
+                "readOnly": false,
+                "type": "string"
+              }
+            },
+            "readOnly": true,
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "messages": {
             "type": "boolean"
@@ -8465,11 +8476,22 @@
             "type": "string"
           },
           "reportTable": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "maxProperties": 1,
+            "minProperties": 0,
+            "properties": {
+              "id": {
+                "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                "maxLength": 2147483647,
+                "minLength": 11,
+                "readOnly": false,
+                "type": "string"
+              }
+            },
+            "readOnly": true,
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "reports": {
             "items": {
@@ -56684,11 +56706,22 @@
                             "x-association": "true"
                           },
                           "map": {
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-association": "true"
+                            "maxProperties": 1,
+                            "minProperties": 0,
+                            "properties": {
+                              "id": {
+                                "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                "maxLength": 2147483647,
+                                "minLength": 11,
+                                "readOnly": false,
+                                "type": "string"
+                              }
+                            },
+                            "readOnly": true,
+                            "required": [
+                              "id"
+                            ],
+                            "type": "object"
                           },
                           "messages": {
                             "type": "boolean"
@@ -56706,11 +56739,22 @@
                             "type": "string"
                           },
                           "reportTable": {
-                            "format": "uid",
-                            "maxLength": 11,
-                            "minLength": 11,
-                            "type": "string",
-                            "x-association": "true"
+                            "maxProperties": 1,
+                            "minProperties": 0,
+                            "properties": {
+                              "id": {
+                                "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                "maxLength": 2147483647,
+                                "minLength": 11,
+                                "readOnly": false,
+                                "type": "string"
+                              }
+                            },
+                            "readOnly": true,
+                            "required": [
+                              "id"
+                            ],
+                            "type": "object"
                           },
                           "reports": {
                             "items": {

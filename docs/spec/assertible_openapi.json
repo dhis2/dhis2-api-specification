@@ -6209,11 +6209,18 @@
             "$ref": "#/components/schemas/lastUpdatedBy"
           },
           "map": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "maxProperties": 1,
+            "minProperties": 0,
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "readOnly": true,
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "messages": {
             "$ref": "#/components/schemas/messages"
@@ -6225,11 +6232,18 @@
             "$ref": "#/components/schemas/publicAccess"
           },
           "reportTable": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "maxProperties": 1,
+            "minProperties": 0,
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "readOnly": true,
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "reports": {
             "items": {
