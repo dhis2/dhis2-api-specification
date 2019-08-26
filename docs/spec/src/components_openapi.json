@@ -9966,7 +9966,15 @@
             "$ref": "#/components/schemas/id"
           },
           "lastUpdatedBy": {
-            "$ref": "#/components/schemas/id"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "name": {
             "$ref": "#/components/schemas/name"
@@ -14163,7 +14171,15 @@
             "type": "array"
           },
           "chart": {
-            "$ref": "#/components/schemas/id"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "code": {
             "$ref": "#/components/schemas/code"
@@ -14280,7 +14296,15 @@
             "$ref": "#/components/schemas/name"
           },
           "organisationUnit": {
-            "$ref": "#/components/schemas/id"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "period": {
             "format": "uid",
@@ -14325,7 +14349,15 @@
             "type": "string"
           },
           "user": {
-            "$ref": "#/components/schemas/id"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "userAccesses": {
             "items": {
@@ -15573,17 +15605,7 @@
           },
           "mapViews": {
             "items": {
-              "maxProperties": 1,
-              "minProperties": 0,
-              "properties": {
-                "id": {
-                  "$ref": "#/components/schemas/id"
-                }
-              },
-              "required": [
-                "id"
-              ],
-              "type": "object"
+              "$ref": "#/components/schemas/mapView"
             },
             "maxItems": 2147483647,
             "minItems": 0,
