@@ -9966,7 +9966,7 @@
             "$ref": "#/components/schemas/id"
           },
           "lastUpdatedBy": {
-            "$ref": "#/components/schemas/lastUpdatedBy"
+            "$ref": "#/components/schemas/id"
           },
           "name": {
             "$ref": "#/components/schemas/name"
@@ -14163,11 +14163,7 @@
             "type": "array"
           },
           "chart": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "$ref": "#/components/schemas/id"
           },
           "code": {
             "$ref": "#/components/schemas/code"
@@ -14284,10 +14280,7 @@
             "$ref": "#/components/schemas/name"
           },
           "organisationUnit": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string"
+            "$ref": "#/components/schemas/id"
           },
           "period": {
             "format": "uid",
@@ -14332,10 +14325,7 @@
             "type": "string"
           },
           "user": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string"
+            "$ref": "#/components/schemas/id"
           },
           "userAccesses": {
             "items": {
@@ -15398,10 +15388,10 @@
         "properties": {}
       },
       "likes": {
-        "format": "integer",
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "locale": {
@@ -21021,7 +21011,11 @@
         "type": "boolean"
       },
       "period": {
-        "properties": {}
+        "example": "2004",
+        "format": "general",
+        "maxLength": 255,
+        "minLength": 0,
+        "type": "string"
       },
       "periodType": {
         "example": "mype",

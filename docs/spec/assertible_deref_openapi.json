@@ -14004,12 +14004,11 @@
             "type": "string"
           },
           "lastUpdatedBy": {
-            "format": "uid",
-            "maxLength": 11,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
             "minLength": 11,
             "readOnly": false,
-            "type": "string",
-            "x-association": "true"
+            "type": "string"
           },
           "name": {
             "maxLength": 230,
@@ -20248,11 +20247,11 @@
             "type": "array"
           },
           "chart": {
-            "format": "uid",
-            "maxLength": 11,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
             "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "readOnly": false,
+            "type": "string"
           },
           "code": {
             "maxLength": 50,
@@ -20379,10 +20378,10 @@
             "type": "array"
           },
           "likes": {
-            "format": "integer",
+            "format": "int32",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "map": {
@@ -20409,9 +20408,10 @@
             "type": "string"
           },
           "organisationUnit": {
-            "format": "uid",
-            "maxLength": 11,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
             "minLength": 11,
+            "readOnly": false,
             "type": "string"
           },
           "period": {
@@ -20482,9 +20482,10 @@
             "type": "string"
           },
           "user": {
-            "format": "uid",
-            "maxLength": 11,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
             "minLength": 11,
+            "readOnly": false,
             "type": "string"
           },
           "userAccesses": {
@@ -21898,10 +21899,10 @@
         "properties": {}
       },
       "likes": {
-        "format": "integer",
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "locale": {
@@ -24217,10 +24218,10 @@
                   "type": "array"
                 },
                 "likes": {
-                  "format": "integer",
+                  "format": "int32",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "map": {
@@ -29546,7 +29547,11 @@
         "type": "boolean"
       },
       "period": {
-        "properties": {}
+        "example": "2004",
+        "format": "general",
+        "maxLength": 255,
+        "minLength": 0,
+        "type": "string"
       },
       "periodType": {
         "example": "mype",
@@ -64582,12 +64587,11 @@
                             "type": "string"
                           },
                           "lastUpdatedBy": {
-                            "format": "uid",
-                            "maxLength": 11,
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
                             "minLength": 11,
                             "readOnly": false,
-                            "type": "string",
-                            "x-association": "true"
+                            "type": "string"
                           },
                           "name": {
                             "maxLength": 230,
@@ -70401,11 +70405,11 @@
                             "type": "array"
                           },
                           "chart": {
-                            "format": "uid",
-                            "maxLength": 11,
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
                             "minLength": 11,
-                            "type": "string",
-                            "x-association": "true"
+                            "readOnly": false,
+                            "type": "string"
                           },
                           "code": {
                             "maxLength": 50,
@@ -70532,10 +70536,10 @@
                             "type": "array"
                           },
                           "likes": {
-                            "format": "integer",
+                            "format": "int32",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "map": {
@@ -70562,9 +70566,10 @@
                             "type": "string"
                           },
                           "organisationUnit": {
-                            "format": "uid",
-                            "maxLength": 11,
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
                             "minLength": 11,
+                            "readOnly": false,
                             "type": "string"
                           },
                           "period": {
@@ -70635,9 +70640,10 @@
                             "type": "string"
                           },
                           "user": {
-                            "format": "uid",
-                            "maxLength": 11,
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
                             "minLength": 11,
+                            "readOnly": false,
                             "type": "string"
                           },
                           "userAccesses": {
@@ -73883,10 +73889,10 @@
                                   "type": "array"
                                 },
                                 "likes": {
-                                  "format": "integer",
+                                  "format": "int32",
                                   "maxLength": 2147483647,
                                   "minLength": 0,
-                                  "type": "string",
+                                  "type": "integer",
                                   "x-association": "true"
                                 },
                                 "map": {
