@@ -6839,8 +6839,8 @@
             "type": "array"
           },
           "value": {
-            "format": "number",
-            "type": "double"
+            "format": "double",
+            "type": "number"
           }
         },
         "required": [
@@ -25731,8 +25731,8 @@
         "type": "string"
       },
       "numberValue": {
-        "format": "number",
-        "type": "double"
+        "format": "double",
+        "type": "number"
       },
       "numerator": {
         "example": "mynumerator",
@@ -56311,8 +56311,8 @@
                             "type": "array"
                           },
                           "value": {
-                            "format": "number",
-                            "type": "double"
+                            "format": "double",
+                            "type": "number"
                           }
                         },
                         "required": [

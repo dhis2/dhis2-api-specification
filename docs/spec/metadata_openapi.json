@@ -18522,8 +18522,8 @@
         "type": "string"
       },
       "numberValue": {
-        "format": "number",
-        "type": "double"
+        "format": "double",
+        "type": "number"
       },
       "numerator": {
         "example": "mynumerator",

@@ -18512,8 +18512,8 @@
         "type": "boolean"
       },
       "numberValue": {
-        "format": "number",
-        "type": "double"
+        "format": "double",
+        "type": "number"
       },
       "numberType": {
         "enum": [
