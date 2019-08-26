@@ -5825,12 +5825,16 @@
                     "EVENT_REPORT",
                     "MAP",
                     "MESSAGES",
+                    "REPORTS",
                     "REPORT_TABLE",
                     "RESOURCES",
+                    "TEXT",
                     "USERS"
                   ],
-                  "example": "CHART",
+                  "example": "MAP",
                   "format": "enum",
+                  "maxLength": 12,
+                  "minLength": 3,
                   "readOnly": true,
                   "type": "string"
                 },
@@ -5959,7 +5963,7 @@
           },
           "favorites": {
             "items": {
-              "$ref": "#/components/schemas/favorite"
+              "$ref": "#/components/schemas/id"
             },
             "maxItems": 2147483647,
             "minItems": 0,

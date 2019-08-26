@@ -7854,12 +7854,16 @@
                     "EVENT_REPORT",
                     "MAP",
                     "MESSAGES",
+                    "REPORTS",
                     "REPORT_TABLE",
                     "RESOURCES",
+                    "TEXT",
                     "USERS"
                   ],
-                  "example": "CHART",
+                  "example": "MAP",
                   "format": "enum",
+                  "maxLength": 12,
+                  "minLength": 3,
                   "readOnly": true,
                   "type": "string"
                 },
@@ -8036,7 +8040,11 @@
           },
           "favorites": {
             "items": {
-              "type": "boolean"
+              "example": "NJnhOzjaLYk.qNCMOhkoQju",
+              "maxLength": 2147483647,
+              "minLength": 11,
+              "readOnly": false,
+              "type": "string"
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -58032,12 +58040,16 @@
                                     "EVENT_REPORT",
                                     "MAP",
                                     "MESSAGES",
+                                    "REPORTS",
                                     "REPORT_TABLE",
                                     "RESOURCES",
+                                    "TEXT",
                                     "USERS"
                                   ],
-                                  "example": "CHART",
+                                  "example": "MAP",
                                   "format": "enum",
+                                  "maxLength": 12,
+                                  "minLength": 3,
                                   "readOnly": true,
                                   "type": "string"
                                 },
@@ -58214,7 +58226,11 @@
                           },
                           "favorites": {
                             "items": {
-                              "type": "boolean"
+                              "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                              "maxLength": 2147483647,
+                              "minLength": 11,
+                              "readOnly": false,
+                              "type": "string"
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,
