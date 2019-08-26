@@ -6132,11 +6132,18 @@
             "type": "array"
           },
           "chart": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "maxProperties": 1,
+            "minProperties": 0,
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "readOnly": true,
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "code": {
             "$ref": "#/components/schemas/code"
