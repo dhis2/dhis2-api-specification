@@ -13141,10 +13141,10 @@
         "type": "string"
       },
       "height": {
-        "format": "integer",
+        "format": "int64",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "hidden": {
@@ -34871,10 +34871,10 @@
         "type": "string"
       },
       "width": {
-        "format": "integer",
+        "format": "int64",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "withoutRegistration": {

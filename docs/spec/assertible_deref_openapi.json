@@ -7183,10 +7183,10 @@
                   "type": "array"
                 },
                 "height": {
-                  "format": "integer",
+                  "format": "int64",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "id": {
@@ -7947,10 +7947,10 @@
                   "type": "array"
                 },
                 "width": {
-                  "format": "integer",
+                  "format": "int64",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "x": {
@@ -8384,10 +8384,10 @@
             "type": "array"
           },
           "height": {
-            "format": "integer",
+            "format": "int64",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "href": {
@@ -8649,10 +8649,10 @@
             "type": "array"
           },
           "width": {
-            "format": "integer",
+            "format": "int64",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "x": {
@@ -18466,10 +18466,10 @@
         "type": "string"
       },
       "height": {
-        "format": "integer",
+        "format": "int64",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "hidden": {
@@ -48583,10 +48583,10 @@
         "type": "string"
       },
       "width": {
-        "format": "integer",
+        "format": "int64",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "withoutRegistration": {
@@ -56616,10 +56616,10 @@
                             "type": "array"
                           },
                           "height": {
-                            "format": "integer",
+                            "format": "int64",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "href": {
@@ -56881,10 +56881,10 @@
                             "type": "array"
                           },
                           "width": {
-                            "format": "integer",
+                            "format": "int64",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "x": {
@@ -57297,10 +57297,10 @@
                                   "type": "array"
                                 },
                                 "height": {
-                                  "format": "integer",
+                                  "format": "int64",
                                   "maxLength": 2147483647,
                                   "minLength": 0,
-                                  "type": "string",
+                                  "type": "integer",
                                   "x-association": "true"
                                 },
                                 "id": {
@@ -58061,10 +58061,10 @@
                                   "type": "array"
                                 },
                                 "width": {
-                                  "format": "integer",
+                                  "format": "int64",
                                   "maxLength": 2147483647,
                                   "minLength": 0,
-                                  "type": "string",
+                                  "type": "integer",
                                   "x-association": "true"
                                 },
                                 "x": {
