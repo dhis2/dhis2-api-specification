@@ -782,7 +782,7 @@
       "attributeValue": {
         "properties": {
           "attribute": {
-            "format": "uid",
+            "minLength": 0,
             "maxLength": 255,
             "readOnly": false,
             "type": "string"
