@@ -4133,7 +4133,7 @@
           },
           "parentGraphMap": {
             "maxProperties": 1,
-            "minProperties": 1,
+            "minProperties": 0,
             "readOnly": false,
             "type": "object"
           },
