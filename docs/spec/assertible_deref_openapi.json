@@ -1026,8 +1026,9 @@
       "attributeValue": {
         "properties": {
           "attribute": {
-            "maxLength": 255,
-            "minLength": 0,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
+            "minLength": 11,
             "readOnly": false,
             "type": "string"
           },
@@ -2585,8 +2586,9 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "maxLength": 255,
-                  "minLength": 0,
+                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                  "maxLength": 2147483647,
+                  "minLength": 11,
                   "readOnly": false,
                   "type": "string"
                 },
@@ -3007,8 +3009,9 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "maxLength": 255,
-                  "minLength": 0,
+                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                  "maxLength": 2147483647,
+                  "minLength": 11,
                   "readOnly": false,
                   "type": "string"
                 },
@@ -8226,8 +8229,9 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "maxLength": 255,
-                  "minLength": 0,
+                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                  "maxLength": 2147483647,
+                  "minLength": 11,
                   "readOnly": false,
                   "type": "string"
                 },
@@ -10868,8 +10872,9 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "maxLength": 255,
-                  "minLength": 0,
+                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                  "maxLength": 2147483647,
+                  "minLength": 11,
                   "readOnly": false,
                   "type": "string"
                 },
@@ -20042,8 +20047,9 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "maxLength": 255,
-                  "minLength": 0,
+                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                  "maxLength": 2147483647,
+                  "minLength": 11,
                   "readOnly": false,
                   "type": "string"
                 },
@@ -45739,8 +45745,9 @@
                 "items": {
                   "properties": {
                     "attribute": {
-                      "maxLength": 255,
-                      "minLength": 0,
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
                       "readOnly": false,
                       "type": "string"
                     },
@@ -50795,8 +50802,9 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "maxLength": 255,
-                                  "minLength": 0,
+                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                  "maxLength": 2147483647,
+                                  "minLength": 11,
                                   "readOnly": false,
                                   "type": "string"
                                 },
@@ -51888,8 +51896,9 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "maxLength": 255,
-                                  "minLength": 0,
+                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                  "maxLength": 2147483647,
+                                  "minLength": 11,
                                   "readOnly": false,
                                   "type": "string"
                                 },
@@ -56351,8 +56360,9 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "maxLength": 255,
-                                  "minLength": 0,
+                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                  "maxLength": 2147483647,
+                                  "minLength": 11,
                                   "readOnly": false,
                                   "type": "string"
                                 },
@@ -60352,8 +60362,9 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "maxLength": 255,
-                                  "minLength": 0,
+                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                  "maxLength": 2147483647,
+                                  "minLength": 11,
                                   "readOnly": false,
                                   "type": "string"
                                 },
@@ -70184,8 +70195,9 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "maxLength": 255,
-                                  "minLength": 0,
+                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                  "maxLength": 2147483647,
+                                  "minLength": 11,
                                   "readOnly": false,
                                   "type": "string"
                                 },
@@ -100385,8 +100397,9 @@
                                 "items": {
                                   "properties": {
                                     "attribute": {
-                                      "maxLength": 255,
-                                      "minLength": 0,
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
                                       "readOnly": false,
                                       "type": "string"
                                     },

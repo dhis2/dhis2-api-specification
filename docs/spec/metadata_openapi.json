@@ -782,10 +782,7 @@
       "attributeValue": {
         "properties": {
           "attribute": {
-            "maxLength": 255,
-            "minLength": 0,
-            "readOnly": false,
-            "type": "string"
+            "$ref": "#/components/schemas/id"
           },
           "created": {
             "$ref": "#/components/schemas/created"
