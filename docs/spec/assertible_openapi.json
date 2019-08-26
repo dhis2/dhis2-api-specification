@@ -14220,11 +14220,15 @@
             "x-association": "true"
           },
           "eventReport": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "externalAccess": {
             "$ref": "#/components/schemas/externalAccess"
@@ -14316,10 +14320,15 @@
             "$ref": "#/components/schemas/publicAccess"
           },
           "reportTable": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "text": {
             "$ref": "#/components/schemas/text"
