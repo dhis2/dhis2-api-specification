@@ -31585,7 +31585,7 @@
       "total": {
         "description": "total number of items found by the request",
         "format": "int32",
-        "maximum": 255,
+        "maximum": 2147483647,
         "minimum": 0,
         "readOnly": true,
         "type": "integer"
