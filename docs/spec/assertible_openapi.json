@@ -35848,7 +35848,8 @@
                     "pager": {
                       "$ref": "#/components/schemas/pagination"
                     }
-                  }
+                  },
+                  "required": []
                 }
               }
             },

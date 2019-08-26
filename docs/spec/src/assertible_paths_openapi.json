@@ -1111,7 +1111,8 @@
                     "pager": {
                       "$ref": "./components_openapi.json#/components/schemas/pagination"
                     }
-                  }
+                  },
+                  "required": []
                 }
               }
             },
