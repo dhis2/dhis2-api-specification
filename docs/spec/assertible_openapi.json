@@ -31111,10 +31111,9 @@
         "x-unique": "true"
       },
       "sortOrder": {
-        "format": "integer",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "sortOrderInListNoProgram": {

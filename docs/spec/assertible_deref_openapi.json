@@ -826,10 +826,9 @@
             "type": "string"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "sqlViewAttribute": {
@@ -5943,10 +5942,9 @@
             "type": "boolean"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "subscribed": {
@@ -14358,10 +14356,9 @@
                   "type": "string"
                 },
                 "sortOrder": {
-                  "format": "integer",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "sqlViewAttribute": {
@@ -16228,10 +16225,9 @@
             "type": "boolean"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "startDate": {
@@ -17747,10 +17743,9 @@
             "type": "boolean"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "startDate": {
@@ -24717,10 +24712,9 @@
             "type": "string"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "startDate": {
@@ -26226,10 +26220,9 @@
             "type": "string"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "style": {
@@ -30415,10 +30408,9 @@
                   "type": "object"
                 },
                 "sortOrder": {
-                  "format": "integer",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "style": {
@@ -31016,10 +31008,9 @@
                   "type": "boolean"
                 },
                 "sortOrder": {
-                  "format": "integer",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "trackedEntityAttribute": {
@@ -34572,10 +34563,9 @@
             "type": "object"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "style": {
@@ -35195,10 +35185,9 @@
                   "type": "boolean"
                 },
                 "sortOrder": {
-                  "format": "integer",
                   "maxLength": 2147483647,
                   "minLength": 0,
-                  "type": "string",
+                  "type": "integer",
                   "x-association": "true"
                 },
                 "translations": {
@@ -35365,10 +35354,9 @@
             "type": "string"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "standardInterval": {
@@ -35823,10 +35811,9 @@
             "type": "object"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "style": {
@@ -40632,10 +40619,9 @@
             "type": "boolean"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "subscribed": {
@@ -41999,10 +41985,9 @@
             "type": "boolean"
           },
           "sortOrder": {
-            "format": "integer",
             "maxLength": 2147483647,
             "minLength": 0,
-            "type": "string",
+            "type": "integer",
             "x-association": "true"
           },
           "translations": {
@@ -42623,10 +42608,9 @@
         "x-unique": "true"
       },
       "sortOrder": {
-        "format": "integer",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "sortOrderInListNoProgram": {
@@ -44037,10 +44021,9 @@
                         "type": "string"
                       },
                       "sortOrder": {
-                        "format": "integer",
                         "maxLength": 2147483647,
                         "minLength": 0,
-                        "type": "string",
+                        "type": "integer",
                         "x-association": "true"
                       },
                       "sqlViewAttribute": {
@@ -49377,10 +49360,9 @@
                             "type": "string"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "sqlViewAttribute": {
@@ -55219,10 +55201,9 @@
                             "type": "boolean"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "subscribed": {
@@ -65882,10 +65863,9 @@
                             "type": "boolean"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "startDate": {
@@ -67503,10 +67483,9 @@
                             "type": "boolean"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "startDate": {
@@ -74447,10 +74426,9 @@
                             "type": "string"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "startDate": {
@@ -78314,10 +78292,9 @@
                             "type": "string"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "style": {
@@ -85376,10 +85353,9 @@
                             "type": "object"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "style": {
@@ -85880,10 +85856,9 @@
                             "type": "object"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "style": {
@@ -86639,10 +86614,9 @@
                                   "type": "boolean"
                                 },
                                 "sortOrder": {
-                                  "format": "integer",
                                   "maxLength": 2147483647,
                                   "minLength": 0,
-                                  "type": "string",
+                                  "type": "integer",
                                   "x-association": "true"
                                 },
                                 "translations": {
@@ -86809,10 +86783,9 @@
                             "type": "string"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "standardInterval": {
@@ -88114,10 +88087,9 @@
                                   "type": "object"
                                 },
                                 "sortOrder": {
-                                  "format": "integer",
                                   "maxLength": 2147483647,
                                   "minLength": 0,
-                                  "type": "string",
+                                  "type": "integer",
                                   "x-association": "true"
                                 },
                                 "style": {
@@ -88715,10 +88687,9 @@
                                   "type": "boolean"
                                 },
                                 "sortOrder": {
-                                  "format": "integer",
                                   "maxLength": 2147483647,
                                   "minLength": 0,
-                                  "type": "string",
+                                  "type": "integer",
                                   "x-association": "true"
                                 },
                                 "trackedEntityAttribute": {
@@ -93208,10 +93179,9 @@
                             "type": "boolean"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "subscribed": {
@@ -95299,10 +95269,9 @@
                             "type": "boolean"
                           },
                           "sortOrder": {
-                            "format": "integer",
                             "maxLength": 2147483647,
                             "minLength": 0,
-                            "type": "string",
+                            "type": "integer",
                             "x-association": "true"
                           },
                           "translations": {
@@ -97509,10 +97478,9 @@
                                         "type": "string"
                                       },
                                       "sortOrder": {
-                                        "format": "integer",
                                         "maxLength": 2147483647,
                                         "minLength": 0,
-                                        "type": "string",
+                                        "type": "integer",
                                         "x-association": "true"
                                       },
                                       "sqlViewAttribute": {
