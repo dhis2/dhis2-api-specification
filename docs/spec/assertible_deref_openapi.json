@@ -1026,11 +1026,19 @@
       "attributeValue": {
         "properties": {
           "attribute": {
-            "example": "NJnhOzjaLYk.qNCMOhkoQju",
-            "maxLength": 2147483647,
-            "minLength": 11,
-            "readOnly": false,
-            "type": "string"
+            "properties": {
+              "id": {
+                "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                "maxLength": 2147483647,
+                "minLength": 11,
+                "readOnly": false,
+                "type": "string"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "created": {
             "format": "date-time",
@@ -2586,11 +2594,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                  "maxLength": 2147483647,
-                  "minLength": 11,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -3009,11 +3025,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                  "maxLength": 2147483647,
-                  "minLength": 11,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -8229,11 +8253,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                  "maxLength": 2147483647,
-                  "minLength": 11,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -10872,11 +10904,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                  "maxLength": 2147483647,
-                  "minLength": 11,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -20047,11 +20087,19 @@
             "items": {
               "properties": {
                 "attribute": {
-                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                  "maxLength": 2147483647,
-                  "minLength": 11,
-                  "readOnly": false,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                      "maxLength": 2147483647,
+                      "minLength": 11,
+                      "readOnly": false,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "created": {
                   "format": "date-time",
@@ -45745,11 +45793,19 @@
                 "items": {
                   "properties": {
                     "attribute": {
-                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                      "maxLength": 2147483647,
-                      "minLength": 11,
-                      "readOnly": false,
-                      "type": "string"
+                      "properties": {
+                        "id": {
+                          "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                          "maxLength": 2147483647,
+                          "minLength": 11,
+                          "readOnly": false,
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ],
+                      "type": "object"
                     },
                     "created": {
                       "format": "date-time",
@@ -50802,11 +50858,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                  "maxLength": 2147483647,
-                                  "minLength": 11,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -51896,11 +51960,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                  "maxLength": 2147483647,
-                                  "minLength": 11,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -56360,11 +56432,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                  "maxLength": 2147483647,
-                                  "minLength": 11,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -60362,11 +60442,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                  "maxLength": 2147483647,
-                                  "minLength": 11,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -70195,11 +70283,19 @@
                             "items": {
                               "properties": {
                                 "attribute": {
-                                  "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                  "maxLength": 2147483647,
-                                  "minLength": 11,
-                                  "readOnly": false,
-                                  "type": "string"
+                                  "properties": {
+                                    "id": {
+                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                      "maxLength": 2147483647,
+                                      "minLength": 11,
+                                      "readOnly": false,
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "type": "object"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -100397,11 +100493,19 @@
                                 "items": {
                                   "properties": {
                                     "attribute": {
-                                      "example": "NJnhOzjaLYk.qNCMOhkoQju",
-                                      "maxLength": 2147483647,
-                                      "minLength": 11,
-                                      "readOnly": false,
-                                      "type": "string"
+                                      "properties": {
+                                        "id": {
+                                          "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                                          "maxLength": 2147483647,
+                                          "minLength": 11,
+                                          "readOnly": false,
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id"
+                                      ],
+                                      "type": "object"
                                     },
                                     "created": {
                                       "format": "date-time",

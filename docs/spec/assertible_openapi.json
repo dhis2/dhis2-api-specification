@@ -782,7 +782,15 @@
       "attributeValue": {
         "properties": {
           "attribute": {
-            "$ref": "#/components/schemas/id"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "created": {
             "$ref": "#/components/schemas/created"
