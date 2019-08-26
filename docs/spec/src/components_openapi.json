@@ -14203,11 +14203,15 @@
             "$ref": "#/components/schemas/created"
           },
           "dataSet": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "displayName": {
             "$ref": "#/components/schemas/displayName"
@@ -14280,10 +14284,15 @@
             "$ref": "#/components/schemas/likes"
           },
           "map": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "mentions": {
             "items": {
@@ -14311,10 +14320,15 @@
             "type": "object"
           },
           "period": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "publicAccess": {
             "$ref": "#/components/schemas/publicAccess"
