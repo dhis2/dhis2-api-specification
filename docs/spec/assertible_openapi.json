@@ -13049,7 +13049,7 @@
       "icon": {
         "example": "myicon",
         "format": "general",
-        "maxLength": 20,
+        "maxLength": 255,
         "minLength": 0,
         "type": "string"
       },
