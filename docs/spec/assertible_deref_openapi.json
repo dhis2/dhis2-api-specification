@@ -18780,12 +18780,8 @@
           },
           "attributeValues": {
             "items": {
-              "maxProperties": 4,
-              "minProperties": 0,
               "properties": {
                 "attribute": {
-                  "maxProperties": 1,
-                  "minProperties": 0,
                   "properties": {
                     "id": {
                       "example": "NJnhOzjaLYk.qNCMOhkoQju",
@@ -18822,13 +18818,8 @@
                 }
               },
               "required": [
-                "attribute",
-                "created",
-                "lastUpdated",
-                "value"
-              ],
-              "type": "object",
-              "x-association": "true"
+                "attribute"
+              ]
             },
             "maxItems": 2147483647,
             "minItems": 0,
@@ -69759,12 +69750,8 @@
                           },
                           "attributeValues": {
                             "items": {
-                              "maxProperties": 4,
-                              "minProperties": 0,
                               "properties": {
                                 "attribute": {
-                                  "maxProperties": 1,
-                                  "minProperties": 0,
                                   "properties": {
                                     "id": {
                                       "example": "NJnhOzjaLYk.qNCMOhkoQju",
@@ -69801,13 +69788,8 @@
                                 }
                               },
                               "required": [
-                                "attribute",
-                                "created",
-                                "lastUpdated",
-                                "value"
-                              ],
-                              "type": "object",
-                              "x-association": "true"
+                                "attribute"
+                              ]
                             },
                             "maxItems": 2147483647,
                             "minItems": 0,

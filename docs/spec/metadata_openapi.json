@@ -13151,40 +13151,7 @@
           },
           "attributeValues": {
             "items": {
-              "maxProperties": 4,
-              "minProperties": 0,
-              "properties": {
-                "attribute": {
-                  "maxProperties": 1,
-                  "minProperties": 0,
-                  "properties": {
-                    "id": {
-                      "$ref": "#/components/schemas/id"
-                    }
-                  },
-                  "required": [
-                    "id"
-                  ],
-                  "type": "object"
-                },
-                "created": {
-                  "$ref": "#/components/schemas/created"
-                },
-                "lastUpdated": {
-                  "$ref": "#/components/schemas/lastUpdated"
-                },
-                "value": {
-                  "$ref": "#/components/schemas/value"
-                }
-              },
-              "required": [
-                "attribute",
-                "created",
-                "lastUpdated",
-                "value"
-              ],
-              "type": "object",
-              "x-association": "true"
+              "$ref": "#/components/schemas/attributeValue"
             },
             "maxItems": 2147483647,
             "minItems": 0,
