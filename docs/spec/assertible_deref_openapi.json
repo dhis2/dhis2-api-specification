@@ -530,9 +530,9 @@
         "type": "string"
       },
       "annualSampleCount": {
-        "example": 3,
+        "example": 1,
         "format": "int32",
-        "maximum": 10,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -6867,9 +6867,11 @@
         "type": "string"
       },
       "contentCount": {
-        "format": "integer",
-        "readOnly": true,
-        "type": "string"
+        "example": 1,
+        "format": "int32",
+        "maximum": 2147483647,
+        "minimum": 0,
+        "type": "integer"
       },
       "contentType": {
         "example": "mycontentType",
@@ -7120,9 +7122,11 @@
                   "type": "object"
                 },
                 "contentCount": {
-                  "format": "integer",
-                  "readOnly": true,
-                  "type": "string"
+                  "example": 1,
+                  "format": "int32",
+                  "maximum": 2147483647,
+                  "minimum": 0,
+                  "type": "integer"
                 },
                 "created": {
                   "format": "date-time",
@@ -7183,11 +7187,11 @@
                   "type": "array"
                 },
                 "height": {
-                  "format": "int64",
-                  "maxLength": 2147483647,
-                  "minLength": 0,
-                  "type": "integer",
-                  "x-association": "true"
+                  "example": 1,
+                  "format": "int32",
+                  "maximum": 2147483647,
+                  "minimum": 0,
+                  "type": "integer"
                 },
                 "id": {
                   "example": "NJnhOzjaLYk.qNCMOhkoQju",
@@ -7197,14 +7201,16 @@
                   "type": "string"
                 },
                 "interpretationCount": {
-                  "format": "integer",
-                  "readOnly": true,
-                  "type": "string"
+                  "example": 9,
+                  "format": "int32",
+                  "minimum": 2,
+                  "type": "integer"
                 },
                 "interpretationLikeCount": {
-                  "format": "integer",
-                  "readOnly": true,
-                  "type": "string"
+                  "example": 9,
+                  "format": "int32",
+                  "minimum": 2,
+                  "type": "integer"
                 },
                 "lastUpdated": {
                   "format": "date-time",
@@ -7947,25 +7953,25 @@
                   "type": "array"
                 },
                 "width": {
-                  "format": "int64",
-                  "maxLength": 2147483647,
-                  "minLength": 0,
-                  "type": "integer",
-                  "x-association": "true"
+                  "example": 1,
+                  "format": "int32",
+                  "maximum": 2147483647,
+                  "minimum": 0,
+                  "type": "integer"
                 },
                 "x": {
-                  "format": "integer",
-                  "maxLength": 2147483647,
-                  "minLength": 0,
-                  "type": "string",
-                  "x-association": "true"
+                  "example": 1,
+                  "format": "int32",
+                  "maximum": 2147483647,
+                  "minimum": 0,
+                  "type": "integer"
                 },
                 "y": {
-                  "format": "integer",
-                  "maxLength": 2147483647,
-                  "minLength": 0,
-                  "type": "string",
-                  "x-association": "true"
+                  "example": 1,
+                  "format": "int32",
+                  "maximum": 2147483647,
+                  "minimum": 0,
+                  "type": "integer"
                 }
               },
               "required": [
@@ -8051,7 +8057,6 @@
           "itemCount": {
             "example": 9,
             "format": "int32",
-            "maximum": 17,
             "minimum": 2,
             "type": "integer"
           },
@@ -8336,9 +8341,11 @@
             "type": "string"
           },
           "contentCount": {
-            "format": "integer",
-            "readOnly": true,
-            "type": "string"
+            "example": 1,
+            "format": "int32",
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer"
           },
           "created": {
             "format": "date-time",
@@ -8384,11 +8391,11 @@
             "type": "array"
           },
           "height": {
-            "format": "int64",
-            "maxLength": 2147483647,
-            "minLength": 0,
-            "type": "integer",
-            "x-association": "true"
+            "example": 1,
+            "format": "int32",
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer"
           },
           "href": {
             "format": "url",
@@ -8405,14 +8412,16 @@
             "type": "string"
           },
           "interpretationCount": {
-            "format": "integer",
-            "readOnly": true,
-            "type": "string"
+            "example": 9,
+            "format": "int32",
+            "minimum": 2,
+            "type": "integer"
           },
           "interpretationLikeCount": {
-            "format": "integer",
-            "readOnly": true,
-            "type": "string"
+            "example": 9,
+            "format": "int32",
+            "minimum": 2,
+            "type": "integer"
           },
           "lastUpdated": {
             "format": "date-time",
@@ -8649,25 +8658,25 @@
             "type": "array"
           },
           "width": {
-            "format": "int64",
-            "maxLength": 2147483647,
-            "minLength": 0,
-            "type": "integer",
-            "x-association": "true"
+            "example": 1,
+            "format": "int32",
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer"
           },
           "x": {
-            "format": "integer",
-            "maxLength": 2147483647,
-            "minLength": 0,
-            "type": "string",
-            "x-association": "true"
+            "example": 1,
+            "format": "int32",
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer"
           },
           "y": {
-            "format": "integer",
-            "maxLength": 2147483647,
-            "minLength": 0,
-            "type": "string",
-            "x-association": "true"
+            "example": 1,
+            "format": "int32",
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer"
           }
         },
         "type": "object",
@@ -18466,11 +18475,11 @@
         "type": "string"
       },
       "height": {
-        "format": "int64",
-        "maxLength": 2147483647,
-        "minLength": 0,
-        "type": "integer",
-        "x-association": "true"
+        "example": 1,
+        "format": "int32",
+        "maximum": 2147483647,
+        "minimum": 0,
+        "type": "integer"
       },
       "hidden": {
         "type": "boolean"
@@ -20470,14 +20479,16 @@
         "x-status-dhis2": "template"
       },
       "interpretationCount": {
-        "format": "integer",
-        "readOnly": true,
-        "type": "string"
+        "example": 9,
+        "format": "int32",
+        "minimum": 2,
+        "type": "integer"
       },
       "interpretationLikeCount": {
-        "format": "integer",
-        "readOnly": true,
-        "type": "string"
+        "example": 9,
+        "format": "int32",
+        "minimum": 2,
+        "type": "integer"
       },
       "introduction": {
         "example": "myintroduction",
@@ -20496,7 +20507,6 @@
       "itemCount": {
         "example": 9,
         "format": "int32",
-        "maximum": 17,
         "minimum": 2,
         "type": "integer"
       },
@@ -24981,11 +24991,11 @@
         "type": "string"
       },
       "memberCount": {
-        "format": "integer",
-        "maxLength": 2147483647,
-        "minLength": 0,
-        "type": "string",
-        "x-association": "true"
+        "example": 1,
+        "format": "int32",
+        "maximum": 2147483647,
+        "minimum": 0,
+        "type": "integer"
       },
       "message": {
         "example": "mymessage",
@@ -27888,11 +27898,11 @@
             "type": "integer"
           },
           "memberCount": {
-            "format": "integer",
-            "maxLength": 2147483647,
-            "minLength": 0,
-            "type": "string",
-            "x-association": "true"
+            "example": 1,
+            "format": "int32",
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer"
           },
           "name": {
             "maxLength": 230,
@@ -29533,9 +29543,9 @@
             "type": "object"
           },
           "annualSampleCount": {
-            "example": 3,
+            "example": 1,
             "format": "int32",
-            "maximum": 10,
+            "maximum": 2147483647,
             "minimum": 0,
             "type": "integer"
           },
@@ -48583,11 +48593,11 @@
         "type": "string"
       },
       "width": {
-        "format": "int64",
-        "maxLength": 2147483647,
-        "minLength": 0,
-        "type": "integer",
-        "x-association": "true"
+        "example": 1,
+        "format": "int32",
+        "maximum": 2147483647,
+        "minimum": 0,
+        "type": "integer"
       },
       "withoutRegistration": {
         "readOnly": true,
@@ -48611,21 +48621,21 @@
         "type": "string"
       },
       "x": {
-        "format": "integer",
-        "maxLength": 2147483647,
-        "minLength": 0,
-        "type": "string",
-        "x-association": "true"
+        "example": 1,
+        "format": "int32",
+        "maximum": 2147483647,
+        "minimum": 0,
+        "type": "integer"
       },
       "x-unique": {
         "type": "boolean"
       },
       "y": {
-        "format": "integer",
-        "maxLength": 2147483647,
-        "minLength": 0,
-        "type": "string",
-        "x-association": "true"
+        "example": 1,
+        "format": "int32",
+        "maximum": 2147483647,
+        "minimum": 0,
+        "type": "integer"
       },
       "yesterday": {
         "type": "boolean"
@@ -56568,9 +56578,11 @@
                             "type": "string"
                           },
                           "contentCount": {
-                            "format": "integer",
-                            "readOnly": true,
-                            "type": "string"
+                            "example": 1,
+                            "format": "int32",
+                            "maximum": 2147483647,
+                            "minimum": 0,
+                            "type": "integer"
                           },
                           "created": {
                             "format": "date-time",
@@ -56616,11 +56628,11 @@
                             "type": "array"
                           },
                           "height": {
-                            "format": "int64",
-                            "maxLength": 2147483647,
-                            "minLength": 0,
-                            "type": "integer",
-                            "x-association": "true"
+                            "example": 1,
+                            "format": "int32",
+                            "maximum": 2147483647,
+                            "minimum": 0,
+                            "type": "integer"
                           },
                           "href": {
                             "format": "url",
@@ -56637,14 +56649,16 @@
                             "type": "string"
                           },
                           "interpretationCount": {
-                            "format": "integer",
-                            "readOnly": true,
-                            "type": "string"
+                            "example": 9,
+                            "format": "int32",
+                            "minimum": 2,
+                            "type": "integer"
                           },
                           "interpretationLikeCount": {
-                            "format": "integer",
-                            "readOnly": true,
-                            "type": "string"
+                            "example": 9,
+                            "format": "int32",
+                            "minimum": 2,
+                            "type": "integer"
                           },
                           "lastUpdated": {
                             "format": "date-time",
@@ -56881,25 +56895,25 @@
                             "type": "array"
                           },
                           "width": {
-                            "format": "int64",
-                            "maxLength": 2147483647,
-                            "minLength": 0,
-                            "type": "integer",
-                            "x-association": "true"
+                            "example": 1,
+                            "format": "int32",
+                            "maximum": 2147483647,
+                            "minimum": 0,
+                            "type": "integer"
                           },
                           "x": {
-                            "format": "integer",
-                            "maxLength": 2147483647,
-                            "minLength": 0,
-                            "type": "string",
-                            "x-association": "true"
+                            "example": 1,
+                            "format": "int32",
+                            "maximum": 2147483647,
+                            "minimum": 0,
+                            "type": "integer"
                           },
                           "y": {
-                            "format": "integer",
-                            "maxLength": 2147483647,
-                            "minLength": 0,
-                            "type": "string",
-                            "x-association": "true"
+                            "example": 1,
+                            "format": "int32",
+                            "maximum": 2147483647,
+                            "minimum": 0,
+                            "type": "integer"
                           }
                         },
                         "type": "object",
@@ -57234,9 +57248,11 @@
                                   "type": "object"
                                 },
                                 "contentCount": {
-                                  "format": "integer",
-                                  "readOnly": true,
-                                  "type": "string"
+                                  "example": 1,
+                                  "format": "int32",
+                                  "maximum": 2147483647,
+                                  "minimum": 0,
+                                  "type": "integer"
                                 },
                                 "created": {
                                   "format": "date-time",
@@ -57297,11 +57313,11 @@
                                   "type": "array"
                                 },
                                 "height": {
-                                  "format": "int64",
-                                  "maxLength": 2147483647,
-                                  "minLength": 0,
-                                  "type": "integer",
-                                  "x-association": "true"
+                                  "example": 1,
+                                  "format": "int32",
+                                  "maximum": 2147483647,
+                                  "minimum": 0,
+                                  "type": "integer"
                                 },
                                 "id": {
                                   "example": "NJnhOzjaLYk.qNCMOhkoQju",
@@ -57311,14 +57327,16 @@
                                   "type": "string"
                                 },
                                 "interpretationCount": {
-                                  "format": "integer",
-                                  "readOnly": true,
-                                  "type": "string"
+                                  "example": 9,
+                                  "format": "int32",
+                                  "minimum": 2,
+                                  "type": "integer"
                                 },
                                 "interpretationLikeCount": {
-                                  "format": "integer",
-                                  "readOnly": true,
-                                  "type": "string"
+                                  "example": 9,
+                                  "format": "int32",
+                                  "minimum": 2,
+                                  "type": "integer"
                                 },
                                 "lastUpdated": {
                                   "format": "date-time",
@@ -58061,25 +58079,25 @@
                                   "type": "array"
                                 },
                                 "width": {
-                                  "format": "int64",
-                                  "maxLength": 2147483647,
-                                  "minLength": 0,
-                                  "type": "integer",
-                                  "x-association": "true"
+                                  "example": 1,
+                                  "format": "int32",
+                                  "maximum": 2147483647,
+                                  "minimum": 0,
+                                  "type": "integer"
                                 },
                                 "x": {
-                                  "format": "integer",
-                                  "maxLength": 2147483647,
-                                  "minLength": 0,
-                                  "type": "string",
-                                  "x-association": "true"
+                                  "example": 1,
+                                  "format": "int32",
+                                  "maximum": 2147483647,
+                                  "minimum": 0,
+                                  "type": "integer"
                                 },
                                 "y": {
-                                  "format": "integer",
-                                  "maxLength": 2147483647,
-                                  "minLength": 0,
-                                  "type": "string",
-                                  "x-association": "true"
+                                  "example": 1,
+                                  "format": "int32",
+                                  "maximum": 2147483647,
+                                  "minimum": 0,
+                                  "type": "integer"
                                 }
                               },
                               "required": [
@@ -58165,7 +58183,6 @@
                           "itemCount": {
                             "example": 9,
                             "format": "int32",
-                            "maximum": 17,
                             "minimum": 2,
                             "type": "integer"
                           },
@@ -80559,11 +80576,11 @@
                             "type": "integer"
                           },
                           "memberCount": {
-                            "format": "integer",
-                            "maxLength": 2147483647,
-                            "minLength": 0,
-                            "type": "string",
-                            "x-association": "true"
+                            "example": 1,
+                            "format": "int32",
+                            "maximum": 2147483647,
+                            "minimum": 0,
+                            "type": "integer"
                           },
                           "name": {
                             "maxLength": 230,
@@ -81043,9 +81060,9 @@
                             "type": "object"
                           },
                           "annualSampleCount": {
-                            "example": 3,
+                            "example": 1,
                             "format": "int32",
-                            "maximum": 10,
+                            "maximum": 2147483647,
                             "minimum": 0,
                             "type": "integer"
                           },
