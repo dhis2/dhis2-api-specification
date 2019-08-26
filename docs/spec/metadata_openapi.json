@@ -21139,22 +21139,16 @@
       },
       "page": {
         "format": "int32",
-        "maximum": 255,
-        "minimum": 1,
         "readOnly": true,
         "type": "integer"
       },
       "pageCount": {
         "format": "int32",
-        "maximum": 255,
-        "minimum": 1,
         "readOnly": true,
         "type": "integer"
       },
       "pageSize": {
         "format": "int32",
-        "maximum": 255,
-        "minimum": 1,
         "readOnly": true,
         "type": "integer"
       },
@@ -21163,33 +21157,16 @@
         "minItems": 1,
         "properties": {
           "page": {
-            "format": "int32",
-            "maximum": 255,
-            "minimum": 1,
-            "readOnly": true,
-            "type": "integer"
+            "$ref": "#/components/schemas/page"
           },
           "pageCount": {
-            "format": "int32",
-            "maximum": 255,
-            "minimum": 1,
-            "readOnly": true,
-            "type": "integer"
+            "$ref": "#/components/schemas/pageCount"
           },
           "pageSize": {
-            "format": "int32",
-            "maximum": 255,
-            "minimum": 1,
-            "readOnly": true,
-            "type": "integer"
+            "$ref": "#/components/schemas/pageSize"
           },
           "total": {
-            "description": "total number of items found by the request",
-            "format": "int32",
-            "maximum": 255,
-            "minimum": 0,
-            "readOnly": true,
-            "type": "integer"
+            "$ref": "#/components/schemas/total"
           }
         },
         "readOnly": true,
