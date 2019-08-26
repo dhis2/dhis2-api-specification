@@ -6879,10 +6879,10 @@
           },
           "aggregationLevels": {
             "items": {
-              "format": "integer",
+              "format": "int32",
               "maxLength": 255,
               "minLength": 1,
-              "type": "string",
+              "type": "integer",
               "x-association": "true"
             },
             "maxItems": 2147483647,
@@ -9691,17 +9691,17 @@
         }
       },
       "dayInPeriod": {
-        "format": "integer",
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
         "readOnly": false,
-        "type": "string"
+        "type": "integer"
       },
       "decimals": {
-        "format": "integer",
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "defaultMessage": {
@@ -17753,12 +17753,12 @@
         "x-status-dhis2": "template"
       },
       "max": {
-        "example": null,
-        "format": "integer",
+        "example": 255,
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
         "readOnly": false,
-        "type": "string",
+        "type": "integer",
         "x-association": "true"
       },
       "maxTeiCountToReturn": {
@@ -18162,12 +18162,12 @@
         "type": "string"
       },
       "min": {
-        "example": null,
-        "format": "integer",
+        "example": 0,
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
         "readOnly": false,
-        "type": "string"
+        "type": "integer"
       },
       "minAttributesRequiredToSearch": {
         "example": 1,
@@ -18565,10 +18565,10 @@
         "x-status-dhis2": "template"
       },
       "offlineLevels": {
-        "format": "integer",
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": 0,
-        "type": "string"
+        "type": "integer"
       },
       "offsetPeriodType": {
         "example": "myoff",
@@ -26672,11 +26672,11 @@
         "properties": {}
       },
       "relativeScheduledDays": {
-        "format": "integer",
+        "format": "int32",
         "maxLength": 2147483647,
         "minLength": -2147483648,
         "readOnly": false,
-        "type": "string"
+        "type": "integer"
       },
       "remindCompleted": {
         "type": "boolean"
@@ -34135,10 +34135,10 @@
           },
           "organisationUnitLevels": {
             "items": {
-              "format": "integer",
+              "format": "int32",
               "maxLength": 255,
               "minLength": 1,
-              "type": "string"
+              "type": "integer"
             },
             "maxItems": 2147483647,
             "minItems": 0,
