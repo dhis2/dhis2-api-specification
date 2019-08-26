@@ -5020,7 +5020,7 @@
             "type": "array"
           },
           "value": {
-            "$ref": "#/components/schemas/value"
+            "$ref": "#/components/schemas/numberValue"
           }
         },
         "required": [
@@ -18513,6 +18513,10 @@
         "example": "VALUE",
         "format": "enum",
         "type": "string"
+      },
+      "numberValue": {
+        "format": "number",
+        "type": "double"
       },
       "numerator": {
         "example": "mynumerator",

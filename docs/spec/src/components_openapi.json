@@ -5020,7 +5020,7 @@
             "type": "array"
           },
           "value": {
-            "$ref": "#/components/schemas/value"
+            "$ref": "#/components/schemas/numberValue"
           }
         },
         "required": [
@@ -18503,6 +18503,10 @@
       },
       "number": {
         "type": "boolean"
+      },
+      "numberValue": {
+        "format": "number",
+        "type": "double"
       },
       "numberType": {
         "enum": [

@@ -6839,10 +6839,8 @@
             "type": "array"
           },
           "value": {
-            "maxLength": 2147483647,
-            "minLength": 0,
-            "readOnly": false,
-            "type": "string"
+            "format": "number",
+            "type": "double"
           }
         },
         "required": [
@@ -25720,6 +25718,10 @@
         "example": "VALUE",
         "format": "enum",
         "type": "string"
+      },
+      "numberValue": {
+        "format": "number",
+        "type": "double"
       },
       "numerator": {
         "example": "mynumerator",
@@ -56298,10 +56300,8 @@
                             "type": "array"
                           },
                           "value": {
-                            "maxLength": 2147483647,
-                            "minLength": 0,
-                            "readOnly": false,
-                            "type": "string"
+                            "format": "number",
+                            "type": "double"
                           }
                         },
                         "required": [
