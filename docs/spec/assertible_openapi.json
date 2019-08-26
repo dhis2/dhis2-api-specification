@@ -7145,7 +7145,7 @@
                 "example": "myicon",
                 "format": "general",
                 "maxLength": 20,
-                "minLength": 20,
+                "minLength": 0,
                 "type": "string"
               }
             },
@@ -26572,8 +26572,7 @@
             },
             "readOnly": false,
             "required": [
-              "relationshipEntity",
-              "trackedEntityType"
+              "relationshipEntity"
             ],
             "type": "object"
           },
@@ -26648,11 +26647,15 @@
             "type": "array"
           },
           "user": {
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string",
-            "x-association": "true"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "userAccesses": {
             "items": {
@@ -29811,7 +29814,7 @@
           },
           "greyedFields": {
             "items": {
-              "maxProperties": 20,
+              "maxProperties": 21,
               "minProperties": 0,
               "properties": {
                 "access": {
@@ -33368,6 +33371,7 @@
                 "F_ACCEPT_DATA_LOWER_LEVELS",
                 "F_ANALYTICSTABLEHOOK_ADD",
                 "F_ANALYTICSTABLEHOOK_DELETE",
+                "F_ANONYMOUS_DATA_ENTRY",
                 "F_APPROVE_DATA",
                 "F_APPROVE_DATA_LOWER_LEVELS",
                 "F_ATTRIBUTE_DELETE",
@@ -33432,15 +33436,18 @@
                 "F_PROGRAM_VALIDATION",
                 "F_PUSH_ANALYSIS_ADD",
                 "F_PUSH_ANALYSIS_DELETE",
+                "F_RELATIONSHIP_ADD",
                 "F_REPLICATE_USER",
                 "F_REPORT_DELETE",
                 "F_REPORT_PRIVATE_ADD",
                 "F_RUN_VALIDATION",
                 "F_SCHEDULING_ADMIN",
+                "F_SINGLE_EVENT_DATA_ENTRY",
                 "F_SQLVIEW_DELETE",
                 "F_SQLVIEW_EXTERNAL",
                 "F_SYSTEM_SETTING",
                 "F_TRACKED_ENTITY_ATTRIBUTE_DELETE",
+                "F_TRACKED_ENTITY_COMMENT_DELETE",
                 "F_TRACKED_ENTITY_UPDATE",
                 "F_UNCOMPLETE_EVENT",
                 "F_USERROLE_LIST",
@@ -33465,6 +33472,7 @@
                 "M_dhis-web-data-quality",
                 "M_dhis-web-data-visualizer",
                 "M_dhis-web-dataentry",
+                "M_dhis-web-event-capture",
                 "M_dhis-web-event-visualizer",
                 "M_dhis-web-importexport",
                 "M_dhis-web-interpretation",
