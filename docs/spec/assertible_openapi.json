@@ -7813,9 +7813,6 @@
             "type": "string"
           },
           "displayDescription": {
-            "enum": [
-              "Tracker-based data"
-            ],
             "example": "mydispla",
             "format": "general",
             "maxLength": 255,
@@ -8145,11 +8142,7 @@
             "$ref": "#/components/schemas/href"
           },
           "id": {
-            "example": "myid",
-            "format": "uid",
-            "maxLength": 11,
-            "minLength": 11,
-            "type": "string"
+            "$ref": "#/components/schemas/id"
           },
           "lastUpdated": {
             "format": "date-time",

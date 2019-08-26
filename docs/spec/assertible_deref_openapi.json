@@ -10659,9 +10659,6 @@
             "type": "string"
           },
           "displayDescription": {
-            "enum": [
-              "Tracker-based data"
-            ],
             "example": "mydispla",
             "format": "general",
             "maxLength": 255,
@@ -11146,10 +11143,10 @@
             "type": "string"
           },
           "id": {
-            "example": "myid",
-            "format": "uid",
-            "maxLength": 11,
+            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+            "maxLength": 2147483647,
             "minLength": 11,
+            "readOnly": false,
             "type": "string"
           },
           "lastUpdated": {
@@ -59624,9 +59621,6 @@
                             "type": "string"
                           },
                           "displayDescription": {
-                            "enum": [
-                              "Tracker-based data"
-                            ],
                             "example": "mydispla",
                             "format": "general",
                             "maxLength": 255,
@@ -60781,10 +60775,10 @@
                             "type": "string"
                           },
                           "id": {
-                            "example": "myid",
-                            "format": "uid",
-                            "maxLength": 11,
+                            "example": "NJnhOzjaLYk.qNCMOhkoQju",
+                            "maxLength": 2147483647,
                             "minLength": 11,
+                            "readOnly": false,
                             "type": "string"
                           },
                           "lastUpdated": {
