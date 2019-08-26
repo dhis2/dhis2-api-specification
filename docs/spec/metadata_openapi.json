@@ -14585,15 +14585,17 @@
         "x-status-dhis2": "template"
       },
       "interpretationCount": {
-        "example": 9,
+        "example": 6,
         "format": "int32",
-        "minimum": 2,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "interpretationLikeCount": {
         "example": 9,
         "format": "int32",
-        "minimum": 2,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "introduction": {
