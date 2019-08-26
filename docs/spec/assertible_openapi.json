@@ -149,20 +149,20 @@
         "example": "myaddress",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "aggregateExportAttributeOptionCombo": {
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "aggregateExportCategoryOptionCombo": {
         "example": "sqGRzCziswD",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "aggregationType": {
@@ -420,8 +420,8 @@
       "annualSampleCount": {
         "example": 3,
         "format": "int32",
-        "maximum": 3,
-        "minimum": 3,
+        "maximum": 10,
+        "minimum": 0,
         "type": "integer"
       },
       "annualized": {
@@ -431,14 +431,14 @@
         "example": "myappKey",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "areaRadius": {
         "example": 5000,
         "format": "int32",
-        "maximum": 7000,
-        "minimum": 5,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "attachment": {
@@ -811,8 +811,8 @@
       "attribution": {
         "example": "myattribution",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "autoGenerateEvent": {
@@ -822,21 +822,21 @@
         "example": "mybaseLi",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "baseLineValue": {
         "example": 85.0,
         "format": "double",
-        "maximum": 85.0,
-        "minimum": 60.0,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "number"
       },
       "basemap": {
         "example": "mybasem",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "biMonthsThisYear": {
@@ -882,7 +882,7 @@
         "properties": {}
       },
       "category": {
-        "maxProperties": 33,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -1217,7 +1217,7 @@
         "type": "boolean"
       },
       "categoryCombo": {
-        "maxProperties": 24,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -1864,7 +1864,7 @@
         "type": "boolean"
       },
       "categoryOptionCombo": {
-        "maxProperties": 29,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -2182,7 +2182,7 @@
         "type": "boolean"
       },
       "categoryOptionGroup": {
-        "maxProperties": 29,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -4579,17 +4579,16 @@
         "x-status-dhis2": "template"
       },
       "cid": {
-        "format": "uid",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 230,
+        "minLength": 0,
         "readOnly": false,
         "type": "string"
       },
       "classes": {
         "example": 5,
         "format": "int32",
-        "maximum": 5,
-        "minimum": 5,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "closedDate": {
@@ -4600,9 +4599,8 @@
         "type": "string"
       },
       "code": {
-        "format": "uid",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 50,
+        "minLength": 0,
         "readOnly": false,
         "type": "string"
       },
@@ -4617,29 +4615,29 @@
       },
       "color": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "colorHigh": {
         "example": "mycol",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "colorLow": {
         "example": "mycol",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "colorScale": {
         "example": "mycolorScale",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "colorSet": {
@@ -4831,14 +4829,14 @@
       "comment": {
         "example": "mycomment",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "completeEventsExpiryDays": {
         "example": 0,
         "format": "int32",
-        "maximum": 0,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -4854,8 +4852,8 @@
       "condition": {
         "example": "mycondition",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "confidential": {
@@ -4864,8 +4862,8 @@
       "config": {
         "example": "myconfig",
         "format": "general",
-        "maxLength": 394,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "configurable": {
@@ -5082,14 +5080,14 @@
         "example": "mycontactPerson",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "content": {
         "example": "mycontent",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "contentCount": {
@@ -5101,7 +5099,7 @@
         "example": "mycontentType",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "continuousExecution": {
@@ -5131,7 +5129,7 @@
         "example": "mycronExpr",
         "format": "general",
         "maxLength": 255,
-        "minLength": 11,
+        "minLength": 0,
         "type": "string"
       },
       "cumulative": {
@@ -6380,8 +6378,8 @@
       "data": {
         "example": "mydata",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "dataApprovalLevel": {
@@ -7369,7 +7367,7 @@
         "properties": {}
       },
       "dataElementGroup": {
-        "maxProperties": 28,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -8461,7 +8459,7 @@
         "properties": {}
       },
       "dataSet": {
-        "maxProperties": 55,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -9881,22 +9879,22 @@
       },
       "dayInPeriod": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "readOnly": false,
         "type": "string"
       },
       "decimals": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
       "defaultMessage": {
         "example": "mydefaultMessag",
         "format": "general",
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "type": "string"
       },
       "delete": {
@@ -9911,27 +9909,27 @@
       "denominator": {
         "example": "mydenominator",
         "format": "general",
-        "maxLength": 441,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "denominatorDescription": {
         "example": "mydenominatorDescri",
         "format": "general",
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "type": "string"
       },
       "description": {
         "format": "general",
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "minLength": 1,
         "type": "string"
       },
       "designContent": {
         "example": "mydesignContent",
         "format": "general",
-        "maxLength": 136465,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "digitGroupSeparator": {
@@ -9946,8 +9944,8 @@
       "dimension": {
         "example": "KfdsGBcoiCa",
         "format": "uid",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "dimensionItem": {
@@ -10020,15 +10018,15 @@
       },
       "displayDescription": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "displayFormName": {
         "example": "mydisplayFormName",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "displayFrontPageList": {
@@ -10054,7 +10052,7 @@
       },
       "displayName": {
         "example": "My Display Name",
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "minLength": 0,
         "readOnly": false,
         "type": "string"
@@ -10064,8 +10062,8 @@
       },
       "displayShortName": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "document": {
@@ -10299,28 +10297,28 @@
         "example": "mydueDateLabel",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 2,
         "type": "string"
       },
       "education": {
         "example": "myeducation",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "email": {
         "example": "example@dhis2.org",
         "format": "email",
-        "maxLength": 150,
-        "minLength": 1,
+        "maxLength": 160,
+        "minLength": 0,
         "type": "string"
       },
       "employer": {
         "example": "DHIS",
         "format": "general",
         "maxLength": 160,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "enabled": {
@@ -10337,7 +10335,7 @@
         "example": 40.0,
         "format": "double",
         "maximum": 2147483647,
-        "minimum": -2.0,
+        "minimum": -2147483648,
         "type": "number"
       },
       "enrollment": {
@@ -10424,8 +10422,8 @@
       "enrollmentDateLabel": {
         "example": "myenrollmentDa",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 2,
         "type": "string"
       },
       "enrollmentStatus": {
@@ -11627,21 +11625,21 @@
       "eventCoordinateField": {
         "example": "F3ogKBuviRA",
         "format": "uid",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "eventPointColor": {
         "example": "myeve",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "eventPointRadius": {
         "example": 0,
         "format": "int32",
-        "maximum": 6,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -12807,14 +12805,14 @@
         "example": "myexecutionD",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 2,
         "type": "string"
       },
       "expiryDays": {
         "example": 0,
         "format": "int32",
-        "maximum": 0,
-        "minimum": 0,
+        "maximum": 2147483647,
+        "minimum": -2147483648,
         "type": "integer"
       },
       "expiryPeriodType": {
@@ -12824,7 +12822,7 @@
         "example": "myexpression",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "external": {
@@ -13068,15 +13066,15 @@
       "facebookMessenger": {
         "example": "myfacebook",
         "format": "general",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "factor": {
         "example": 1,
         "format": "int32",
-        "maximum": 100000,
-        "minimum": 1,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "favorite": {
@@ -13104,7 +13102,7 @@
         "example": "myf",
         "format": "general",
         "maxLength": 160,
-        "minLength": 1,
+        "minLength": 2,
         "type": "string"
       },
       "followUp": {
@@ -13128,7 +13126,7 @@
       "formName": {
         "example": "myformName",
         "format": "general",
-        "maxLength": 230,
+        "maxLength": 2147483647,
         "type": "string"
       },
       "formType": {
@@ -13146,8 +13144,8 @@
       "format": {
         "example": 2,
         "format": "int32",
-        "maximum": 2,
-        "minimum": 2,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "fromConstraint": {
@@ -13157,7 +13155,7 @@
         "example": "mygender",
         "format": "general",
         "maxLength": 50,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "generated": {
@@ -13173,14 +13171,14 @@
       "hashCode": {
         "example": "myhashCode",
         "format": "general",
-        "maxLength": 32,
-        "minLength": 32,
+        "maxLength": 50,
+        "minLength": 0,
         "type": "string"
       },
       "height": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
@@ -13222,16 +13220,16 @@
       },
       "href": {
         "format": "url",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "readOnly": true,
         "type": "string"
       },
       "htmlCode": {
         "example": "myhtmlCode",
         "format": "general",
-        "maxLength": 52666,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "httpStatus": {
@@ -13301,8 +13299,8 @@
       "incidentDateLabel": {
         "example": "myincidentDa",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 2,
         "type": "string"
       },
       "includeSubhierarchyInAnalytics": {
@@ -13686,7 +13684,7 @@
         "type": "boolean"
       },
       "indicatorGroup": {
-        "maxProperties": 20,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -14355,19 +14353,19 @@
       "instruction": {
         "example": "myinstruction",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "interests": {
         "example": "myinterests",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "interpretation": {
-        "maxProperties": 33,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -14632,8 +14630,8 @@
       "introduction": {
         "example": "myintroduction",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "invitation": {
@@ -14900,7 +14898,7 @@
         "type": "object"
       },
       "jobParameters": {
-        "maxLength": 65535,
+        "maxLength": 255,
         "type": "string"
       },
       "jobStatus": {
@@ -14920,7 +14918,7 @@
         "example": "myjobTitle",
         "format": "general",
         "maxLength": 160,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "jobType": {
@@ -14964,8 +14962,8 @@
       "key": {
         "example": "mykey",
         "format": "general",
-        "maxLength": 36,
-        "minLength": 36,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "klass": {
@@ -14976,28 +14974,28 @@
         "example": "#000000",
         "format": "COLOR",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "labelFontSize": {
         "example": "myl",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "labelFontStyle": {
         "example": "mylab",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "labelFontWeight": {
         "example": "mylab",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "labels": {
@@ -15006,8 +15004,8 @@
       "languages": {
         "example": "mylang",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "last12Months": {
@@ -15115,21 +15113,21 @@
         "example": "mylastRunti",
         "format": "general",
         "maxLength": 2147483647,
-        "minLength": 12,
+        "minLength": 0,
         "type": "string"
       },
       "lastSenderFirstname": {
         "example": "my",
         "format": "general",
         "maxLength": 2147483647,
-        "minLength": 3,
+        "minLength": 0,
         "type": "string"
       },
       "lastSenderSurname": {
         "example": "mylas",
         "format": "general",
         "maxLength": 2147483647,
-        "minLength": 5,
+        "minLength": 0,
         "type": "string"
       },
       "lastSixMonth": {
@@ -15167,21 +15165,21 @@
       "latitude": {
         "example": 952175.62553525,
         "format": "double",
-        "maximum": 960725.84100631,
-        "minimum": 7.274611218431329,
+        "maximum": 90,
+        "minimum": -90,
         "type": "number"
       },
       "layer": {
         "example": "mylayer",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "layers": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "leaderOnlyJob": {
@@ -15196,8 +15194,8 @@
       },
       "leftsideValue": {
         "format": "double",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "readOnly": false,
         "type": "string"
       },
@@ -15622,15 +15620,15 @@
       },
       "legendSetUrl": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "level": {
         "example": 2,
         "format": "int32",
-        "maximum": 3,
-        "minimum": 1,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "likedB": {
@@ -15638,8 +15636,8 @@
       },
       "likes": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
@@ -15653,14 +15651,14 @@
         "example": "mylocat",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "longitude": {
         "example": -1378543.6774686,
         "format": "double",
-        "maximum": 52.3388671875,
-        "minimum": -1385270.1359568,
+        "maximum": 180,
+        "minimum": -180,
         "type": "number"
       },
       "manage": {
@@ -17964,8 +17962,8 @@
       "max": {
         "example": null,
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "readOnly": false,
         "type": "string",
         "x-association": "true"
@@ -17973,7 +17971,7 @@
       "maxTeiCountToReturn": {
         "example": 0,
         "format": "int32",
-        "maximum": 0,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -17981,21 +17979,21 @@
         "example": "mymeasureCrite",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "memberCount": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
       "message": {
         "example": "mymessage",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "messageConversation": {
@@ -18328,12 +18326,12 @@
       "messageCount": {
         "example": 1,
         "format": "int32",
-        "maximum": 3,
-        "minimum": 1,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "messageTemplate": {
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "minLength": 0,
         "readOnly": false,
         "type": "string"
@@ -18358,8 +18356,8 @@
       "method": {
         "example": 2,
         "format": "int32",
-        "maximum": 3,
-        "minimum": 1,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "metric": {
@@ -18373,22 +18371,22 @@
       "min": {
         "example": null,
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "readOnly": false,
         "type": "string"
       },
       "minAttributesRequiredToSearch": {
         "example": 1,
         "format": "int32",
-        "maximum": 1,
-        "minimum": 1,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "minDaysFromStart": {
         "example": 0,
         "format": "int32",
-        "maximum": 290,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -18449,12 +18447,12 @@
       "moreThanOneOrgUnitMessage": {
         "example": "mymoreThanOneOrgUnitMessage",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "name": {
-        "maxLength": 255,
+        "maxLength": 230,
         "minLength": 1,
         "readOnly": false,
         "type": "string"
@@ -18463,7 +18461,7 @@
         "example": "mynationali",
         "format": "general",
         "maxLength": 160,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "nextExecutionTime": {
@@ -18479,8 +18477,8 @@
       "noUserMessage": {
         "example": "mynoUserMessage",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "noValueRequiresComment": {
@@ -18558,15 +18556,15 @@
       "numerator": {
         "example": "mynumerator",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "numeratorDescription": {
         "example": "mynumera",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "oAuth2Client": {
@@ -18771,21 +18769,21 @@
       },
       "offlineLevels": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "offsetPeriodType": {
         "example": "myoff",
         "format": "general",
-        "maxLength": 6,
-        "minLength": 6,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "offsetPeriods": {
         "example": 0,
         "format": "int32",
-        "maximum": 1,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -18795,8 +18793,8 @@
       "opacity": {
         "example": 0.95,
         "format": "double",
-        "maximum": 1.0,
-        "minimum": 0.76,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "number"
       },
       "openAfterEnrollment": {
@@ -18805,7 +18803,7 @@
       "openFuturePeriods": {
         "example": 0,
         "format": "int32",
-        "maximum": 12,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -19861,14 +19859,14 @@
       "orgUnitLevel": {
         "example": 3,
         "format": "int32",
-        "maximum": 4,
-        "minimum": 2,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "orgUnitLevelName": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "orgUnitName": {
@@ -19876,7 +19874,7 @@
         "type": "string"
       },
       "organisationUnit": {
-        "maxProperties": 50,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -20335,7 +20333,7 @@
         "type": "boolean"
       },
       "organisationUnitGroup": {
-        "maxProperties": 32,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -21223,8 +21221,8 @@
       },
       "parentGraph": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "parentGraphMap": {
@@ -21233,7 +21231,7 @@
       "parentLevel": {
         "example": 0,
         "format": "int32",
-        "maximum": 0,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -21263,7 +21261,7 @@
         "example": "mypath",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "pattern": {
@@ -21282,7 +21280,7 @@
         "example": "mype",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "phase": {
@@ -21297,15 +21295,15 @@
       "phoneNumber": {
         "example": "myphoneNumber",
         "format": "general",
-        "maxLength": 150,
-        "minLength": 1,
+        "maxLength": 80,
+        "minLength": 0,
         "type": "string"
       },
       "preGenerateUID": {
         "type": "boolean"
       },
       "predictor": {
-        "maxProperties": 23,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -21598,7 +21596,7 @@
         "type": "string"
       },
       "program": {
-        "maxProperties": 59,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -23052,7 +23050,7 @@
         "x-status-dhis2": "template"
       },
       "programIndicator": {
-        "maxProperties": 39,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -24647,7 +24645,7 @@
         "type": "string"
       },
       "programRuleVariable": {
-        "maxProperties": 24,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -24911,7 +24909,7 @@
         "type": "boolean"
       },
       "programSection": {
-        "maxProperties": 24,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -26522,50 +26520,50 @@
       "radiusHigh": {
         "example": 8,
         "format": "int32",
-        "maximum": 29,
-        "minimum": 8,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "radiusLow": {
         "example": 4,
         "format": "int32",
-        "maximum": 5,
-        "minimum": 4,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "rangeAxisDecimals": {
         "example": 1,
         "format": "int32",
-        "maximum": 1,
-        "minimum": 1,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "rangeAxisLabel": {
         "example": "myrangeAxis",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "rangeAxisMaxValue": {
         "example": 120.0,
         "format": "double",
-        "maximum": 120.0,
-        "minimum": 110.0,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "number"
       },
       "rangeAxisMinValue": {
         "example": 50.0,
         "format": "double",
-        "maximum": 70.0,
-        "minimum": 50.0,
+        "maximum": 2147483647,
+        "minimum": -2147483648,
         "type": "number"
       },
       "rangeAxisSteps": {
         "example": 20,
         "format": "int32",
-        "maximum": 20,
-        "minimum": 15,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "read": {
@@ -26575,8 +26573,8 @@
       "receivedMessage": {
         "example": "myreceivedMessage",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "recipientDataElement": {
@@ -26897,8 +26895,8 @@
       },
       "relativeScheduledDays": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": -2147483648,
         "readOnly": false,
         "type": "string"
       },
@@ -27344,7 +27342,7 @@
         "example": "myre",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "reportParams": {
@@ -29832,8 +29830,8 @@
       },
       "rightsideValue": {
         "format": "double",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "readOnly": false,
         "type": "string"
       },
@@ -29850,13 +29848,13 @@
         "type": "boolean"
       },
       "secret": {
-        "maxLength": 255,
+        "maxLength": 36,
         "minLength": 36,
         "readOnly": false,
         "type": "string"
       },
       "section": {
-        "maxProperties": 27,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -30795,21 +30793,21 @@
       "separator": {
         "example": "myseparato",
         "format": "general",
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "type": "string"
       },
       "sequentialSampleCount": {
         "example": 6,
         "format": "int32",
-        "maximum": 6,
-        "minimum": 6,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       },
       "series": {
         "example": "m",
         "format": "dimension",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "shape": {
@@ -30861,8 +30859,8 @@
       "skype": {
         "example": "myskype",
         "format": "general",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "slidingWindow": {
@@ -31159,22 +31157,22 @@
       },
       "sortOrder": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
       "sortOrderInListNoProgram": {
         "example": 0,
         "format": "int32",
-        "maximum": 2,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
       "sortOrderInVisitSchedule": {
         "example": 0,
         "format": "int32",
-        "maximum": 0,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -31190,7 +31188,7 @@
         "properties": {}
       },
       "sql": {
-        "maxLength": 255,
+        "maxLength": 2147483647,
         "minLength": 0,
         "readOnly": false,
         "type": "string"
@@ -31198,8 +31196,8 @@
       "sqlQuery": {
         "example": "mysqlQuery",
         "format": "general",
-        "maxLength": 619,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "sqlView": {
@@ -31420,7 +31418,7 @@
       "standardInterval": {
         "example": 30,
         "format": "int32",
-        "maximum": 30,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -31434,8 +31432,8 @@
       "startValue": {
         "example": 30.0,
         "format": "double",
-        "maximum": 2147483647.0,
-        "minimum": -10.0,
+        "maximum": 2147483647,
+        "minimum": -2147483648,
         "type": "number"
       },
       "status": {
@@ -31478,21 +31476,21 @@
         "example": "mysubtitle",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "successMessage": {
         "example": "mysuccessMessage",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "surname": {
         "example": "mysur",
         "format": "general",
         "maxLength": 160,
-        "minLength": 1,
+        "minLength": 2,
         "type": "string"
       },
       "symbol": {
@@ -31505,7 +31503,7 @@
         "example": "mysy",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "targetLineLabel": {
@@ -31517,8 +31515,8 @@
       "targetLineValue": {
         "example": 25.0,
         "format": "double",
-        "maximum": 80.0,
-        "minimum": 25.0,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "number"
       },
       "teiSearchOrganisationUnit": {
@@ -31527,14 +31525,14 @@
       "telegram": {
         "example": "mytelegram",
         "format": "general",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "text": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "thisBiWeek": {
@@ -31567,13 +31565,13 @@
       "timeField": {
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "timelyDays": {
         "example": 0,
         "format": "int32",
-        "maximum": 15,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -31581,7 +31579,7 @@
         "example": "mytitle",
         "format": "general",
         "maxLength": 255,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "toConstraint": {
@@ -31590,7 +31588,7 @@
       "topLimit": {
         "example": 0,
         "format": "int32",
-        "maximum": 0,
+        "maximum": 2147483647,
         "minimum": 0,
         "type": "integer"
       },
@@ -32590,8 +32588,8 @@
       "twitter": {
         "example": "mytwitter",
         "format": "general",
-        "maxLength": 11,
-        "minLength": 11,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "twoFA": {
@@ -33205,11 +33203,11 @@
         "example": "my",
         "format": "general",
         "maxLength": 2147483647,
-        "minLength": 3,
+        "minLength": 0,
         "type": "string"
       },
       "userGroup": {
-        "maxProperties": 20,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -33804,7 +33802,7 @@
         "example": "myuse",
         "format": "general",
         "maxLength": 2147483647,
-        "minLength": 5,
+        "minLength": 0,
         "type": "string"
       },
       "userUid": {
@@ -33814,8 +33812,8 @@
       "username": {
         "example": "myuser",
         "format": "general",
-        "maxLength": 8,
-        "minLength": 5,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "validCompleteOnly": {
@@ -34523,7 +34521,7 @@
         "type": "boolean"
       },
       "validationRuleGroup": {
-        "maxProperties": 20,
+        "maxProperties": 2147483647,
         "minProperties": 0,
         "properties": {
           "access": {
@@ -34887,21 +34885,21 @@
       },
       "welcomeMessage": {
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "whatsApp": {
         "example": "mywhatsApp",
         "format": "general",
-        "maxLength": 13,
-        "minLength": 13,
+        "maxLength": 255,
+        "minLength": 0,
         "type": "string"
       },
       "width": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
@@ -34922,14 +34920,14 @@
       "wrongFormatMessage": {
         "example": "mywrongFormatMessage",
         "format": "general",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string"
       },
       "x": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
@@ -34938,8 +34936,8 @@
       },
       "y": {
         "format": "integer",
-        "maxLength": 255,
-        "minLength": 1,
+        "maxLength": 2147483647,
+        "minLength": 0,
         "type": "string",
         "x-association": "true"
       },
@@ -34952,8 +34950,8 @@
       "zoom": {
         "example": 8,
         "format": "int32",
-        "maximum": 12,
-        "minimum": 4,
+        "maximum": 2147483647,
+        "minimum": 0,
         "type": "integer"
       }
     },
