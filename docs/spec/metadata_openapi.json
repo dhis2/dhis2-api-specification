@@ -8240,7 +8240,15 @@
             "$ref": "#/components/schemas/lastUpdated"
           },
           "lastUpdatedBy": {
-            "$ref": "#/components/schemas/lastUpdatedBy"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "name": {
             "$ref": "#/components/schemas/name"
@@ -19645,7 +19653,7 @@
           "version": {
             "example": 1,
             "format": "int32",
-            "maximum": 4,
+            "maximum": 2147483647,
             "minimum": 0,
             "type": "integer"
           }
@@ -22529,7 +22537,7 @@
           "version": {
             "example": 4,
             "format": "int32",
-            "maximum": 22,
+            "maximum": 2147483647,
             "minimum": 1,
             "type": "integer"
           },
@@ -23189,7 +23197,7 @@
           "filter": {
             "example": "myfilter",
             "format": "general",
-            "maxLength": 255,
+            "maxLength": 2147483647,
             "minLength": 1,
             "type": "string"
           },
@@ -25337,7 +25345,6 @@
                 "lastUpdated",
                 "programStage",
                 "skipSynchronization",
-                "sortOrder",
                 "translations",
                 "userAccesses",
                 "userGroupAccesses"
@@ -25508,7 +25515,6 @@
           "name",
           "notificationTemplates",
           "openAfterEnrollment",
-          "program",
           "programStageDataElements",
           "programStageSections",
           "publicAccess",
@@ -26559,9 +26565,20 @@
             "$ref": "#/components/schemas/publicAccess"
           },
           "toConstraint": {
-            "maxProperties": 2,
+            "maxProperties": 3,
             "minProperties": 1,
             "properties": {
+              "program": {
+                "properties": {
+                  "id": {
+                    "$ref": "#/components/schemas/id"
+                  }
+                },
+                "required": [
+                  "id"
+                ],
+                "type": "object"
+              },
               "relationshipEntity": {
                 "$ref": "#/components/schemas/relationshipEntity"
               },
