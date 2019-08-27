@@ -60,7 +60,7 @@
       },
       "ou": {
         "description": "organisation unit",
-        "in": "path",
+        "in": "query",
         "name": "ou",
         "required": true,
         "schema": {
