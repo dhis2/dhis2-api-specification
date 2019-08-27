@@ -1,0 +1,4125 @@
+{
+  "info": {
+    "title": "DHIS2 API",
+    "version": "2.31"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/analyticsTableHooks": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "analyticsTableHooks": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/analyticsTableHook"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list analyticsTableHooks [DRAFT]",
+        "tags": [
+          "analyticsTableHooks"
+        ]
+      }
+    },
+    "/attributes": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "attributes": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/attribute"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list attributes [DRAFT]",
+        "tags": [
+          "attributes"
+        ]
+      }
+    },
+    "/categories": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "categories": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/category"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list categories [DRAFT]",
+        "tags": [
+          "categories"
+        ]
+      }
+    },
+    "/categoryCombos": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "categoryCombos": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/categoryCombo"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list categoryCombos [DRAFT]",
+        "tags": [
+          "categoryCombos"
+        ]
+      }
+    },
+    "/categoryOptionCombos": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "categoryOptionCombos": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/categoryOptionCombo"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list categoryOptionCombos [DRAFT]",
+        "tags": [
+          "categoryOptionCombos"
+        ]
+      }
+    },
+    "/categoryOptionGroupSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "categoryOptionGroupSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/categoryOptionGroupSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list categoryOptionGroupSets [DRAFT]",
+        "tags": [
+          "categoryOptionGroupSets"
+        ]
+      }
+    },
+    "/categoryOptionGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "categoryOptionGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/categoryOptionGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list categoryOptionGroups [DRAFT]",
+        "tags": [
+          "categoryOptionGroups"
+        ]
+      }
+    },
+    "/categoryOptions": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "categoryOptions": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/categoryOption"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list categoryOptions [DRAFT]",
+        "tags": [
+          "categoryOptions"
+        ]
+      }
+    },
+    "/charts": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "charts": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/chart"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list charts [DRAFT]",
+        "tags": [
+          "charts"
+        ]
+      }
+    },
+    "/colorSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "colorSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/colorSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list colorSets [DRAFT]",
+        "tags": [
+          "colorSets"
+        ]
+      }
+    },
+    "/constants": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "constants": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/constant"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "example": "OK",
+                  "type": "string"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list constants [DRAFT]",
+        "tags": [
+          "constants"
+        ]
+      }
+    },
+    "/dashboardItems": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dashboardItems": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dashboardItem"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dashboardItems [DRAFT]",
+        "tags": [
+          "dashboardItems"
+        ]
+      }
+    },
+    "/dashboards": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dashboards": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dashboard"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dashboards [DRAFT]",
+        "tags": [
+          "dashboards"
+        ]
+      }
+    },
+    "/dataApprovalLevels": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataApprovalLevels": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataApprovalLevel"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataApprovalLevels [DRAFT]",
+        "tags": [
+          "dataApprovalLevels"
+        ]
+      }
+    },
+    "/dataApprovalWorkflows": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataApprovalWorkflows": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataApprovalWorkflow"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataApprovalWorkflows [DRAFT]",
+        "tags": [
+          "dataApprovalWorkflows"
+        ]
+      }
+    },
+    "/dataElementGroupSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataElementGroupSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataElementGroupSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataElementGroupSets [DRAFT]",
+        "tags": [
+          "dataElementGroupSets"
+        ]
+      }
+    },
+    "/dataElementGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataElementGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataElementGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataElementGroups [DRAFT]",
+        "tags": [
+          "dataElementGroups"
+        ]
+      }
+    },
+    "/dataElementOperands": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataElementOperands": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataElementOperand"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataElementOperands [DRAFT]",
+        "tags": [
+          "dataElementOperands"
+        ]
+      }
+    },
+    "/dataElements": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataElements": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataElement"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataElements [DRAFT]",
+        "tags": [
+          "dataElements"
+        ]
+      }
+    },
+    "/dataEntryForms": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataEntryForms": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataEntryForm"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataEntryForms [DRAFT]",
+        "tags": [
+          "dataEntryForms"
+        ]
+      }
+    },
+    "/dataSetNotificationTemplates": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataSetNotificationTemplates": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataSetNotificationTemplate"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataSetNotificationTemplates [DRAFT]",
+        "tags": [
+          "dataSetNotificationTemplates"
+        ]
+      }
+    },
+    "/dataSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/dataSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list dataSets [DRAFT]",
+        "tags": [
+          "dataSets"
+        ]
+      }
+    },
+    "/documents": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "documents": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/document"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list documents [DRAFT]",
+        "tags": [
+          "documents"
+        ]
+      }
+    },
+    "/eventCharts": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "eventCharts": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/eventChart"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list eventCharts [DRAFT]",
+        "tags": [
+          "eventCharts"
+        ]
+      }
+    },
+    "/eventReports": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "eventReports": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/eventReport"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list eventReports [DRAFT]",
+        "tags": [
+          "eventReports"
+        ]
+      }
+    },
+    "/externalMapLayers": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "externalMapLayers": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/externalMapLayer"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list externalMapLayers [DRAFT]",
+        "tags": [
+          "externalMapLayers"
+        ]
+      }
+    },
+    "/indicatorGroupSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "indicatorGroupSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/indicatorGroupSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list indicatorGroupSets [DRAFT]",
+        "tags": [
+          "indicatorGroupSets"
+        ]
+      }
+    },
+    "/indicatorGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "indicatorGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/indicatorGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list indicatorGroups [DRAFT]",
+        "tags": [
+          "indicatorGroups"
+        ]
+      }
+    },
+    "/indicatorTypes": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "indicatorTypes": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/indicatorType"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list indicatorTypes [DRAFT]",
+        "tags": [
+          "indicatorTypes"
+        ]
+      }
+    },
+    "/indicators": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "indicators": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/indicator"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list indicators [DRAFT]",
+        "tags": [
+          "indicators"
+        ]
+      }
+    },
+    "/interpretations": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "interpretations": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/interpretation"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list interpretations [DRAFT]",
+        "tags": [
+          "interpretations"
+        ]
+      }
+    },
+    "/jobConfigurations": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "jobConfigurations": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/jobConfiguration"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list jobConfigurations [DRAFT]",
+        "tags": [
+          "jobConfigurations"
+        ]
+      }
+    },
+    "/legendSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "legendSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/legendSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list legendSets [DRAFT]",
+        "tags": [
+          "legendSets"
+        ]
+      }
+    },
+    "/mapViews": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "mapViews": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/mapView"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list mapViews [DRAFT]",
+        "tags": [
+          "mapViews"
+        ]
+      }
+    },
+    "/maps": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "maps": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/map"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list maps [DRAFT]",
+        "tags": [
+          "maps"
+        ]
+      }
+    },
+    "/messageConversations": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "messageConversations": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/messageConversation"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list messageConversations [DRAFT]",
+        "tags": [
+          "messageConversations"
+        ]
+      }
+    },
+    "/metadata/version": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "metadata/version": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/version"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list metadata/version [DRAFT]",
+        "tags": [
+          "metadata"
+        ]
+      }
+    },
+    "/minMaxDataElements": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "minMaxDataElements": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/minMaxDataElement"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list minMaxDataElements [DRAFT]",
+        "tags": [
+          "minMaxDataElements"
+        ]
+      }
+    },
+    "/oAuth2Clients": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "oAuth2Clients": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/oAuth2Client"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list oAuth2Clients [DRAFT]",
+        "tags": [
+          "oAuth2Clients"
+        ]
+      }
+    },
+    "/optionGroupSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "optionGroupSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/optionGroupSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list optionGroupSets [DRAFT]",
+        "tags": [
+          "optionGroupSets"
+        ]
+      }
+    },
+    "/optionGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "optionGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/optionGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list optionGroups [DRAFT]",
+        "tags": [
+          "optionGroups"
+        ]
+      }
+    },
+    "/optionSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "optionSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/optionSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list optionSets [DRAFT]",
+        "tags": [
+          "optionSets"
+        ]
+      }
+    },
+    "/options": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "options": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/option"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list options [DRAFT]",
+        "tags": [
+          "options"
+        ]
+      }
+    },
+    "/organisationUnitGroupSets": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "organisationUnitGroupSets": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/organisationUnitGroupSet"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list organisationUnitGroupSets [DRAFT]",
+        "tags": [
+          "organisationUnitGroupSets"
+        ]
+      }
+    },
+    "/organisationUnitGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "organisationUnitGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/organisationUnitGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list organisationUnitGroups [DRAFT]",
+        "tags": [
+          "organisationUnitGroups"
+        ]
+      }
+    },
+    "/organisationUnitLevels": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "organisationUnitLevels": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/organisationUnitLevel"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list organisationUnitLevels [DRAFT]",
+        "tags": [
+          "organisationUnitLevels"
+        ]
+      }
+    },
+    "/organisationUnits": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "organisationUnits": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/organisationUnit"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    },
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list organisationUnits [DRAFT]",
+        "tags": [
+          "organisationUnits"
+        ]
+      }
+    },
+    "/predictors": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "predictors": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/predictor"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list predictors [DRAFT]",
+        "tags": [
+          "predictors"
+        ]
+      }
+    },
+    "/programDataElements": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programDataElements": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programDataElement"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programDataElements [DRAFT]",
+        "tags": [
+          "programDataElements"
+        ]
+      }
+    },
+    "/programIndicatorGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programIndicatorGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programIndicatorGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programIndicatorGroups [DRAFT]",
+        "tags": [
+          "programIndicatorGroups"
+        ]
+      }
+    },
+    "/programIndicators": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programIndicators": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programIndicator"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programIndicators [DRAFT]",
+        "tags": [
+          "programIndicators"
+        ]
+      }
+    },
+    "/programNotificationTemplates": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programNotificationTemplates": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programNotificationTemplate"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programNotificationTemplates [DRAFT]",
+        "tags": [
+          "programNotificationTemplates"
+        ]
+      }
+    },
+    "/programRuleActions": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programRuleActions": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programRuleAction"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programRuleActions [DRAFT]",
+        "tags": [
+          "programRuleActions"
+        ]
+      }
+    },
+    "/programRuleVariables": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programRuleVariables": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programRuleVariable"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programRuleVariables [DRAFT]",
+        "tags": [
+          "programRuleVariables"
+        ]
+      }
+    },
+    "/programRules": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programRules": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programRule"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programRules [DRAFT]",
+        "tags": [
+          "programRules"
+        ]
+      }
+    },
+    "/programSections": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programSections": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programSection"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programSections [DRAFT]",
+        "tags": [
+          "programSections"
+        ]
+      }
+    },
+    "/programStageSections": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programStageSections": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programStageSection"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programStageSections [DRAFT]",
+        "tags": [
+          "programStageSections"
+        ]
+      }
+    },
+    "/programStages": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programStages": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programStage"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programStages [DRAFT]",
+        "tags": [
+          "programStages"
+        ]
+      }
+    },
+    "/programTrackedEntityAttributeGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programTrackedEntityAttributeGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/programTrackedEntityAttributeGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programTrackedEntityAttributeGroups [DRAFT]",
+        "tags": [
+          "programTrackedEntityAttributeGroups"
+        ]
+      }
+    },
+    "/programs": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "programs": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/program"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list programs [DRAFT]",
+        "tags": [
+          "programs"
+        ]
+      }
+    },
+    "/pushAnalysis": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "pushAnalysis": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/pushAnalysi"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list pushAnalysis [DRAFT]",
+        "tags": [
+          "pushAnalysis"
+        ]
+      }
+    },
+    "/relationshipTypes": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "relationshipTypes": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/relationshipType"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list relationshipTypes [DRAFT]",
+        "tags": [
+          "relationshipTypes"
+        ]
+      }
+    },
+    "/reportTables": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "reportTables": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/reportTable"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list reportTables [DRAFT]",
+        "tags": [
+          "reportTables"
+        ]
+      }
+    },
+    "/reports": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "reports": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/report"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list reports [DRAFT]",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/sections": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "sections": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/section"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list sections [DRAFT]",
+        "tags": [
+          "sections"
+        ]
+      }
+    },
+    "/smsCommands": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "smsCommands": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/smsCommand"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list smsCommands [DRAFT]",
+        "tags": [
+          "smsCommands"
+        ]
+      }
+    },
+    "/sqlViews": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "sqlViews": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/sqlView"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list sqlViews [DRAFT]",
+        "tags": [
+          "sqlViews"
+        ]
+      }
+    },
+    "/trackedEntityAttributes": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "trackedEntityAttributes": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/trackedEntityAttribute"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list trackedEntityAttributes [DRAFT]",
+        "tags": [
+          "trackedEntityAttributes"
+        ]
+      }
+    },
+    "/trackedEntityInstances": {
+      "get": {
+        "description": "list tracked entity instances (TEIs)",
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "trackedEntityInstances": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/trackedEntityInstance"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "example": "OK",
+                  "type": "string"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "409": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "httpStatus": "Conflict",
+                  "httpStatusCode": 409,
+                  "message": "At least one organisation unit must be specified",
+                  "status": "ERROR"
+                },
+                "schema": {
+                  "$ref": "./components_openapi.json#/components/schemas/webmessage"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "example": "ERROR",
+                  "type": "string"
+                }
+              }
+            },
+            "description": "Conflict"
+          }
+        },
+        "summary": "list trackedEntityInstances [DRAFT]",
+        "tags": [
+          "trackedEntityInstances"
+        ]
+      }
+    },
+    "/trackedEntityTypes": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "trackedEntityTypes": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/trackedEntityType"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list trackedEntityTypes [DRAFT]",
+        "tags": [
+          "trackedEntityTypes"
+        ]
+      }
+    },
+    "/userGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "userGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/userGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list userGroups [DRAFT]",
+        "tags": [
+          "userGroups"
+        ]
+      }
+    },
+    "/userRoles": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "userRoles": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/userRole"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list userRoles [DRAFT]",
+        "tags": [
+          "userRoles"
+        ]
+      }
+    },
+    "/users": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "users": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/user"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list users [DRAFT]",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/validationNotificationTemplates": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "validationNotificationTemplates": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/validationNotificationTemplate"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list validationNotificationTemplates [DRAFT]",
+        "tags": [
+          "validationNotificationTemplates"
+        ]
+      }
+    },
+    "/validationResults": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "validationResults": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/validationResult"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list validationResults [DRAFT]",
+        "tags": [
+          "validationResults"
+        ]
+      }
+    },
+    "/validationRuleGroups": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "validationRuleGroups": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/validationRuleGroup"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list validationRuleGroups [DRAFT]",
+        "tags": [
+          "validationRuleGroups"
+        ]
+      }
+    },
+    "/validationRules": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "./components_openapi.json#/components/parameters/paging"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/page"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/pageSize"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/order"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/filter"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/field"
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "pager": {
+                      "$ref": "./components_openapi.json#/components/schemas/pagination"
+                    },
+                    "validationRules": {
+                      "items": {
+                        "$ref": "./components_openapi.json#/components/schemas/validationRule"
+                      },
+                      "maxItems": 2147483647,
+                      "minItems": 0,
+                      "readOnly": false,
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "list validationRules [DRAFT]",
+        "tags": [
+          "validationRules"
+        ]
+      }
+    }
+  }
+}

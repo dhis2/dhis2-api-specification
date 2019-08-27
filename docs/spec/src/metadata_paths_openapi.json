@@ -6823,6 +6823,8 @@
             "content": {
               "application/json": {
                 "schema": {
+                  "maxProperties": 2,
+                  "minProperties": 1,
                   "properties": {
                     "dataSetNotificationTemplates": {
                       "items": {
@@ -16975,6 +16977,8 @@
             "content": {
               "application/json": {
                 "schema": {
+                  "maxProperties": 2,
+                  "minProperties": 1,
                   "properties": {
                     "pager": {
                       "$ref": "./components_openapi.json#/components/schemas/pagination"
@@ -22613,6 +22617,12 @@
           },
           {
             "$ref": "./components_openapi.json#/components/parameters/field"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/ou"
+          },
+          {
+            "$ref": "./components_openapi.json#/components/parameters/ouMode"
           }
         ],
         "responses": {
