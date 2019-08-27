@@ -78,7 +78,9 @@
         "schema": {
           "default": "DESCENDANTS",
           "enum": [
-            "DESCENDANTS"
+            "CHILDREN",
+            "DESCENDANTS",
+            "SELECTED"
           ],
           "type": "string"
         }
@@ -7288,36 +7290,7 @@
             "type": "array"
           },
           "valueType": {
-            "enum": [
-              "AGE",
-              "BOOLEAN",
-              "COORDINATE",
-              "DATE",
-              "DATETIME",
-              "EMAIL",
-              "FILE_RESOURCE",
-              "IMAGE",
-              "INTEGER",
-              "INTEGER_NEGATIVE",
-              "INTEGER_POSITIVE",
-              "INTEGER_ZERO_OR_POSITIVE",
-              "LETTER",
-              "LONG_TEXT",
-              "NUMBER",
-              "ORGANISATION_UNIT",
-              "PERCENTAGE",
-              "PHONE_NUMBER",
-              "TEXT",
-              "TIME",
-              "TRACKER_ASSOCIATE",
-              "TRUE_ONLY",
-              "UNIT_INTERVAL",
-              "URL",
-              "USERNAME"
-            ],
-            "example": "NUMBER",
-            "format": "enum",
-            "type": "string"
+            "$ref": "#/components/schemas/valueType"
           },
           "zeroIsSignificant": {
             "$ref": "#/components/schemas/zeroIsSignificant"
@@ -17650,9 +17623,7 @@
                 "$ref": "#/components/schemas/id"
               },
               "valueType": {
-                "example": "INTEGER",
-                "format": "enum",
-                "type": "string"
+                "$ref": "#/components/schemas/valueType"
               }
             },
             "readOnly": false,
@@ -22350,18 +22321,7 @@
                   "type": "array"
                 },
                 "valueType": {
-                  "enum": [
-                    "AGE",
-                    "COORDINATE",
-                    "DATE",
-                    "EMAIL",
-                    "NUMBER",
-                    "PHONE_NUMBER",
-                    "TEXT"
-                  ],
-                  "example": "TEXT",
-                  "format": "enum",
-                  "type": "string"
+                  "$ref": "#/components/schemas/valueType"
                 }
               },
               "required": [
@@ -22840,36 +22800,7 @@
             "type": "array"
           },
           "valueType": {
-            "enum": [
-              "AGE",
-              "BOOLEAN",
-              "COORDINATE",
-              "DATE",
-              "DATETIME",
-              "EMAIL",
-              "FILE_RESOURCE",
-              "IMAGE",
-              "INTEGER",
-              "INTEGER_NEGATIVE",
-              "INTEGER_POSITIVE",
-              "INTEGER_ZERO_OR_POSITIVE",
-              "LETTER",
-              "LONG_TEXT",
-              "NUMBER",
-              "ORGANISATION_UNIT",
-              "PERCENTAGE",
-              "PHONE_NUMBER",
-              "TEXT",
-              "TIME",
-              "TRACKER_ASSOCIATE",
-              "TRUE_ONLY",
-              "UNIT_INTERVAL",
-              "URL",
-              "USERNAME"
-            ],
-            "format": "enum",
-            "readOnly": true,
-            "type": "string"
+            "$ref": "#/components/schemas/valueType"
           }
         },
         "x-status-dhis2": "template"
@@ -28668,12 +28599,7 @@
                       "type": "array"
                     },
                     "valueType": {
-                      "enum": [
-                        "BOOLEAN"
-                      ],
-                      "example": "BOOLEAN",
-                      "format": "enum",
-                      "type": "string"
+                      "$ref": "#/components/schemas/valueType"
                     }
                   },
                   "required": [
@@ -31843,12 +31769,7 @@
                   "$ref": "#/components/schemas/value"
                 },
                 "valueType": {
-                  "enum": [
-                    "TEXT"
-                  ],
-                  "example": "TEXT",
-                  "format": "enum",
-                  "type": "string"
+                  "$ref": "#/components/schemas/valueType"
                 }
               },
               "required": [
@@ -32314,13 +32235,7 @@
                   "type": "array"
                 },
                 "valueType": {
-                  "enum": [
-                    "NUMBER",
-                    "TEXT"
-                  ],
-                  "example": "NUMBER",
-                  "format": "enum",
-                  "type": "string"
+                  "$ref": "#/components/schemas/valueType"
                 }
               },
               "required": [
