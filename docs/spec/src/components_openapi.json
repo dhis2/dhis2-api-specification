@@ -68,7 +68,8 @@
           "default": "g8upMTyEZGZ;DiszpKrYNg8",
           "format": "<uid>;<uid>;...",
           "type": "string"
-        },
+        }
+      },
       "ouMode": {
         "description": "",
         "in": "query",

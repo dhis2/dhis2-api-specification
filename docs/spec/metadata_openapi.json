@@ -17,7 +17,7 @@
         "name": "filter",
         "required": false,
         "schema": {
-          "format": "property>:<operator>:<value",
+          "format": "<property>:<operator>:<value>",
           "type": "string"
         }
       },
@@ -54,6 +54,31 @@
             "<property>:desc",
             "<property>:iasc",
             "<property>:idesc"
+          ],
+          "type": "string"
+        }
+      },
+      "ou": {
+        "description": "organisation unit",
+        "in": "path",
+        "name": "ou",
+        "required": true,
+        "schema": {
+          "default": "g8upMTyEZGZ;DiszpKrYNg8",
+          "example": "g8upMTyEZGZ;DiszpKrYNg8",
+          "format": "<uid>;<uid>;...",
+          "type": "string"
+        }
+      },
+      "ouMode": {
+        "description": "",
+        "in": "query",
+        "name": "ouMode",
+        "required": false,
+        "schema": {
+          "default": "DESCENDANTS",
+          "enum": [
+            "DESCENDANTS"
           ],
           "type": "string"
         }
