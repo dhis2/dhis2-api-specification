@@ -1071,61 +1071,6 @@
         ]
       }
     },
-    "/dataSetNotificationTemplates": {
-      "get": {
-        "parameters": [
-          {
-            "$ref": "./components_openapi.json#/components/parameters/paging"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/page"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/pageSize"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/order"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/filter"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/field"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "maxProperties": 2,
-                  "minProperties": 1,
-                  "properties": {
-                    "dataSetNotificationTemplates": {
-                      "items": {
-                        "$ref": "./components_openapi.json#/components/schemas/dataSetNotificationTemplate"
-                      },
-                      "maxItems": 2147483647,
-                      "minItems": 0,
-                      "readOnly": false,
-                      "type": "array"
-                    },
-                    "pager": {
-                      "$ref": "./components_openapi.json#/components/schemas/pagination"
-                    }
-                  }
-                }
-              }
-            },
-            "description": "OK"
-          }
-        },
-        "summary": "list dataSetNotificationTemplates [DRAFT]",
-        "tags": [
-          "dataSetNotificationTemplates"
-        ]
-      }
-    },
     "/dataSets": {
       "get": {
         "parameters": [
@@ -2713,64 +2658,6 @@
         "summary": "list programIndicators [DRAFT]",
         "tags": [
           "programIndicators"
-        ]
-      }
-    },
-    "/programNotificationTemplates": {
-      "get": {
-        "parameters": [
-          {
-            "$ref": "./components_openapi.json#/components/parameters/paging"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/page"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/pageSize"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/order"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/filter"
-          },
-          {
-            "$ref": "./components_openapi.json#/components/parameters/field"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "maxProperties": 2,
-                  "minProperties": 1,
-                  "properties": {
-                    "pager": {
-                      "$ref": "./components_openapi.json#/components/schemas/pagination"
-                    },
-                    "programNotificationTemplates": {
-                      "items": {
-                        "$ref": "./components_openapi.json#/components/schemas/programNotificationTemplate"
-                      },
-                      "maxItems": 2147483647,
-                      "minItems": 0,
-                      "readOnly": false,
-                      "type": "array"
-                    }
-                  },
-                  "required": [
-                    "pager"
-                  ]
-                }
-              }
-            },
-            "description": "OK"
-          }
-        },
-        "summary": "list programNotificationTemplates [DRAFT]",
-        "tags": [
-          "programNotificationTemplates"
         ]
       }
     },

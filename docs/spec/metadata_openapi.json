@@ -41768,6 +41768,8 @@
             "content": {
               "application/json": {
                 "schema": {
+                  "maxProperties": 2,
+                  "minProperties": 1,
                   "properties": {
                     "dataSetNotificationTemplates": {
                       "items": {
@@ -51920,6 +51922,8 @@
             "content": {
               "application/json": {
                 "schema": {
+                  "maxProperties": 2,
+                  "minProperties": 1,
                   "properties": {
                     "pager": {
                       "$ref": "#/components/schemas/pagination"
@@ -57558,6 +57562,12 @@
           },
           {
             "$ref": "#/components/parameters/field"
+          },
+          {
+            "$ref": "#/components/parameters/ou"
+          },
+          {
+            "$ref": "#/components/parameters/ouMode"
           }
         ],
         "responses": {

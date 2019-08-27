@@ -36016,61 +36016,6 @@
         ]
       }
     },
-    "/dataSetNotificationTemplates": {
-      "get": {
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/paging"
-          },
-          {
-            "$ref": "#/components/parameters/page"
-          },
-          {
-            "$ref": "#/components/parameters/pageSize"
-          },
-          {
-            "$ref": "#/components/parameters/order"
-          },
-          {
-            "$ref": "#/components/parameters/filter"
-          },
-          {
-            "$ref": "#/components/parameters/field"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "maxProperties": 2,
-                  "minProperties": 1,
-                  "properties": {
-                    "dataSetNotificationTemplates": {
-                      "items": {
-                        "$ref": "#/components/schemas/dataSetNotificationTemplate"
-                      },
-                      "maxItems": 2147483647,
-                      "minItems": 0,
-                      "readOnly": false,
-                      "type": "array"
-                    },
-                    "pager": {
-                      "$ref": "#/components/schemas/pagination"
-                    }
-                  }
-                }
-              }
-            },
-            "description": "OK"
-          }
-        },
-        "summary": "list dataSetNotificationTemplates [DRAFT]",
-        "tags": [
-          "dataSetNotificationTemplates"
-        ]
-      }
-    },
     "/dataSets": {
       "get": {
         "parameters": [
@@ -37658,64 +37603,6 @@
         "summary": "list programIndicators [DRAFT]",
         "tags": [
           "programIndicators"
-        ]
-      }
-    },
-    "/programNotificationTemplates": {
-      "get": {
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/paging"
-          },
-          {
-            "$ref": "#/components/parameters/page"
-          },
-          {
-            "$ref": "#/components/parameters/pageSize"
-          },
-          {
-            "$ref": "#/components/parameters/order"
-          },
-          {
-            "$ref": "#/components/parameters/filter"
-          },
-          {
-            "$ref": "#/components/parameters/field"
-          }
-        ],
-        "responses": {
-          "200": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "maxProperties": 2,
-                  "minProperties": 1,
-                  "properties": {
-                    "pager": {
-                      "$ref": "#/components/schemas/pagination"
-                    },
-                    "programNotificationTemplates": {
-                      "items": {
-                        "$ref": "#/components/schemas/programNotificationTemplate"
-                      },
-                      "maxItems": 2147483647,
-                      "minItems": 0,
-                      "readOnly": false,
-                      "type": "array"
-                    }
-                  },
-                  "required": [
-                    "pager"
-                  ]
-                }
-              }
-            },
-            "description": "OK"
-          }
-        },
-        "summary": "list programNotificationTemplates [DRAFT]",
-        "tags": [
-          "programNotificationTemplates"
         ]
       }
     },
