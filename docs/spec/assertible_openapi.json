@@ -4598,6 +4598,7 @@
         "type": "boolean"
       },
       "color": {
+        "example": "#d32f2f",
         "format": "general",
         "maxLength": 2147483647,
         "minLength": 0,
@@ -21557,13 +21558,7 @@
             "type": "array"
           },
           "featureType": {
-            "enum": [
-              "NONE",
-              "POINT"
-            ],
-            "example": "NONE",
-            "format": "enum",
-            "type": "string"
+            "$ref": "#/components/schemas/featureType"
           },
           "formName": {
             "$ref": "#/components/schemas/formName"
@@ -31258,7 +31253,18 @@
         "type": "string"
       },
       "style": {
-        "properties": {}
+        "maxProperties": 2,
+        "minProperties": 1,
+        "properties": {
+          "color": {
+            "$ref": "#/components/schemas/color"
+          },
+          "icon": {
+            "$ref": "#/components/schemas/icon"
+          }
+        },
+        "readOnly": false,
+        "type": "object"
       },
       "styleDataItem": {
         "properties": {}
@@ -31841,17 +31847,7 @@
             "type": "boolean"
           },
           "featureType": {
-            "enum": [
-              "MULTI_POLYGON",
-              "NONE",
-              "POINT",
-              "POLYGON",
-              "SYMBOL"
-            ],
-            "example": "NONE",
-            "format": "enum",
-            "readOnly": false,
-            "type": "string"
+            "$ref": "#/components/schemas/featureType"
           },
           "inactive": {
             "$ref": "#/components/schemas/inactive"
@@ -32020,13 +32016,7 @@
             "type": "array"
           },
           "featureType": {
-            "enum": [
-              "NONE",
-              "POLYGON"
-            ],
-            "example": "NONE",
-            "format": "enum",
-            "type": "string"
+            "$ref": "#/components/schemas/featureType"
           },
           "formName": {
             "$ref": "#/components/schemas/formName"
@@ -32067,10 +32057,7 @@
             "$ref": "#/components/schemas/shortName"
           },
           "style": {
-            "maxProperties": 1,
-            "minProperties": 1,
-            "readOnly": false,
-            "type": "object"
+            "$ref": "#/components/schemas/style"
           },
           "trackedEntityTypeAttributes": {
             "items": {
