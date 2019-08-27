@@ -1112,7 +1112,9 @@
                       "$ref": "./components_openapi.json#/components/schemas/pagination"
                     }
                   },
-                  "required": []
+                  "required": [
+                    "pager"
+                  ]
                 }
               }
             },
@@ -2755,7 +2757,10 @@
                       "readOnly": false,
                       "type": "array"
                     }
-                  }
+                  },
+                  "required": [
+                    "pager"
+                  ]
                 }
               }
             },

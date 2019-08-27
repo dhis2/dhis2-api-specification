@@ -36057,7 +36057,9 @@
                       "$ref": "#/components/schemas/pagination"
                     }
                   },
-                  "required": []
+                  "required": [
+                    "pager"
+                  ]
                 }
               }
             },
@@ -37700,7 +37702,10 @@
                       "readOnly": false,
                       "type": "array"
                     }
-                  }
+                  },
+                  "required": [
+                    "pager"
+                  ]
                 }
               }
             },
