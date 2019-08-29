@@ -4,7 +4,19 @@
     "$ref": "./info_openapi.json#/info"
   },
   "components": {
-    "$ref": "./components_openapi.json#/components"
+    "$ref": "./components_openapi.json#/components",
+    "securitySchemes": {
+      "scheme_0": {
+        "name": "API Key",
+        "type": "apiKey",
+        "in": "query"
+      },
+      "scheme_1": {
+        "name": "API Key",
+        "type": "apiKey",
+        "in": "query"
+      }
+    }
   },
   "externalDocs": {
     "description": "",
@@ -12,8 +24,8 @@
     "x-status-dhis2": "draft"
   },
   "paths": {
-      "$ref":"./metadata_paths_openapi.json#/paths"
-    },
+    "$ref": "./metadata_paths_openapi.json#/paths"
+  },
   "security": [
     {
       "basicAuth": []

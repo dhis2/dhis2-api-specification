@@ -18488,7 +18488,15 @@
             "$ref": "#/components/schemas/lastUpdated"
           },
           "lastUpdatedBy": {
-            "$ref": "#/components/schemas/lastUpdatedBy"
+            "properties": {
+              "id": {
+                "$ref": "#/components/schemas/id"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
           },
           "name": {
             "$ref": "#/components/schemas/name"
