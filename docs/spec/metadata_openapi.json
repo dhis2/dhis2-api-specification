@@ -30638,7 +30638,7 @@
       "shortName": {
         "format": "general",
         "maxLength": 100,
-        "minLength": 1,
+        "minLength": 0,
         "type": "string"
       },
       "showColumnTotals": {
@@ -31260,6 +31260,12 @@
         "readOnly": false,
         "type": "string"
       },
+      "storedBy": {
+        "format": "general",
+        "maxLength": 255,
+        "minLength": 0,
+        "type": "string"
+      },
       "style": {
         "maxProperties": 2,
         "minProperties": 1,
@@ -31774,7 +31780,7 @@
         "properties": {
           "attributes": {
             "items": {
-              "maxProperties": 7,
+              "maxProperties": 8,
               "minProperties": 0,
               "properties": {
                 "attribute": {
@@ -31795,6 +31801,9 @@
                 },
                 "lastUpdated": {
                   "$ref": "#/components/schemas/lastUpdated"
+                },
+                "storedBy": {
+                  "$ref": "#/components/schemas/storedBy"
                 },
                 "value": {
                   "$ref": "#/components/schemas/value"
