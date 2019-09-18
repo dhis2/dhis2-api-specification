@@ -2963,6 +2963,7 @@
                     "DATA_ELEMENT",
                     "DATA_ELEMENT_OPERAND",
                     "INDICATOR",
+                    "PROGRAM_DATA_ELEMENT",
                     "PROGRAM_INDICATOR",
                     "REPORTING_RATE"
                   ],
@@ -6852,6 +6853,7 @@
           "DATA_ELEMENT",
           "DATA_ELEMENT_OPERAND",
           "INDICATOR",
+          "PROGRAM_DATA_ELEMENT",
           "PROGRAM_INDICATOR",
           "REPORTING_RATE"
         ],
@@ -15938,6 +15940,7 @@
                     "DATA_ELEMENT",
                     "DATA_ELEMENT_OPERAND",
                     "INDICATOR",
+                    "PROGRAM_DATA_ELEMENT",
                     "PROGRAM_INDICATOR",
                     "REPORTING_RATE"
                   ],
