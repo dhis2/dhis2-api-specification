@@ -4178,7 +4178,7 @@
               "minProperties": 0,
               "properties": {
                 "id": {
-                  "$ref": "#/components/schemas/id"
+                  "$ref": "#/components/schemas/period"
                 }
               },
               "required": [
@@ -17157,10 +17157,15 @@
                   "type": "string"
                 },
                 "period": {
-                  "format": "uid",
-                  "maxLength": 11,
-                  "minLength": 11,
-                  "type": "string"
+                  "properties": {
+                    "id": {
+                      "$ref": "#/components/schemas/period"
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ],
+                  "type": "object"
                 },
                 "publicAccess": {
                   "$ref": "#/components/schemas/publicAccess"
