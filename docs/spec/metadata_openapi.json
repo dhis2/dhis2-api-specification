@@ -11318,6 +11318,7 @@
               "LINE",
               "PIE",
               "RADAR",
+              "SINGLE_VALUE",
               "STACKED_BAR",
               "STACKED_COLUMN"
             ],
@@ -32408,6 +32409,7 @@
           "LINE",
           "PIE",
           "RADAR",
+          "SINGLE_VALUE",
           "STACKED_BAR",
           "STACKED_COLUMN",
           "YEAR_OVER_YEAR_LINE"
