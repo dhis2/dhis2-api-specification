@@ -1,4 +1,8 @@
-:warning: Work in Progress
+:warning: This repository is now obsolete and has been archived. :warning:
+
+More up-to-date API specifications can be found here: https://dhis2.stoplight.io/docs/dhis2
+
+
 
 # DHIS2 Core API Specification
 
